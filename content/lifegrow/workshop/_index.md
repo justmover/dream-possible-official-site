@@ -1,7 +1,7 @@
 ---
 title: "_Index"
 date: 2017-12-26T14:45:52+08:00
-menu_title: _index
+menu: _index
 weight: 0
 draft: true
 ---
