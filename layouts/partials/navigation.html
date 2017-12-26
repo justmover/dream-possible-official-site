@@ -1,0 +1,15 @@
+{{ $menus := .Site.Menus }}
+{{ if $menus }}
+    <nav class="menu" role="nav">
+        <ul>
+            {{ range $menuTitle, $menuContent := $menus }}
+                <li class="nav">{{ $menuTitle }}</li>
+                <ul>
+                    {{ range $menuContent }}
+                        <li class="nav nav-current"><a href="{{ .URL }}">{{ .Name }}</a></li>
+                    {{end}}
+                </ul>
+            {{end}}
+        </ul>
+    </nav>
+{{ end }}
