@@ -1,7 +1,7 @@
 ---
-title: "_Index"
+title: "生命成長"
 date: 2017-12-26T14:45:52+08:00
-menu: _index
+menu: "lifegrow"
 weight: 0
 draft: true
 ---

@@ -1,7 +1,7 @@
 ---
 title: "{{ replace .TranslationBaseName "-" " " | title }}"
 date: {{ .Date }}
-menu: {{ .File.BaseFileName }}
+menu: ""
 weight: 0
 draft: true
 ---
