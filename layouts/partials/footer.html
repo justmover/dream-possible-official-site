@@ -1,7 +1,28 @@
 <footer class="site-footer">
-	<div class="inner">
+	<!-- <div class="inner">
 		{{ partial "social" . }}
 
 		<section class="copyright">&copy; {{now.Format "2006"}} <a href="{{ .Site.BaseURL }}">{{ .Site.Params.name }}</a>. {{ .Site.Params.copyright | markdownify }}</section>
-	</div>
+	</div> -->
+	{{ $menus := .Site.Menus }} {{ if $menus }}
+	<nav class="menu" role="nav">
+		<table><tr>			
+					{{ range $menuTitle, $menuContent := $menus }}
+					<th style="vertical-align: top;">
+					<table>
+						<tr class="nav"><td>{{ $menuTitle }}</td></tr>
+							{{ range $menuContent }}
+							<tr>
+							<td class="nav nav-current">
+								<a href="{{ .URL }}">{{ .Name }}</a>
+							</td>
+						</tr>
+							{{end}}
+					</table>
+				</th>
+					{{end}}				
+				</tr>
+		</table>
+	</nav>
+	{{ end }}
 </footer>
