@@ -2,13 +2,15 @@
 {{ if $menus }}
     <nav class="menu" role="nav">
         <ul>
-            {{ range $menuTitle, $menuContent := $menus }}
-                <li class="nav">{{ $menuTitle }}</li>
-                <ul>
+            {{ range $menuTitle, $menuContent := $menus}}
+                {{ range $path := first 1 $menuContent }}
+                <li class="nav"><a href="{{ $path.URL}}">{{ $menuTitle }}</a></li>
+                {{ end }}
+                <!-- <ul>
                     {{ range $menuContent }}
                         <li class="nav nav-current"><a href="{{ .URL }}">{{ .Name }}</a></li>
                     {{end}}
-                </ul>
+                </ul> -->
             {{end}}
         </ul>
     </nav>
