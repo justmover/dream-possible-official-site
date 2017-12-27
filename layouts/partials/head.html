@@ -26,6 +26,7 @@
     {{ "<!-- Stylesheets -->" | safeHTML }}
     <link rel="stylesheet" href="{{ "css/screen.css" | absURL }}">
     <link rel="stylesheet" href="{{ "css/github.css" | absURL }}">
+    <link rel="stylesheet" href="/css/global.css">    
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/styles/default.min.css">
     {{ range .Site.Params.customCSS }}
     <link rel="stylesheet" href="{{ . | absURL }}">
