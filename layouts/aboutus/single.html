@@ -1,35 +1,15 @@
 {{ define "main" }}
-<!-- {{ $menus := .Site.Menus }}
-{{ $section := .Section}}
-{{ if $menus }}
-<nav>
-    <ul>
-        {{ range $menuTitle, $menuContent := $menus}}
-        {{if eq $section $menuTitle}}
-            <ul>
-                {{ range $menuContent }}
-                    <li class="nav nav-current"><a href="{{ .URL }}">{{ .Name }}</a></li>
-                {{end}}
-            </ul>
-            {{end}}
-        {{end}}
-    </ul>
-</nav>
-{{ end }} -->
-
+<div style="width:100%">
+    <img style="width:100%" src="/img/topbaaner_aboutus.jpg"> </div>
 <div class="tab">
     {{$section := .Section}} {{ $menus := .Site.Menus }} {{ range $menuTitle, $menuContent := $menus }} {{if eq $menuTitle $section}}
     {{range $menuContent}}
     <button onclick="location.href='{{.URL}}'">{{ .Name }}</button>
     {{end}} {{end}}{{end}}
 </div>
-<article class="post">
-    <header>
-        <h1 class="post-title">{{ .Title }}</h1>
-    </header>
 
-    <section class="post-content">
+    <div style="text-align:center;">
         {{ .Content }}
-    </section>
+    </div>
 </article>
 {{ end }}
