@@ -1,28 +1,30 @@
-<footer class="site-footer">
+<footer class="green-background" >
 	<!-- <div class="inner">
 		{{ partial "social" . }}
 
 		<section class="copyright">&copy; {{now.Format "2006"}} <a href="{{ .Site.BaseURL }}">{{ .Site.Params.name }}</a>. {{ .Site.Params.copyright | markdownify }}</section>
 	</div> -->
 	{{ $menus := .Site.Menus }} {{ if $menus }}
-	<nav class="menu" role="nav">
-		<table><tr>			
+	<nav class="menu" role="nav" style="border: none">
+		<table style="text-align:left; table-layout: fixed;">
+			<tr class="no-border">			
 					{{ range $menuTitle, $menuContent := $menus }}
-					<th style="vertical-align: top;">
+					<td style="vertical-align: top; border-right: 1px solid white">
 					<table>
-						<tr class="nav"><td>{{ $menuTitle }}</td></tr>
+						<tr class="nav"><td><span style="color: white" class="bold">{{ $menuTitle }}</span></td></tr>
 							{{ range $menuContent }}
-							<tr>
-							<td class="nav nav-current">
-								<a href="{{ .URL }}">{{ .Name }}</a>
+							<tr class="no-border">
+							<td class="nav nav-current green-background table-padding">
+								<a style="color: white" href="{{ .URL }}">{{ .Name }}</a>
 							</td>
 						</tr>
 							{{end}}
 					</table>
-				</th>
+				</td>
 					{{end}}				
 				</tr>
 		</table>
+
 	</nav>
 	{{ end }}
 </footer>
