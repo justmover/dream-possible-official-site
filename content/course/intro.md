@@ -2,7 +2,7 @@
 title: "生命工作者證書課程"
 date: 2017-12-26T14:41:53+08:00
 menu: "course"
-weight: 0
+weight: 1
 draft: true
 ---
 
