@@ -1,13 +1,26 @@
-{{ partial "head" . }}
-<body class="home-template">
-    {{ partial "header" . }}
-    {{ partial "navigation" . }}
-    
-    <main class="content" role="main">
-    {{ block "main" . }}{{ end }}
-    </main>
+{{ define "main" }}
+<div id="homeCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        {{ range $i,$conten := .Site.Params.homeimg}}
+        <li data-target="#homeCarousel" data-slide-to="{{$i}}" {{if eq $i 0}}class="active" {{end}}></li>
+        {{ end }}
+    </ol>
+    <div class="carousel-inner" role="listbox">
+        {{ range $i,$conten := .Site.Params.homeimg}}
+        <div class="carousel-item {{if eq $i 0}} active {{end}}">
+            <img class="d-block img-fluid" src="{{.path}}" alt="{{.alt}}">
+        </div>
+        {{ end }}
+    </div>
+    <a class="carousel-control-prev" href="#homeCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#homeCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+{{ partial "navigation" . }}
 
-    {{ partial "footer" . }}
-    {{ partial "js" . }}
-</body>
-</html>
+{{ end }}

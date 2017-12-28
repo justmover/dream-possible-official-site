@@ -1,9 +1,8 @@
 {{ $menus := .Site.Menus }} {{ if $menus }}
-<nav class="menu green-background" role="nav">
-    <table style="table-layout: fixed;">
-        <tr>
+<div class="menu green-background" role="nav">
+    <div class="row" style="padding: 0 10%">
             {{ range $menuTitle, $menuContent := $menus}} {{ range $path := first 1 $menuContent }}
-            <td class="nav" style="width:100%">
+            <div class="nav col-2">
                 <a href="{{ $path.URL}}">
                     <div class="menu-image" style="position: relative">
                         <span class="text-overlay">{{ $menuTitle }}</span>
@@ -11,7 +10,7 @@
 
                     </div>
                 </a>
-            </td>
+            </div>
 
             {{ end }}
             <!-- <ul>
@@ -20,8 +19,7 @@
                     {{end}}
                 </ul> -->
             {{end}}
-        </tr>
-    </table>
+    </div>
 
-</nav>
+</div>
 {{ end }}
