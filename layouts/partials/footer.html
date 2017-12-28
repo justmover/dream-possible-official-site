@@ -1,17 +1,20 @@
-<footer class="green-background" style="margin:0%">
-	<!-- <div class="inner">
-		{{ partial "social" . }}
-
-		<section class="copyright">&copy; {{now.Format "2006"}} <a href="{{ .Site.BaseURL }}">{{ .Site.Params.name }}</a>. {{ .Site.Params.copyright | markdownify }}</section>
-	</div> -->
-	{{ $menus := .Site.Menus }} {{ if $menus }}
 	<div class="menu" role="nav" style="border: none; padding: 0 15%">
 		<table style="text-align:left; table-layout: fixed;">
-			<tr class="no-border">			
+			<tr class="no-border">
+				{{ $currentPage := . }}
+				{{ $menus := .Site.Menus }}
+				{{ range .Site.Menus.main }}
+					{{ $menuName := .Name }}
+					{{ $mainTitle := .Identifier }}
 					{{ range $menuTitle, $menuContent := $menus }}
-					<td style="padding:0%; vertical-align: top; border-right: 1px solid white">
-					<table style="width:100%; table-layout: fixed;">
-						<tr ><td><span style="word-wrap: break-word; color: white; width:100%" class="bold">{{ $menuTitle }}</span></td></tr>
+						{{ if eq $mainTitle $menuTitle}}
+				<td style="vertical-align: top; border-right: 1px solid white">
+					<table>
+						<tr class="nav">
+							<td>
+								<span style="color: white" class="bold">{{ $menuName }}</span>
+							</td>
+						</tr>
 							{{ range $menuContent }}
 							<tr class="no-border">
 							<td class="nav-current green-background" style="word-wrap: break-word">
@@ -20,11 +23,15 @@
 						</tr>
 							{{end}}
 					</table>
+						{{end}}
+					{{end}}
 				</td>
-					{{end}}				
-				</tr>
+				{{end}}
+			</tr>
 		</table>
+	</nav>
 
-	</div>
-	{{ end }}
+
+
+
 </footer>
