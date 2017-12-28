@@ -1,17 +1,27 @@
-{{ $menus := .Site.Menus }}
-{{ if $menus }}
-    <nav class="menu" role="nav">
-        <ul>
-            {{ range $menuTitle, $menuContent := $menus}}
-                {{ range $path := first 1 $menuContent }}
-                <li class="nav"><a href="{{ $path.URL}}">{{ $menuTitle }}</a></li>
-                {{ end }}
-                <!-- <ul>
+{{ $menus := .Site.Menus }} {{ if $menus }}
+<nav class="menu green-background" role="nav">
+    <table style="table-layout: fixed;">
+        <tr>
+            {{ range $menuTitle, $menuContent := $menus}} {{ range $path := first 1 $menuContent }}
+            <td class="nav" style="width:100%">
+                <a href="{{ $path.URL}}">
+                    <div class="menu-image" style="position: relative">
+                        <span class="text-overlay">{{ $menuTitle }}</span>
+                        <img width="100%" src="img/1.png">
+
+                    </div>
+                </a>
+            </td>
+
+            {{ end }}
+            <!-- <ul>
                     {{ range $menuContent }}
                         <li class="nav nav-current"><a href="{{ .URL }}">{{ .Name }}</a></li>
                     {{end}}
                 </ul> -->
             {{end}}
-        </ul>
-    </nav>
+        </tr>
+    </table>
+
+</nav>
 {{ end }}
