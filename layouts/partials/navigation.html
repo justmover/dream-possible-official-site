@@ -1,23 +1,25 @@
 {{ $menus := .Site.Menus }} {{ if $menus }}
-<div class="menu green-background" role="nav">
+<div class="menu green-background" style="height: 100%" role="nav">
     <div class="row" style="padding: 0 10%">
-            {{ range $menuTitle, $menuContent := $menus}} {{ range $path := first 1 $menuContent }}
-            <div class="nav col-2">
-                <a href="{{ $path.URL}}">
+            {{ range .Site.Menus.main }}
+					{{ $menuName := .Name }}
+					{{ $mainTitle := .Identifier }}
+					{{ range $menuTitle, $menuContent := $menus }}
+                        {{ if eq $mainTitle $menuTitle}}
+                            {{ range first 1 $menuContent }}
+            <div class="nav col-2" style="padding: 0">
+                <a href="{{ .URL}}" style="width: 100%">
                     <div class="menu-image" style="position: relative">
-                        <span class="text-overlay">{{ $menuTitle }}</span>
-                        <img width="100%" src="img/1.png">
+                        <span class="text-overlay">{{ $menuName }}</span>
+                        <img width="100%" src="img/{{$menuTitle}}_btn.jpg">
 
                     </div>
                 </a>
             </div>
 
-            {{ end }}
-            <!-- <ul>
-                    {{ range $menuContent }}
-                        <li class="nav nav-current"><a href="{{ .URL }}">{{ .Name }}</a></li>
+                            {{ end }}
+                        {{end}}
                     {{end}}
-                </ul> -->
             {{end}}
     </div>
 

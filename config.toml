@@ -5,39 +5,35 @@ title = "Dream Possible"
 theme = "hugo-steam"
 
 [[menu.main]]
-    name = "關於我們"
-    pre = "<i class='fa fa-heart'></i>"
+    name = "關 於 我 們"
     weight = -110
     identifier = "aboutus"
     url = "/aboutus/"
 [[menu.main]]
-    name = "contactus"
+    name = "聯 絡 我 們"
     pre = "<i class='fa fa-road'></i>"
-    weight = -1000
+    weight = -50
 	identifier = "contactus"
     url = "/contactus/"
 [[menu.main]]
-    name = "course"
-    pre = "<i class='fa fa-heart'></i>"
-    weight = -110
+    name = "課 程"
+    weight = -100
     identifier = "course"
     url = "/course/"
 [[menu.main]]
-    name = "lifegrow"
+    name = "生 命 成 長"
     pre = "<i class='fa fa-road'></i>"
-    weight = -100
+    weight = -90
 	identifier = "lifegrow"
     url = "/lifegrow/"
 [[menu.main]]
-    name = "media"
-    pre = "<i class='fa fa-heart'></i>"
-    weight = -110
+    name = "傳 媒 報 導"
+    weight = -60
     identifier = "media"
     url = "/media/"
 [[menu.main]]
-    name = "payloveforward"
-    pre = "<i class='fa fa-road'></i>"
-    weight = -100
+    name = "Pay love forward"
+    weight = -80
 	identifier = "payloveforward"
     url = "/payloveforward/"
 
@@ -79,8 +75,5 @@ theme = "hugo-steam"
 
 	# Define the image of home page carousel
 	[[params.homeimg]]
-	path = "http://cms.ipressroom.com.s3.amazonaws.com/173/files/20159/562fd133299b50089c0019a6_4932332761_9b2e62bfd4_b/4932332761_9b2e62bfd4_b_cef9a30b-856b-4b6a-9b97-0ea3bab71884-prv.jpg"
-	[[params.homeimg]]
-	path = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Birnbaum_am_Lerchenberg_retouched.jpg/310px-Birnbaum_am_Lerchenberg_retouched.jpg"
-
+	path = "img/loopbanner1.jpg"
 	
