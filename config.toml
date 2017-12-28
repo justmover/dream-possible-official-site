@@ -4,6 +4,39 @@ title = "Dream Possible"
 
 theme = "hugo-steam"
 
+[[menu.main]]
+    name = "關 於 我 們"
+    weight = -110
+    identifier = "aboutus"
+    url = "/aboutus/"
+[[menu.main]]
+    name = "聯 絡 我 們"
+    pre = "<i class='fa fa-road'></i>"
+    weight = -50
+	identifier = "contactus"
+    url = "/contactus/"
+[[menu.main]]
+    name = "課 程"
+    weight = -100
+    identifier = "course"
+    url = "/course/"
+[[menu.main]]
+    name = "生 命 成 長"
+    pre = "<i class='fa fa-road'></i>"
+    weight = -90
+	identifier = "lifegrow"
+    url = "/lifegrow/"
+[[menu.main]]
+    name = "傳 媒 報 導"
+    weight = -60
+    identifier = "media"
+    url = "/media/"
+[[menu.main]]
+    name = "Pay love forward"
+    weight = -80
+	identifier = "payloveforward"
+    url = "/payloveforward/"
+
 [params]
 	title = "自在社"
 	subtitle = "幸福/從感恩開始"
@@ -42,8 +75,5 @@ theme = "hugo-steam"
 
 	# Define the image of home page carousel
 	[[params.homeimg]]
-	path = "http://cms.ipressroom.com.s3.amazonaws.com/173/files/20159/562fd133299b50089c0019a6_4932332761_9b2e62bfd4_b/4932332761_9b2e62bfd4_b_cef9a30b-856b-4b6a-9b97-0ea3bab71884-prv.jpg"
-	[[params.homeimg]]
-	path = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Birnbaum_am_Lerchenberg_retouched.jpg/310px-Birnbaum_am_Lerchenberg_retouched.jpg"
-
+	path = "img/loopbanner1.jpg"
 	
