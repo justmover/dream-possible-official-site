@@ -39,3 +39,11 @@ theme = "hugo-steam"
 	backtotopStr = "Back to top"
 	shareStr = "Share"
 	pageNotFoundTitle = "404 - Page not found"
+
+	# Define the image of home page carousel
+	[[params.homeimg]]
+	path = "http://cms.ipressroom.com.s3.amazonaws.com/173/files/20159/562fd133299b50089c0019a6_4932332761_9b2e62bfd4_b/4932332761_9b2e62bfd4_b_cef9a30b-856b-4b6a-9b97-0ea3bab71884-prv.jpg"
+	[[params.homeimg]]
+	path = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Birnbaum_am_Lerchenberg_retouched.jpg/310px-Birnbaum_am_Lerchenberg_retouched.jpg"
+
+	
