@@ -1,4 +1,11 @@
 /* Style the tab */
+.dp-background-green{
+    background-color: #00A74F;
+}
+
+.dp-font-green{
+    color:#006738;
+}
 
 .tab {
     overflow: hidden;
@@ -92,10 +99,18 @@
     max-width: 20px !important;
 }
 
-.background{
+.content-gradient-background{
     background: #ffffff;
     background: -moz-linear-gradient(left, #ffffff 0%, #96e8a8 50%, #ffffff 100%);
     background: -webkit-linear-gradient(left, #ffffff 0%,#96e8a8 50%,#ffffff 100%);
     background: linear-gradient(to right, #ffffff 0%,#96e8a8 50%,#ffffff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=1 );
+}
+
+.title-gradient-background{
+    background: #ffffff;
+    background: -moz-linear-gradient(left, #ffffff 0%, #00bf0c 40%, #00bf0c 60%, #ffffff 100%);
+    background: -webkit-linear-gradient(left, #ffffff 0%,#00bf0c 40%,#00bf0c 60%,#ffffff 100%);
+    background: linear-gradient(to right, #ffffff 0%,#00bf0c 40%,#00bf0c 60%,#ffffff 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=1 );
 }

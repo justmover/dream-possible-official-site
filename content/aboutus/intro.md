@@ -18,7 +18,6 @@ weight: 1
 
 <table style="width:45%; margin:0 27.5% 0 27.5%;">
 
-
 <th style="background:#B5DFD6; padding: 10px 10px 10px 10px; border-style:solid;  border-width: 0 20px 0 0; border-color:white">
 <p style="font-size:14px">
 <b style="font-size:16px; color:#006738">「生命工作者證書課程」</b>是DP的核心課程，由創辦人兼全職義務導師周華山博士悉心研究，結合他多年大學教授的紮實理論，豐富的培訓經驗，及個人的真摯實踐。整個課程分三階段進行，為期五個月，讓學員有系統、持續地進修和轉化。</p>
