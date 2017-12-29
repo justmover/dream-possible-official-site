@@ -1,9 +1,11 @@
 ---
 title: "自在社"
-date: 2017-12-26T14:03:01+08:00
-menu: "aboutus"
-draft: true
+date: 2017-12-26 14:03:01 +0800
 weight: 1
+menu:
+  aboutus:
+    weight: 1
+
 ---
 <div style="position: relative">
     <img style="position: absolute;top: -100px;z-index: -1;right: 100px;"src="/img/greenball.png">
