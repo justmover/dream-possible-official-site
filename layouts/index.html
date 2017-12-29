@@ -1,26 +1,39 @@
-{{ define "main" }}
-<div id="homeCarousel" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-        {{ range $i,$conten := .Site.Params.homeimg}}
-        <li data-target="#homeCarousel" data-slide-to="{{$i}}" {{if eq $i 0}}class="active" {{end}}></li>
-        {{ end }}
-    </ol>
-    <div class="carousel-inner" role="listbox">
-        {{ range $i,$conten := .Site.Params.homeimg}}
-        <div class="carousel-item {{if eq $i 0}} active {{end}}">
-            <img class="d-block img-fluid" src="{{.path}}" alt="{{.alt}}">
-        </div>
-        {{ end }}
-    </div>
-    <a class="carousel-control-prev" href="#homeCarousel" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#homeCarousel" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
-</div>
-{{ partial "navigation" . }}
+{{ partial "head" . }}
 
-{{ end }}
+<body class="home-template">
+    {{ partial "header" . }}
+
+    <main class="content" role="main">
+        <div id="homeCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                {{ range $i,$conten := .Site.Params.homeimg}}
+                <li data-target="#homeCarousel" data-slide-to="{{$i}}" class="{{if eq $i 0}} active {{end}} carousel-indicators-style"></li>
+                {{ end }}
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                {{ range $i,$conten := .Site.Params.homeimg}}
+                <div class="carousel-item {{if eq $i 0}} active {{end}}">
+                    <div style="width:100%">
+                        <img style="width:100%" class="d-block img-fluid" src="{{.path}}" alt="{{.alt}}">
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+            <a style="width:3%" class="carousel-control-prev" href="#homeCarousel" role="button" data-slide="prev">
+                <div class="carousel-control-left">
+                    <span style="height: 80%; margin: 5% 0;" class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </div>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a style="width:3%" class="carousel-control-next" href="#homeCarousel" role="button" data-slide="next">
+                <div class="carousel-control-right">
+                    <span style="height: 80%; margin: 5% 0;" class="carousel-control-next-icon" aria-hidden="true"></span>
+                </div>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </main>
+    {{ partial "navigation" . }} {{ partial "footer" . }} {{ partial "js" . }}
+</body>
+
+</html>
