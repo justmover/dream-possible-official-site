@@ -1,13 +1,40 @@
 {{ define "main" }}
-	<!-- {{ $paginator := .Paginate .Data.Pages }}
-    {{ range $paginator.Pages }}
-        {{ .Render "summary" }} 
-    {{ end }}
-    {{ partial "pagination" . }} -->
-    <div class="tab">
-        Johnly
-        {{$section := .Section}} {{ $menus := .Site.Menus }} {{ range $menuTitle, $menuContent := $menus }} {{if eq $menuTitle $section}} {{range $menuContent}}
-        <button onclick="location.href='{{.URL}}'">{{ .Name }}</button>
-        {{end}} {{end}}{{end}}
+<div class="tab">
+    {{$section := .Section}} {{ $menus := .Site.Menus }} {{ range $menuTitle, $menuContent := $menus }} {{if eq $menuTitle $section}}
+    {{range $menuContent}}
+    <button onclick="location.href='{{.URL}}'">{{ .Name }}</button>
+    {{end}} {{end}}{{end}}
+</div>
+<div class="row" style="width:60%; margin:0 20%;">
+    {{range .Pages}}
+    <div class="col-4" style="padding:1%">
+        <div style="border: 1px solid black; height:100%">
+            <div style="padding:5px">
+                <div>
+                    <img  width="100%" src="{{.Params.img}}">
+                </div>
+                <div style="text-align:left; color:green">
+                    {{.Title}}
+                </div>
+                <div style="text-align:left">
+                    日期： {{.Params.workshopDate}}
+                </div>
+                <div style="text-align:left">
+                    時間： {{.Params.time}}
+                </div>
+
+                <div style="text-align:left">
+                    地點： {{.Params.place}}
+                </div>
+                <div style="text-align:center; width:50%; margin:auto; background-color:green">
+                    <a style="color:white; " href="{{.URL}}"> 詳情 </a>
+                </div>
+            </div>
+        </div>
     </div>
+    {{end}}
+
+
+</div>
+
 {{ end }}
