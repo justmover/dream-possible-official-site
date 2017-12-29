@@ -76,4 +76,10 @@ theme = "hugo-steam"
 	# Define the image of home page carousel
 	[[params.homeimg]]
 	path = "img/loopbanner1.jpg"
+	[[params.homeimg]]
+	path = "https://pbs.twimg.com/media/DKV68fvUIAAQEXJ.jpg"
+	[[params.homeimg]]
+	path = "https://images7.alphacoders.com/691/691161.png"
+	[[params.homeimg]]
+	path = "https://images.alphacoders.com/725/725119.png"
 	

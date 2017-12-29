@@ -6,14 +6,14 @@
             <div id="homeCarousel" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                         {{ range $i,$conten := .Site.Params.homeimg}}
-                        <li data-target="#homeCarousel" data-slide-to="{{$i}}" {{if eq $i 0}}class="active" {{end}}></li>
+                        <li data-target="#homeCarousel" data-slide-to="{{$i}}" class="{{if eq $i 0}} active {{end}} carousel-indicators-style" ></li>
                         {{ end }}
                     </ol>
                     <div class="carousel-inner" role="listbox">
                         {{ range $i,$conten := .Site.Params.homeimg}}
                         <div class="carousel-item {{if eq $i 0}} active {{end}}">
-                            <div>
-                                <img class="d-block img-fluid" src="{{.path}}" alt="{{.alt}}">
+                            <div style="width:100%">
+                                <img style="width:100%" class="d-block img-fluid" src="{{.path}}" alt="{{.alt}}">
                             </div>
                         </div>
                         {{ end }}
