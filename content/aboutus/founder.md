@@ -5,6 +5,7 @@ menu: "aboutus"
 draft: true
 weight: 4
 ---
+<div class="background">
 <br>
 <h2 style="text-align:center"> / 董 事 局 與 總 幹 事 團 隊 /</h2>
 
@@ -74,4 +75,5 @@ weight: 4
             <figcaption>董事</figcaption>
             <figcaption>Maurice Cheng</figcaption>
         </figure>
+</div>
 </div>
