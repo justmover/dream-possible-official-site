@@ -1,0 +1,13 @@
+{{ define "main" }}
+	<!-- {{ $paginator := .Paginate .Data.Pages }}
+    {{ range $paginator.Pages }}
+        {{ .Render "summary" }} 
+    {{ end }}
+    {{ partial "pagination" . }} -->
+    <div class="tab">
+        Johnly
+        {{$section := .Section}} {{ $menus := .Site.Menus }} {{ range $menuTitle, $menuContent := $menus }} {{if eq $menuTitle $section}} {{range $menuContent}}
+        <button onclick="location.href='{{.URL}}'">{{ .Name }}</button>
+        {{end}} {{end}}{{end}}
+    </div>
+{{ end }}
