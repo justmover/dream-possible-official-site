@@ -109,8 +109,8 @@
 
 .title-gradient-background{
     background: #ffffff;
-    background: -moz-linear-gradient(left, #ffffff 0%, #00bf0c 40%, #00bf0c 60%, #ffffff 100%);
-    background: -webkit-linear-gradient(left, #ffffff 0%,#00bf0c 40%,#00bf0c 60%,#ffffff 100%);
-    background: linear-gradient(to right, #ffffff 0%,#00bf0c 40%,#00bf0c 60%,#ffffff 100%);
+    background: -moz-linear-gradient(left, #ffffff 0%, #0CA64E 40%, #0CA64E 60%, #ffffff 100%);
+    background: -webkit-linear-gradient(left, #ffffff 0%,#0CA64E 40%,#0CA64E 60%,#ffffff 100%);
+    background: linear-gradient(to right, #ffffff 0%,#0CA64E 40%,#0CA64E 60%,#ffffff 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=1 );
 }
