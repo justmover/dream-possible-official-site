@@ -129,3 +129,9 @@
     background: linear-gradient(to right, #ffffff 0%,#0CA64E 40%,#0CA64E 60%,#ffffff 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=1 );
 }
+
+.showMenu{
+    width: 100%;
+    position: absolute;
+    z-index: 100;
+}
