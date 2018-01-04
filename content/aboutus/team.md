@@ -5,10 +5,6 @@ menu: "aboutus"
 draft: true
 weight: 2
 ---
-<div style="position: relative">
-    <img style="position: absolute;top: -100px;z-index: -1;right: 100px;"src="/img/greenball.png">
-</div>
-<br>
 
 <h2 style="font-size:28px;text-align:center"> / 董 事 局 與 總 幹 事 團 隊 /</h2>
 
