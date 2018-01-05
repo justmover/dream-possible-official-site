@@ -1,9 +1,11 @@
 ---
 title: "自在社"
-date: 2017-12-26T14:03:01+08:00
-menu: "aboutus"
-draft: true
+date: 2017-12-26 14:03:01 +0800
 weight: 1
+menu:
+  aboutus:
+    weight: 1
+
 ---
 <h2 style="text-align:center">/ 自 在 社 / </h2>
 <br>

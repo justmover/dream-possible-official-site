@@ -1,9 +1,11 @@
 ---
 title: "董事局與總幹事團隊"
-date: 2017-12-26T14:03:09+08:00
-menu: "aboutus"
-draft: true
+date: 2017-12-26 14:03:09 +0800
 weight: 2
+menu:
+  aboutus:
+    weight: 2
+
 ---
 
 <h2 style="font-size:28px;text-align:center"> / 董 事 局 與 總 幹 事 團 隊 /</h2>
