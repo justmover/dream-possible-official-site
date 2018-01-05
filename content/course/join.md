@@ -27,19 +27,31 @@ draft: true
 <img style="display: inline;" src="/img/email.svg">&nbsp; course@dreamspossible.hk<br>
 <img style="display: inline;" src="/img/address.svg">&nbsp; www.339.hk<br>
 </div>
+<br>
 
 <div class="center" style="background-color:#5AC1A7">
 <br>
 <p style="font-size:28px; color:white;" >報名表格</p>
 
 <input placeholder="姓名"><br>
-<input placeholder="電話"><select name="性別">
-　<option value="man">男</option>
-　<option value="woman">女</option>
-</select><br>
+<div class="columns is-8">
+    <div class="column is-5">
+      <input placeholder="電話">
+    </div>
+    <div class="column is-3">
+        <select name="性別">
+            <option value="1" selected>姓別</option>
+　           <option value="man">男</option>
+　           <option value="woman">女</option>
+        </select>
+    </div>
+</div><br>
 <input placeholder="電邸地址"><br>
-<input placeholder="選擇課程"><br>
-
+<select name="選擇課程">
+<option value="course0" selected>選擇課程</option>
+　<option value="course1">生命工作者證書課程</option>
+　<option value="course2">賽馬會青年更生教練課程</option>
+</select><br>
 <button style="background-color:#174931; color:white;">提交</button>
 </div>
 
