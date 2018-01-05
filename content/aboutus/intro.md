@@ -7,9 +7,6 @@ menu:
     weight: 1
 
 ---
-<div style="position: relative">
-    <img style="position: absolute;top: -100px;z-index: -1;right: 100px;"src="/img/greenball.png">
-</div>
 <h2 style="text-align:center">/ 自 在 社 / </h2>
 <br>
 <br>

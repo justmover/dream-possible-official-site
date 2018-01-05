@@ -7,12 +7,23 @@
     color:#006738;
 }
 
+.dp-font-lightGreen{
+    color:#00A74F;
+}
 .tab {
     overflow: hidden;
     border: 1px solid #ccc;
     background-color: #33cc99;
     ;
     text-align: center;
+}
+
+.font-bold{
+    font-weight:bold;
+}
+
+.center{
+    text-align:center
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -129,6 +140,23 @@
     background: linear-gradient(to right, #ffffff 0%,#0CA64E 40%,#0CA64E 60%,#ffffff 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=1 );
 }
+
+.title-life-dotted{
+    color: #00A74F;
+    padding: 10px;
+    background-image: linear-gradient(to right, #00A74F 25%, rgba(255,255,255,0) 0%) ,linear-gradient(to right, #00A74F 25%, rgba(255,255,255,0) 0%);
+    background-position: top, bottom;
+    background-size: 14px 3px;
+    background-repeat: repeat-x;
+}
+
+
+.course-img{
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+
 
 .showMenu{
     width: 100%;
