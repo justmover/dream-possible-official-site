@@ -1,6 +1,6 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="{{ "js/index.js" | absURL }}"></script>
-<script src="{{ "js/smooth-scroll.min.js" | absURL }}"></script>
+<script src="{{ " js/index.js " | absURL }}"></script>
+<script src="{{ " js/smooth-scroll.min.js " | absURL }}"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
 {{ range .Site.Params.customJS }}
 <script src="{{ . | absURL }}"></script>
@@ -13,8 +13,12 @@
         updateURL: false,
         offset: 125,
     });
+
 </script>
-<script>hljs.initHighlightingOnLoad();</script>
+<script>
+    hljs.initHighlightingOnLoad();
+
+</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.sticky/1.0.4/jquery.sticky.min.js"></script>
 
 <script>
@@ -28,20 +32,49 @@
         });
 
     });
+
 </script>
 
 <script>
-    $(window).ready(function(){
-      $("#sub-menu-sticker").sticky({ topSpacing: 72, center:true, zIndex:100 });
+    $(window).ready(function () {
+        $("#sub-menu-sticker").sticky({ topSpacing: 72, center: true, zIndex: 100 });
     });
-</script> 
+
+</script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-77064016-5"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'UA-77064016-5');
+    gtag('config', 'UA-77064016-5');
+
+</script>
+
+<!-- for faq -->
+<script>
+    var action = 'click';
+    var speed = "500";
+    $(document).ready(function () {
+        
+        $('li.q').on(action, function () {
+           
+            $(this).next().slideToggle(speed)
+
+                
+                .siblings('li.a').slideUp();
+
+            // Grab img from clicked question
+            var img = $(this).children('img');
+
+            // remove Rotate class from all images except the active
+            $('img').not(img).removeClass('rotate');
+
+            // toggle rotate class
+            img.toggleClass('rotate');
+        });
+    });
+
 </script>
 {{ template "_internal/google_analytics.html" . }}

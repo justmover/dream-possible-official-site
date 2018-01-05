@@ -43,7 +43,7 @@ draft: true
     </div>
     <div style="padding:0%" class="column is-3">
         <select style="width:100%; height:100%" name="性別">
-            <option value="1" selected>姓別</option>
+            <option value="1" disabled selected>姓別</option>
 　           <option value="man">男</option>
 　           <option value="woman">女</option>
         </select>
@@ -54,7 +54,7 @@ draft: true
 </div>
 <div class="columns is-12 " style="margin-bottom: 1.1rem;">
 <select style="width:100%" name="選擇課程">
-<option value="course0" selected>選擇課程</option>
+<option value="course0" disabled selected>選擇課程</option>
 　<option value="course1">生命工作者證書課程</option>
 　<option value="course2">賽馬會青年更生教練課程</option>
 </select><br>
