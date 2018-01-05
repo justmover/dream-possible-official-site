@@ -69,7 +69,7 @@ weight: 4
 
 <div class ="founder-letter" style="width:100%; padding: 0 25%">
 
-<span class ="founder-letter-title">每一個「我」，都是永無止境的創造過程。</span>
+<div class ="founder-letter-title">每一個「我」，都是永無止境的創造過程。</div>
 
 兒時，熱衷於名人傳記，看到哥倫布發現新大陸、德蘭修女濟世為懷，便熱淚盈眶。中學
 時期，完全奉獻給教會，每天放學就返教會事奉，內心充滿無比喜悅。讀大學時，醉心於
@@ -81,7 +81,7 @@ weight: 4
 為的是索取人們的認同，去填補殘缺的自我價值感。結果物以類聚，我吸引了許多索取者
 在身邊，每當大家發生利益衝突，便互相批判，不歡而散。
 
-<span class ="founder-letter-title">一﹑比地毯還要低</span>
+<div class ="founder-letter-title">一﹑比地毯還要低</div>
 
 2003年﹐遇上了我的生命導師﹐那是一生最美麗的邂逅。
 
@@ -106,7 +106,7 @@ weight: 4
 感恩遇上清淨的老師﹐讓我從自欺的漩渦裡爬出來﹐品嘗到地毯下的美麗新天地。
  
 
-<span class ="founder-letter-title">二﹑從個人修煉到團隊實踐</span>
+<div class ="founder-letter-title">二﹑從個人修煉到團隊實踐</div>
 
 DP是一個學習謙卑的生命旅程。
 
