@@ -1,13 +1,13 @@
 {{ $menus := .Site.Menus }} {{ if $menus }}
 <div class="menu green-background" style="height: 100%" role="nav">
-    <div class="row" style="padding: 0 10%">
+    <div class="columns" style="margin: 0 10%">
             {{ range .Site.Menus.main }}
 					{{ $menuName := .Name }}
 					{{ $mainTitle := .Identifier }}
 					{{ range $menuTitle, $menuContent := $menus }}
                         {{ if eq $mainTitle $menuTitle}}
                             {{ range first 1 $menuContent }}
-            <div class="nav col-2" style="padding: 0">
+            <div class="nav column" style="padding: 0">
                 <a href="{{ .URL}}" style="width: 100%">
                     <div class="menu-image" style="position: relative">
                         <b class="text-overlay" style="font-size:16px">{{ $menuName }}</b>
