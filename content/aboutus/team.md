@@ -20,7 +20,7 @@ menu:
 <h2 style="font-size:26px;margin: 0;padding: 10px 0 10px 0;color:white;">董 事 局</h2>
 </div>
 
-<div class="content-gradient-background">
+<div>
 <div>
         <figure style="display: inline-block;">
         <img src="/img/ppls-01.png">
@@ -59,7 +59,7 @@ menu:
 <div class="title-gradient-background">
 <h2 style="font-size:26px;margin: 0;padding: 10px 0 10px 0;color:white;">總 幹 事 團 隊</h2>
 </div>
-<div class="content-gradient-background">
+<div>
 <div>
         <figure style="display: inline-block;">
         <img src="/img/ppls-06.png">
