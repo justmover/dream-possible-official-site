@@ -8,7 +8,7 @@ menu:
 
 ---
 
-<h2 style="font-size:28px;text-align:center"> / 董 事 局 與 總 幹 事 團 隊 /</h2>
+<h2 class="bold content-title"> / 董 事 局 與 總 幹 事 團 隊 /</h2>
 
 <br>
 <div style="text-align:center; width:100%; ">

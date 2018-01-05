@@ -6,7 +6,7 @@ draft: true
 weight: 3
 ---
 <div style="height:120px;">
-    <h2 style="font-size:28px;text-align:center;"> / 信 念 宣 言 、願 景 及 使 命 /</h2>
+    <h2 class="bold content-title"> / 信 念 宣 言 、願 景 及 使 命 /</h2>
 </div>
 <br>
 <div style="position: relative">

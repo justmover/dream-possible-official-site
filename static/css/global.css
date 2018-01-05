@@ -15,6 +15,8 @@
     border: 1px solid #ccc;
     background-color: #33cc99;
     text-align: center;
+    width: 100%;
+    height: 3.5rem;
 }
 
 .font-bold{
@@ -32,15 +34,17 @@
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 14px 16px;
+    margin: 14px 16px;
     transition: 0.3s;
     display: inline-block;
+    color: white;
 }
 
 /* Change background color of buttons on hover */
 
 .tab button:hover {
-    background-color: #ddd;
+    /* background-color: #ddd; */
+    border-bottom: white 3px solid; 
 }
 
 /* Create an active/current tablink class */
@@ -74,7 +78,13 @@
 }
 
 .bold {
-    font-weight: bold;
+    font-weight: bold !important;
+}
+
+.content-title{
+    font-size:28px !important;
+    text-align:center;
+    color: #006738 !important;
 }
 
 .table-padding {
@@ -168,12 +178,6 @@
     position: absolute;
     z-index: 100;
 }
-.fixedbar
-{
- `xed;
-   left: 0px;
-   top : 0px;
-}
 
 .top-banner-bg-pic{
     display: block;
@@ -266,5 +270,29 @@
 .nopadding{
     padding:0%
 }
+.founder-column{
+    position: absolute; 
+    top: 50%; 
+    width:100%;
+    transform: translate(0, -50%);
+}
+.founder-column-title{
+    color:white;
+    font-weight: bold;
+    font-size: 30px;
 
-
+}
+.founder-read{
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+    margin: 0 30%
+}
+.founder-letter-title{
+    font-weight: bold;
+    font-size: 16px;
+}
+.founder-letter p{
+    font-size:14px
+}
