@@ -1,42 +1,30 @@
 <!-- <header> -->
-		<script>
-				$(document).ready(function () {
-					$(".showMenu").hide();
-					console.log("test");
-					$(".hamburger").click(function () {
-						$(".showMenu").slideToggle("slow", function () {
-							$(".cross").hide();
-							$(".hamburger").show();
-							console.log("test")
-						});
-					});
-			
-				});
-			</script>
-<div style="height: 4.5rem; line-height: 4rem; width:100%; text-align:center; position: relative;">
-	{{if not .IsHome}}
-	<div class="hamburger" style="position:absolute; left:1%">
-		<img src="/img/hamburger.svg">
-	</div>
-	{{end}}
+
+<div style="height:72px"></div>
+<div style="position:fixed; height: 72px; width:100%; top:0; background:white; z-index: 2;">
+	<div style="height: 72px; line-height: 72px; width:100%; text-align:center;">
+		{{if not .IsHome}}
+		<div class="hamburger" style="position:absolute; left:1%">
+			<img src="/img/hamburger.svg">
+		</div>
+		{{end}}
 
 
+		<div style="height: 100%; width: 80%; position:  absolute; margin:0 10%;">
+			<a href="{{ $.Site.BaseURL }}">
+				<img style="height:80%" src="{{ .Site.Params.dpicon }}">
+			</a>
+		</div>
+		<div style="float: right; vertical-align: middle; padding: 0 2% 0 0">
+			<img style="height:50%" src="{{ .Site.Params.fbicon }}">
+		</div>
+		<div style="float: right; vertical-align: middle; padding: 0 0.5%">
+			<img style="height:50%" src="{{ .Site.Params.youtubeicon }}">
+		</div>
 
-	<div style="height: 100%; width: 80%; position:  absolute; margin:0 10%">
-		<a href="{{ $.Site.BaseURL }}">
-			<img style="height:80%" src="{{ .Site.Params.dpicon }}">
-		</a>
 	</div>
-	<div style="float: right; vertical-align: middle; padding: 0 2% 0 0">
-		<img style="height:50%" src="{{ .Site.Params.fbicon }}">
+	<div class="showMenu" style="display: none;">
+		{{ partial "navigation" . }}
 	</div>
-	<div style="float: right; vertical-align: middle; padding: 0 0.5%">
-		<img style="height:50%" src="{{ .Site.Params.youtubeicon }}">
-	</div>
-
 </div>
-<div class="showMenu" style="display: none;">
-	{{ partial "navigation" . }}
-</div>
-
 <!-- </header> -->

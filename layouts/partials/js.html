@@ -15,5 +15,24 @@
     });
 </script>
 <script>hljs.initHighlightingOnLoad();</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.sticky/1.0.4/jquery.sticky.min.js"></script>
 
+<script>
+    $(document).ready(function () {
+        $(".showMenu").hide();
+        $(".hamburger").click(function () {
+            $(".showMenu").slideToggle("slow", function () {
+                $(".cross").hide();
+                $(".hamburger").show();
+            });
+        });
+
+    });
+</script>
+
+<script>
+    $(window).ready(function(){
+      $("#sub-menu-sticker").sticky({ topSpacing: 72, center:true, className:"hey" });
+    });
+</script> 
 {{ template "_internal/google_analytics.html" . }}

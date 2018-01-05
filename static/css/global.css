@@ -14,7 +14,6 @@
     overflow: hidden;
     border: 1px solid #ccc;
     background-color: #33cc99;
-    ;
     text-align: center;
 }
 
@@ -157,11 +156,17 @@
 }
 
 
-
+/* fixed top menu */
 .showMenu{
     width: 100%;
     position: absolute;
     z-index: 100;
+}
+.fixedbar
+{
+   position: fixed;
+   left: 0px;
+   top : 0px;
 }
 
 .top-banner-bg-pic{
