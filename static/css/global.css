@@ -280,6 +280,9 @@
     color:white;
     font-weight: bold;
     font-size: 30px;
+.faq li { 
+    padding: 20px;
+ }
 
 }
 .founder-read{
@@ -295,4 +298,25 @@
 }
 .founder-letter p{
     font-size:14px
+}
+.faq li.q {
+    background: #4FC2;
+    font-weight: bold;
+    font-size: 120%;
+    border-bottom: 1px #ddd solid;
+    cursor: pointer;
+  
+}
+
+.faq li.a{
+
+display: none;
+color:black;
+
+}
+.rotate{
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    
 }
