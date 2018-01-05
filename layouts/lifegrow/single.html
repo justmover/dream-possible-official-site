@@ -1,5 +1,9 @@
 {{ define "main" }}
 
+<div class="top-banner-bg-lifegrow">
+    {{ partial "topbannertitle" . }}
+</div>
+
 <div class="tab">
     {{$section := .Section}} {{ $menus := .Site.Menus }} {{ range $menuTitle, $menuContent := $menus }} {{if eq $menuTitle $section}} {{range $menuContent}}
     <button onclick="location.href='{{.URL}}'">{{ .Name }}</button>

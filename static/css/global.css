@@ -163,3 +163,52 @@
     position: absolute;
     z-index: 100;
 }
+
+.top-banner-bg-pic{
+    display: block;
+    height: 340px;
+    width: 100%;
+    min-width: 100%;
+    position: relative;
+}
+
+.top-banner-bg-aboutus{
+    background-image: url(/img/topbanner_aboutus.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.top-banner-bg-course{
+    background-image: url(/img/topbanner_course.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.top-banner-bg-lifegrow{
+    background-image: url(/img/topbanner_lifegrow.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.top-banner-white-bird{
+    position: absolute;
+    top: 2.5rem;
+    left: 42vw;
+    left: calc(50vw - 80px);
+}
+
+.top-banner-words{
+    position: absolute;
+    top: 6rem;
+    left: 49%;
+    writing-mode: vertical-lr;
+}
+
+.top-banner-words-size{
+    font-size: 2rem;
+    color: white;
+    text-shadow: 1.5px 1.5px black;
+}
