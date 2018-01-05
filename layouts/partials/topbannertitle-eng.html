@@ -1,0 +1,12 @@
+<div class="top-banner-bg-pic">
+    <img class="top-banner-white-bird" src="/img/white_bird.png">
+    <div class="top-banner-words-eng">
+        {{$section := .Section}}
+        {{ range .Site.Menus.main }}
+            {{ $menuName := .Name }}
+            {{ $mainTitle := .Identifier }}
+            {{ if eq $mainTitle $section}}
+        <div class="top-banner-words-size">{{ $menuName }}</div>
+        {{end}}{{end}}
+    </div>
+</div>

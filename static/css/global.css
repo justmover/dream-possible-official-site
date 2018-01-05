@@ -198,6 +198,27 @@
     background-position: center center;
 }
 
+.top-banner-bg-paylove-forward{
+    background-image: url(/img/topbanner_paylove_forward.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.top-banner-bg-media{
+    background-image: url(/img/topbanner_media.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.top-banner-bg-contact{
+    background-image: url(/img/topbanner_contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
 .top-banner-white-bird{
     position: absolute;
     top: 2.5rem;
@@ -212,8 +233,15 @@
     writing-mode: vertical-lr;
 }
 
+.top-banner-words-eng{
+    position: absolute;
+    top: 8rem;
+    left: 38vw;
+    left: calc(50vw - 120px);
+}
+
 .top-banner-words-size{
-    font-size: 2rem;
+    font-size: 28px;
     color: white;
     text-shadow: 1.5px 1.5px black;
 }

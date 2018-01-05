@@ -1,0 +1,13 @@
+{{ define "main" }}
+<div class="top-banner-bg-contact">
+    {{ partial "topbannertitle" . }}
+</div>
+
+<div class="tab" id="sub-menu-sticker">
+    {{$section := .Section}} {{ $menus := .Site.Menus }} {{ range $menuTitle, $menuContent := $menus }} {{if eq $menuTitle $section}}
+    {{range $menuContent}}
+    <button onclick="location.href='{{.URL}}'">{{ .Name }}</button>
+    {{end}} {{end}}{{end}}
+</div>
+
+{{ end }}
