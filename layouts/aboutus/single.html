@@ -8,8 +8,13 @@
     {{end}} {{end}}{{end}}
 </div>
 
-    <div style="text-align:center;">
-        {{ .Content }}
+<div style="text-align:center;">
+    <div style="position: relative">
+        <img style="position: absolute;top:-60px;z-index: -1;right: 100px;" src="/img/greenball.png">
     </div>
+    <br>
+    <br>
+    <br> {{ .Content }}
+</div>
 </article>
 {{ end }}
