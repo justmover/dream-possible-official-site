@@ -155,6 +155,12 @@
     max-width: 100%;
 }
 
+.course-flower{
+    background-image: url("/img/flower.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: top;
+}
 
 /* fixed top menu */
 .showMenu{
@@ -164,7 +170,7 @@
 }
 .fixedbar
 {
-   position: fixed;
+ `xed;
    left: 0px;
    top : 0px;
 }
@@ -245,3 +251,13 @@
     color: white;
     text-shadow: 1.5px 1.5px black;
 }
+
+.course-content{
+    margin: 0% 35% 0%;
+}
+
+.nopadding{
+    padding:0%
+}
+
+

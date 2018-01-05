@@ -5,7 +5,7 @@ menu: "course"
 weight: 0
 draft: true
 ---
-
+<div style="line-height: 24px;"class="course-content">
 <br>
 <br>
 <img src="/img/coursefee.png">
@@ -14,7 +14,7 @@ draft: true
 <p style="font-size:14px" class="center">
 所有報名,兩年內有效。更改上課時間,需於上課前14天提出,否則,所付
 學費恕不退還!參加者必須準時出席課程所有環節。<br>
-<p style="font-size:28px;">
+<p style="font-size:28px; line-height: 40px;">
 支票抬頭「自在社有限公司」<br>
 寄 香港皇后大道東43號東美中心2107室<br>
 或存入匯豐銀行 <font style="font-size:28px;" class="font-bold">400-784922-838</font><br>
@@ -22,36 +22,49 @@ draft: true
 或傳真到<font style="font-size:28px;" class="font-bold"> 3568 8249</font><br>
 </p>
 
-<div style="font-size:28px;" class="dp-font-lightGreen font-bold">
+<div style="font-size:28px; line-height: 40px;" class="dp-font-lightGreen font-bold">
 <img style="display: inline;" src="/img/phone.svg">&nbsp; 6898  2854 <br>
 <img style="display: inline;" src="/img/email.svg">&nbsp; course@dreamspossible.hk<br>
 <img style="display: inline;" src="/img/address.svg">&nbsp; www.339.hk<br>
 </div>
 <br>
-
-<div class="center" style="background-color:#5AC1A7">
+</div>
+<div class="center" style="background-color: #5AC1A7;">
 <br>
-<p style="font-size:28px; color:white;" >報名表格</p>
+<div style="margin:0% 42% 0%; line-height: 40px;" class="center">
 
-<input placeholder="姓名"><br>
-<div class="columns is-8">
-    <div class="column is-5">
-      <input placeholder="電話">
+<p style="font-size:28px; color:white;" >報名表格</p>
+<div class="columns is-12 " style="margin-bottom: 1.1rem;">
+<input style="width:100%" placeholder="姓名"><br>
+</div>
+<div class="columns is-12 " style="margin-bottom: 1.1rem;">
+    <div style="padding:0%" class="column is-9">
+      <input style="width:100%" placeholder="電話">
     </div>
-    <div class="column is-3">
-        <select name="性別">
+    <div style="padding:0%" class="column is-3">
+        <select style="width:100%; height:100%" name="性別">
             <option value="1" selected>姓別</option>
 　           <option value="man">男</option>
 　           <option value="woman">女</option>
         </select>
     </div>
-</div><br>
-<input placeholder="電邸地址"><br>
-<select name="選擇課程">
+</div>
+<div class="columns is-12 " style="margin-bottom: 1.1rem;">
+<input style="width:100%" placeholder="電邸地址"><br>
+</div>
+<div class="columns is-12 " style="margin-bottom: 1.1rem;">
+<select style="width:100%" name="選擇課程">
 <option value="course0" selected>選擇課程</option>
 　<option value="course1">生命工作者證書課程</option>
 　<option value="course2">賽馬會青年更生教練課程</option>
 </select><br>
-<button style="background-color:#174931; color:white;">提交</button>
+</div>
+<button style="    background-color: #174931;
+    color: white;
+    width: 80%;
+    border: none;">提交</button>
+    <br>
+    <p style="color:white; width:80%；font-size:12px">*填寫表格後我們將有專人聯絡你。</p>
+</div>
 </div>
 

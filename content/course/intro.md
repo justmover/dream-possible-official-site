@@ -5,7 +5,7 @@ menu: "course"
 weight: 1
 draft: true
 ---
-
+<div class="course-content">
 
 <!-- <h2 class="center dp-font-green font-bold">/ 生 命 工 作 者 證 書 課 程 / </h2> -->
 <br>
@@ -34,3 +34,5 @@ draft: true
 磨練，掌握生命工作者的專業技巧，包括<br>
 <font class="dp-font-lightGreen font-bold">情感連線的藝術、欣賞正向出發點的竅門、高效溝通的發問心
 法與方法、情緒轉化的秘訣，以及生命教練自我修煉的終極方法及具體技術</font>，創造圓滿人生。</p>
+
+</div>
