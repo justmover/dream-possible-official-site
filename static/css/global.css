@@ -282,6 +282,12 @@
     width: 100%;
     transform: translate(0, -50%);
 }
+.workshop-detail-button{
+    margin:10% 0% 5% !important;
+    padding:0% 20% !important;
+    color:white !important;
+    background-color:#006738 !important;
+}
 
 .founder-column-title {
     color: white;

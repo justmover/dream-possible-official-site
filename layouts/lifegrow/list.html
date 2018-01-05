@@ -8,37 +8,35 @@
     <button onclick="location.href='{{.URL}}'">{{ .Name }}</button>
     {{end}} {{end}}{{end}}
 </div>
-<div class="row" style="width:60%; margin:0 20%;">
-    {{if eq .Dir "lifegrow/workshop/"}}
-        {{range .Pages}}
-        <div class="col-4" style="padding:1%">
+<div class="container" style="padding: 50px">
+    <div class="columns is-multiline">
+        {{if eq .Dir "lifegrow/workshop/"}} {{range .Pages}}
+        <div class="column is-12-mobile is-12-tablet is-half-desktop is-one-third-widescreen is-one-quarter-fullhd">
             <div style="border: 1px solid black; height:100%">
-                <div style="padding:5px">
+                <div class="center" style="padding:5px">
                     <div>
-                        <img  width="100%" src="{{.Params.img}}">
+                        <img width="250px" src="{{.Params.img}}">
                     </div>
-                    <div style="text-align:left; color:green">
+                    <div class="dp-font-green" style="text-align:left;font-size:16px">
                         {{.Title}}
                     </div>
-                    <div style="text-align:left">
+                    <div style="text-align:left;font-size:14px">
                         日期： {{.Params.workshopDate}}
-                    </div>
-                    <div style="text-align:left">
+                        <br>
                         時間： {{.Params.time}}
-                    </div>
-
-                    <div style="text-align:left">
+                        <br>
                         地點： {{.Params.place}}
                     </div>
-                    <div style="text-align:center; width:50%; margin:auto; background-color:green">
+                    <a class="button workshop-detail-button" href="{{.URL}}">詳情</a>
+                    <!-- <div style="text-align:center; width:50%; margin:auto; padding:5px; background-color:#006738">
                         <a style="color:white; " href="{{.URL}}"> 詳情 </a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
-        {{end}}
-    {{end}}
+        {{end}} {{end}}
 
+    </div>
 </div>
 
 {{ end }}
