@@ -37,6 +37,11 @@ theme = "hugo-steam"
     weight = -80
 	identifier = "payloveforward"
     url = "/payloveforward/"
+[[menu.main]]
+	name = "Coach to serve"
+	weight = -70
+	identifier = "coachtoserve"
+	url = "/coachtoserve/"
 
 [params]
 	title = "自在社"

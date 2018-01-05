@@ -218,6 +218,13 @@
     background-position: center center;
 }
 
+.top-banner-bg-coachtoserve{
+    background-image: url(/img/topbanner_coachtoserve.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
 .top-banner-bg-contact{
     background-image: url(/img/topbanner_contact.jpg);
     background-repeat: no-repeat;
