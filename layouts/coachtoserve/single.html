@@ -3,11 +3,21 @@
     {{ partial "topbannertitle-eng" . }}
 </div>
 
-<div class="tab" id="sub-menu-sticker">
-    {{$section := .Section}} {{ $menus := .Site.Menus }} {{ range $menuTitle, $menuContent := $menus }} {{if eq $menuTitle $section}}
-    {{range $menuContent}}
-    <button onclick="location.href='{{.URL}}'">{{ .Name }}</button>
-    {{end}} {{end}}{{end}}
+<div class="tab" id="sub-menu-sticker" style="background-color:#646C2E;border:0px">
+
+</div>
+
+<div style="background-image: url('/img/greenflower.png');background-repeat: no-repeat;background-position: 90% -60px">
+    <header>
+        <br><br>
+        <h1 class="center" style="color:#006738">/ {{ .Title }} /</h1>
+        <div class="post-meta">
+        </div>
+        <br><br><br>
+    </header>
+    <div class="center" style="font-size:14px;padding:75px 25%">
+        {{ .Content }}
+    </div>
 </div>
 
 {{ end }}
