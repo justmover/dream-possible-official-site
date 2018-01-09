@@ -2,37 +2,53 @@
 <div class="top-banner-bg-lifegrow">
     {{ partial "topbannertitle" . }}
 </div>
-<div class="tab">
+<div class="tab" style="background-color:#1A91BA;border:0px">
     {{$section := .Section}} {{ $menus := .Site.Menus }} {{ range $menuTitle, $menuContent := $menus }} {{if eq $menuTitle $section}}
     {{range $menuContent}}
     <button onclick="location.href='{{.URL}}'">{{ .Name }}</button>
     {{end}} {{end}}{{end}}
 </div>
+
+<header style="text-align:center; background-image: url('/img/blueball.png');background-repeat: no-repeat;background-position: 90% -60px;padding:30px">
+        <br>
+        <br>
+        <h1 class="center" style="font-weight: bold;color:#006738;">/{{ .Title }}/</h1>
+        <div class="post-meta">
+            <!-- <time datetime="{{ .Date.Format " 02 January 2006 " }}">
+                {{ .Date.Format "02 January 2006" }}
+            </time> -->
+        </div>
+    </header>
+
 <div class="container" style="padding: 50px">
     <div class="columns is-multiline">
         {{if eq .Dir "lifegrow/workshop/"}} {{range .Pages}}
-        <div class="column is-12-mobile is-12-tablet is-half-desktop is-one-third-widescreen is-one-quarter-fullhd">
-            <div style="border: 1px solid black; height:100%">
-                <div class="center" style="padding:5px">
-                    <div>
-                        <img width="250px" src="{{.Params.img}}">
-                    </div>
-                    <div class="dp-font-green" style="text-align:left;font-size:16px">
-                        {{.Title}}
-                    </div>
-                    <div style="text-align:left;font-size:14px">
-                        日期： {{.Params.workshopDate}}
-                        <br>
-                        時間： {{.Params.time}}
-                        <br>
-                        地點： {{.Params.place}}
-                    </div>
-                    <a class="button workshop-detail-button" href="{{.URL}}">詳情</a>
-                    <!-- <div style="text-align:center; width:50%; margin:auto; padding:5px; background-color:#006738">
-                        <a style="color:white; " href="{{.URL}}"> 詳情 </a>
-                    </div> -->
+        <div class="column is-12-mobile is-12-tablet is-half-desktop is-one-third-widescreen is-one-quarter-fullhd lifegrow-vertically-aligned">
+            <div style="position:relative">
+                <img width="100%" src="{{.Params.img}}">
+                {{ if or (eq .Params.img "") (not (.Params.img)) }}
+                <div>
+                    No Photo
                 </div>
+                {{ end }}
+                {{ if .Params.isEnded }}
+                <div class="workshop-img-overlay" style="background-color:#231F20">已完結</div>
+                {{ end }}
+                {{ if .Params.isDeadline }}
+                <div class="workshop-img-overlay" style="background-color:#006738">已截止</div>
+                {{ end }}
             </div>
+            <div class="dp-font-green" style="font-size:16px">
+                {{.Title}}
+            </div>
+            <div style="font-size:14px">
+                日期： {{.Params.workshopDate}}
+                <br>
+                時間： {{.Params.time}}
+                <br>
+                地點： {{.Params.place}}
+            </div>
+            <a class="button workshop-detail-button" href="{{.URL}}">詳情</a>
         </div>
         {{end}} {{end}}
 
