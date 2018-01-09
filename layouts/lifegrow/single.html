@@ -4,27 +4,50 @@
     {{ partial "topbannertitle" . }}
 </div>
 
-<div class="tab" id="sub-menu-sticker">
+<div class="tab" style="background-color:#1A91BA;border:0px" id="sub-menu-sticker">
     {{$section := .Section}} {{ $menus := .Site.Menus }} {{ range $menuTitle, $menuContent := $menus }} {{if eq $menuTitle $section}} {{range $menuContent}}
     <button onclick="location.href='{{.URL}}'">{{ .Name }}</button>
     {{end}} {{end}}{{end}}
 </div>
 
-<article class="post">
-    <header>
-        <h1 class="post-title">{{ .Title }}</h1>
-        <div class="post-meta">
-            <time datetime="{{ .Date.Format " 02 January 2006 " }}">
-                {{ .Date.Format "02 January 2006" }}
-            </time>
-        </div>
-    </header>
+<header>
+    <br><br>
+    <h1 class="center" style="font-weight: bold;color:#006738">/ {{ .Title }} /</h1>
+    <div class="post-meta">
+    </div>
+    <br><br><br>
+</header>
 
-    <section class="post-content">
+<div class="columns center" style="width:100%;background-color:#C5E6DC;padding:30px">
+    <div class="column is-one-third">
+        <img width="100%" src="{{.Params.img}}">
+    </div>
+    <div class="column" style="font-weight:bold;font-size:24px;text-align:left">
+        日期： {{.Params.workshopDate}}
+        <br>
+        時間： {{.Params.time}}
+        <br>
+        地點： {{.Params.place}}
+        <br>
+        導師： {{.Params.tutor}}
+        <br><br>
+        {{.Params.remarks}}
+        <br><br>
+        <a class="button" style="color:white;background-color:#006738;padding:0% 12%" href="{{.Params.registerlink}}">報名</a>
+    </div>
+</div>
+
+<div class="center" style="font-size:14px;padding:75px 25%">
+    {{ .Content }}
+</div>
+
+<!-- <article class="post"> -->
+
+    <!-- <section class="post-content">
         {{ .Content }}
-    </section>
+    </section> -->
 
-    {{ if .Type | eq "post" }}
+    <!-- {{ if .Type | eq "post" }}
     <section class="post-tags" style="padding-bottom:60px;">
         <div class="post-meta tags">
             <i class="fa fa-fw fa-tag"></i>
@@ -39,6 +62,6 @@
     <footer class="post-footer">
         {{ partial "author" . }}
     </footer>
-    {{ end }}
-</article>
+    {{ end }} -->
+<!-- </article> -->
 {{ end }}
