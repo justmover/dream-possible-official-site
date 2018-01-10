@@ -3,7 +3,7 @@
     {{ partial "topbannertitle" . }}
 </div>
 
-<div class="tab" id="sub-menu-sticker">
+<div class="tab" id="sub-menu-sticker" style="background-color:#00A74F;border:0px">
     {{$section := .Section}} {{ $menus := .Site.Menus }} {{ range $menuTitle, $menuContent := $menus }} {{if eq $menuTitle $section}}
     {{range $menuContent}}
     <button onclick="location.href='{{.URL}}'">{{ .Name }}</button>
