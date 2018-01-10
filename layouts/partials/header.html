@@ -62,7 +62,7 @@
 					{{ if eq $mainTitle $menuTitle}}
 					{{$len := len $menuContent}}
 					<!-- To toggle the submenu -->
-				<div onclick="toggleSubMenu('{{$mainTitle}}');" class="level is-mobile mobile-columns-title" style="box-shadow: 4px 1px 20px 0px white">
+				<div id="{{$mainTitle}}" class="mobile-columns-toggle level is-mobile mobile-columns-title" style="box-shadow: 4px 1px 20px 0px white">
 					<!-- when only have 1 item, add the href directly to the title -->
 					{{if eq $len 1}}
 					{{ range first 1 $menuContent }}
