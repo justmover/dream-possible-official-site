@@ -434,3 +434,24 @@
     text-align:center;
     padding-top: 20%;
 }
+
+.course-button{
+    background:#00A5A4; 
+    border:none; 
+    color:white;
+    font-size:26px;
+    padding:5px 30px;
+    cursor: pointer;
+}
+
+.timetable div{
+    padding: 2px;
+   
+}
+
+.timetable div.h{
+    display: none;
+}
+.timetable div.s{
+    display: inline;
+}

@@ -103,4 +103,25 @@
         });
     });
 
-</script> {{ template "_internal/google_analytics.html" . }}
+</script>
+
+<!-- for timetable -->
+<script>
+    var active = '';
+    $(document).ready(function () {
+
+        $('button.s').on('click', function (e) {
+            // $('#' + e.target.id + '_content').addClass('h');
+            if (active != "") {
+                $('#' + active).toggleClass('h');
+
+            }
+            console.log("event: " + e.target.id);
+            $('#' + e.target.id + '_content').toggleClass('h');
+            console.log("now id:" + active)
+            active = e.target.id + '_content';
+
+        })
+    });
+
+</script>
