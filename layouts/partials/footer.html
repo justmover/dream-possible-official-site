@@ -1,37 +1,32 @@
-	<div class="menu green-background" role="nav" style="border: none; padding: 5% 15%; height:100%">
-		<table style="text-align:left; table-layout: fixed; margin: 0;width: 100%">
-			<tr class="no-border">
-				{{ $currentPage := . }}
-				{{ $menus := .Site.Menus }}
-				{{ range .Site.Menus.main }}
-					{{ $menuName := .Name }}
-					{{ $mainTitle := .Identifier }}
-					{{ range $menuTitle, $menuContent := $menus }}
-						{{ if eq $mainTitle $menuTitle}}
-				<td style="padding:0; vertical-align: top; border-right: 1px solid white">
-					<table style="margin: 0">
-						<tr class="nav">
-							<td>
-								<span style="color: white" class="bold">{{ $menuName }}</span>
-							</td>
-						</tr>
-							{{ range $menuContent }}
-							<tr class="no-border">
-							<td class="nav-current green-background" style="word-wrap: break-word">
-								<a style="color: white" href="{{ .URL }}">{{ .Name }}</a>
-							</td>
-						</tr>
-							{{end}}
-					</table>
-						{{end}}
-					{{end}}
-				</td>
+	<div class="desktop-footer menu green-background" role="nav" style="border: none; padding: 5% 15%; height:100%">
+		<div class="columns is-centered" style="text-align:left; table-layout: fixed; margin: 0;width: 100%">
+			
+			{{ $currentPage := . }}
+			{{ $menus := .Site.Menus }}
+			{{ range .Site.Menus.main }}
+				{{ $menuName := .Name }}
+				{{ $mainTitle := .Identifier }}
+				{{ range $menuTitle, $menuContent := $menus }}
+					{{ if eq $mainTitle $menuTitle}}
+			<div class="column is-narrow" style="padding:0; vertical-align: top; border-right: 1px solid white">
+				<div class="columns" style="margin: 0; width: 100%;">
+					<div class="column is-narrow">
+						<span style="color: white" class="bold">{{ $menuName }}</span>
+					</div>
+				</div>
+
+				{{ range $menuContent }}
+				<div class="columns" style="margin: 0; width: 100%;">
+					<div class="column">
+						<a style="color: white" href="{{ .URL }}">{{ .Name }}</a>
+					</div>	
+				</div>
 				{{end}}
-			</tr>
-		</table>
-	</nav>
-
-
-
-
-</footer>
+				
+					{{end}}
+				{{end}}
+			</div>
+			{{end}}
+			
+		</div>
+	</div>

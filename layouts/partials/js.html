@@ -1,10 +1,8 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="{{ " js/index.js " | absURL }}"></script>
 <script src="{{ " js/smooth-scroll.min.js " | absURL }}"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
-{{ range .Site.Params.customJS }}
-<script src="{{ . | absURL }}"></script>
-{{ end }}
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script> {{ range .Site.Params.customJS }}
+<script src="{{ . | absURL }}"></script> {{ end }}
 
 <script>
     smoothScroll.init({
@@ -23,16 +21,45 @@
 
 <script>
     $(document).ready(function () {
-        $(".showMenu").hide();
-        $(".hamburger").click(function () {
-            $(".showMenu").slideToggle("slow", function () {
-                $(".cross").hide();
-                $(".hamburger").show();
-            });
+        $(".desktop-showMenu").hide();
+        $(".desktop-hamburger").click(function () {
+            $(".desktop-showMenu").slideToggle("slow");
         });
 
-    });
+        $(".mobile-showMenu").hide();
+        $(".mobile-menu-background").hide();
+        $(".mobile-hamburger").click(function () {
+            $(".mobile-showMenu").toggle("slide");
+            $(".mobile-menu-background").toggle();
+        });
 
+        $(".mobile-sub-menu").hide();
+
+    });
+    function toggleSubMenu(id) {
+        console.log(id);
+        var subMenu = document.getElementById("mobile-"+id+"-sub-menu");
+        var down = document.getElementById("mobile-"+id+"-down");
+        var up = document.getElementById("mobile-"+id+"-up");
+
+        if (subMenu.style.display === "none") {
+            subMenu.style.display = "block";
+        } else {
+            subMenu.style.display = "none";
+        }
+
+        if (up.style.display === "none") {
+            up.style.display = "block";
+        } else {
+            up.style.display = "none";
+        }
+
+        if (down.style.display === "none") {
+            down.style.display = "block";
+        } else {
+            down.style.display = "none";
+        }
+    }
 </script>
 
 <script>
@@ -57,12 +84,12 @@
     var action = 'click';
     var speed = "500";
     $(document).ready(function () {
-        
+
         $('li.q').on(action, function () {
-           
+
             $(this).next().slideToggle(speed)
 
-                
+
                 .siblings('li.a').slideUp();
 
             // Grab img from clicked question
@@ -76,5 +103,4 @@
         });
     });
 
-</script>
-{{ template "_internal/google_analytics.html" . }}
+</script> {{ template "_internal/google_analytics.html" . }}
