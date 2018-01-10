@@ -1,0 +1,38 @@
+{{ define "main" }}
+<div class="top-banner-bg-paylove-forward">
+    {{ partial "topbannertitle-eng" . }}
+</div>
+
+<div class="tab" id="sub-menu-sticker" style="background-color:#179E7E;border:0px">
+    {{$section := .Section}} {{ $menus := .Site.Menus }} {{ range $menuTitle, $menuContent := $menus }} {{if eq $menuTitle $section}}
+    {{range $menuContent}}
+    <button onclick="location.href='{{.URL}}'">{{ .Name }}</button>
+    {{end}} {{end}}{{end}}
+</div>
+
+<div style="background-image: url('/img/bluegreenball.png');background-repeat: no-repeat;background-position: 90% -60px">
+    <header>
+        <br><br>
+        <h1 class="center" style="color:#006738">/ {{ .Title }} /</h1>
+    </header>
+    <div class="center" style="padding:75px 25%">
+        <p style="font-size:14px">
+            {{ .Content }}
+        </p>
+        <div class="columns is-multiline" style="padding:10% 0%">
+            {{ range .Pages }}
+            <div class="column is-one-third">
+                <a href="{{.Params.link}}" target="blank">
+                    <div style="position:relative">
+                        <img src="{{.Params.img}}" alt="{{.Content}}" style="width:100%">
+                        <img src="{{.Params.icon}}" style="position:absolute;bottom:1%;right:1%">
+                    </div>
+                </a>
+                <span style="font-size:16px;font-weight:bold">{{ .Content }}</span>
+            </div>
+            {{ end }}
+        </div>
+        <a href="{{.Params.facebooklink}}" target="blank"><img src="{{.Params.facebook}}"></a>
+    </div>
+</div>
+{{ end }}
