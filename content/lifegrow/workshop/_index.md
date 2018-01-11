@@ -5,7 +5,6 @@ weight: -110
 menu:
   lifegrow:
     weight: 1
-draft: true
 
 ---
 This is the list of life grow page.
