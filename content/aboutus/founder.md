@@ -1,9 +1,11 @@
 ---
 title: "創辦人"
-date: 2017-12-26T14:03:32+08:00
-menu: "aboutus"
-draft: true
+date: 2017-12-26 14:03:32 +0800
 weight: 4
+menu:
+  aboutus:
+    weight: 2
+
 ---
 <div style="height:120px;">
     <h2 class="bold content-title"> / 創 辦 人 周 華 山 /</h2>

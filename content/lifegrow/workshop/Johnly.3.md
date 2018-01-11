@@ -1,11 +1,14 @@
 ---
-title: "Johnly3"
-menu: "workshop"
+title: Johnly3
 weight: -99
-draft: true
-img: "https://images7.alphacoders.com/691/691161.png"
-workshopDate: "2018年1月21日(星期日)"
+img: https://images7.alphacoders.com/691/691161.png
+workshopDate: 2018年1月21日(星期日)
 time: "下午3至5時"
-place:  "Justmove"
+place: Justmove
+menu:
+  workshop:
+    weight: 5
+draft: true
+
 ---
 This is the list of life grow page.

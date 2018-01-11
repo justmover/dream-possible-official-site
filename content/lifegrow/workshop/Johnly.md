@@ -1,12 +1,15 @@
 ---
-title: "Johnly"
-menu: "workshop"
+title: Johnly
 weight: -99
-draft: true
-img: "https://images7.alphacoders.com/691/691161.png"
-workshopDate: "2018年1月21日(星期日)"
+img: https://images7.alphacoders.com/691/691161.png
+workshopDate: 2018年1月21日(星期日)
 time: "下午3至5時"
-place:  "Justmove"
+place: Justmove
+menu:
+  workshop:
+    weight: 7
+draft: true
+
 ---
 <div>
                     <img  width="100%" src="{{.Params.img}}">

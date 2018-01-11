@@ -1,4 +1,5 @@
 ---
-title: "Coach to serve"
+title: Coach to serve
 rank: 0
+
 ---

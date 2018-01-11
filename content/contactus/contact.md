@@ -1,10 +1,11 @@
 ---
 title: "聯絡我們"
-menu: "contactus"
 weight: -110
-draft: true
----
+menu:
+  contactus:
+    weight: 1
 
+---
 <h2 class="bold content-title">/ 聯 絡 我 們 / </h2>
 <br>
 <br>
