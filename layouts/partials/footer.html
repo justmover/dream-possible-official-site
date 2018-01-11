@@ -18,7 +18,7 @@
 				{{ range $menuContent }}
 				<div class="columns" style="margin: 0; width: 100%;">
 					<div class="column">
-						<a style="color: white" href="{{ .URL }}">{{ .Name }}</a>
+						<a style="color: white" href="{{.URL}}">{{ .Name | markdownify}}</a>
 					</div>	
 				</div>
 				{{end}}

@@ -43,6 +43,16 @@ theme = "hugo-steam"
 	identifier = "coachtoserve"
 	url = "/coachtoserve/"
 
+[[menu.lifegrow]]
+	name = "工作坊及活動花絮"
+	weight = -90
+	url = "https://www.facebook.com/pg/339.hk/photos/?tab=albums"
+
+# [[menu.course]]
+# 	name = "<img style='filter: brightness(0) invert(1);' src='/img/course_icon.png'>賽馬會青年更生教練課程"
+# 	weight = -70
+# 	url = ""
+
 [params]
 	title = "自在社"
 	dpicon = "/img/logo.svg"
