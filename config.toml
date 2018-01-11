@@ -53,7 +53,7 @@ url = "https://www.youtube.com/user/Dreamspossible?feature=mhum"
 weight = 2
 [params]
 dpicon = "/img/logo.svg"
-favicon = "favicon.ico"
+favicon = "/uploads/2018/01/11/logo.svg"
 fbicon = "/img/fb_icon.svg"
 themecolor = "green"
 title = "自在社"
