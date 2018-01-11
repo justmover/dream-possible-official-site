@@ -350,7 +350,9 @@
 }
 
 .course-content {
-    margin: 0% 35% 0%;
+    width: 50%;
+    text-align: left;
+    margin: 0 auto;
 }
 
 .nopadding {
