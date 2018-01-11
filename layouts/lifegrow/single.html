@@ -4,7 +4,7 @@
     {{ partial "topbannertitle" . }}
 </div>
 
-<div class="tab" style="background-color:#1A91BA;border:0px" id="sub-menu-sticker">
+<div class="tab" id="sub-menu-sticker" style="background-color:#1A91BA;border:0px" id="sub-menu-sticker">
     {{$section := .Section}} {{ $menus := .Site.Menus }} {{ range $menuTitle, $menuContent := $menus }} {{if eq $menuTitle $section}} {{range $menuContent}}
     <button onclick="location.href='{{.URL}}'">{{ .Name }}</button>
     {{end}}
