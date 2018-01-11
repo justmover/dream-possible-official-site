@@ -3,7 +3,7 @@ title: "聯絡我們"
 weight: -110
 menu:
   contactus:
-    weight: 2
+    weight: 1
 
 ---
 <h2 class="bold content-title">/ 聯 絡 我 們 / </h2>
