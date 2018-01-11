@@ -53,6 +53,11 @@ theme = "hugo-steam"
 	weight = -90
 	url = "https://www.youtube.com/user/Dreamspossible?feature=mhum"
 
+[[menu.contactus]]
+	name = "行事曆"
+	weight = -90
+	url = "http://calendar.dreamspossible.hk/"
+
 # [[menu.course]]
 # 	name = "<img style='filter: brightness(0) invert(1);' src='/img/course_icon.png'>賽馬會青年更生教練課程"
 # 	weight = -70
