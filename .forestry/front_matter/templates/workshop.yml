@@ -20,3 +20,5 @@ fields:
   name: place
   config:
     required: true
+- type: datetime
+  name: date
