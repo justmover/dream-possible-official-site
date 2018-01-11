@@ -8,7 +8,7 @@ place: Justmove
 menu:
   workshop:
     name: Johnny
-    weight: 1
+    weight: 2
 draft: true
 
 ---
