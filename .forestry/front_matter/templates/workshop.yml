@@ -23,3 +23,18 @@ fields:
     required: true
 - type: datetime
   name: date
+- type: file
+  name: img
+  default: "/uploads/2018/01/11/logo.svg"
+- type: textarea
+  name: tutor
+- type: text
+  name: remarks
+- type: text
+  name: registerlink
+- type: boolean
+  name: isEnded
+- type: boolean
+  name: isDeadline
+  hidden: false
+  default: false
