@@ -1,4 +1,6 @@
 ---
+pages:
+- lifegrow/workshop/focus.md
 hide_body: false
 fields:
 - type: number
