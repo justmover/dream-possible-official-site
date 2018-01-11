@@ -29,7 +29,7 @@ draft: true
 <div style="font-size:1.5rem; line-height: 40px;overflow-wrap: break-word;" class="dp-font-lightGreen font-bold">
 <img style="display: inline;" src="/img/phone.svg">&nbsp; 6898  2854 <br>
 <img style="display: inline;" src="/img/email.svg">&nbsp; course@dreamspossible.hk<br>
-<img style="display: inline;" src="/img/address.svg">&nbsp; www.339.hk<br>
+<img style="display: inline;" src="/img/address.svg">&nbsp; www.dreamspossible.hk<br>
 </div>
 <br>
 </div>

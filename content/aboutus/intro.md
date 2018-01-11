@@ -12,7 +12,7 @@ menu:
 <br>
 
 <div style="width:100%">
-  <img style="width:70%" src="/img/DP_map.jpg">
+  <img style="width:70%" src="/img/DP_map.png">
 </div>
 
 <div class="columns" style="width:45%; margin:0 27.5% 0 27.5%;">
