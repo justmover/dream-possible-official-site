@@ -60,27 +60,9 @@ weight = 7
 # 	url = ""
 
 [params]
-backtotopstr = "Back to top"
-bio = "programmer - blogger - coffee aficionado"
-bitbucket = ""
-copyright = "Released under the MIT license."
-customcss = []
-customjs = []
-description = "Your description of the blog"
 dpicon = "/img/logo.svg"
-facebook = ""
 favicon = "favicon.ico"
 fbicon = "/img/fb_icon.svg"
-gitlab = ""
-googleplus = ""
-instagram = ""
-keepreadingstr = "Keep reading"
-linkedin = ""
-location = ""
-name = "John Doe"
-pagenotfoundtitle = "404 - Page not found"
-sharestr = "Share"
-subtitle = "幸福/從感恩開始"
 themecolor = "green"
 title = "自在社"
 youtubeicon = "/img/youtube_icon.svg"
