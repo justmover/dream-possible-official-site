@@ -23,6 +23,7 @@ fields:
     required: true
 - type: datetime
   name: date
+  default: Invalid date
 - type: file
   name: img
   default: "/uploads/2018/01/11/logo.svg"
