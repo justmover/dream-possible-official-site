@@ -454,8 +454,9 @@
 .timetable div.h{
     display: none;
 }
-.timetable div.s{
-    display: inline;
+.timetable button.a{
+   
+    box-shadow: -1px 3px 10px 4px #1bd0cf;
 }
 
 /* contact css */

@@ -12,14 +12,14 @@ draft: true
  
 
   <li class="q" style="background-color:#77CABC">
-  <div class="columns">
+    <div class="columns">
     <div class="column is-11">
     <font style="font-size:16px;color:white">1﹑第一階段DP給我什麼幫助？</font>
-    </div>
-    <div class="column is-1">
+       </div>
+    <div class="column is-1 arrow-container">
     <img style="min-width:20px; margin:10px;display:inline;float:right;" src="/img/arrow.svg">
-</div>
-</div>
+    </div>
+   </div>
   </li>
 
   <li class="a">
@@ -31,11 +31,11 @@ draft: true
   <li class="q" style="background-color:#0CA64E">
   <div class="columns">
     <div class="column is-11">
-   <font style="font-size:16px;color:white">2﹑我生活愉快﹐事業成功﹐家庭和諧﹐沒有任何問題﹐為甚麼要參加DP？</font>
-</div>
-<div class="column is-1">
-   <img style="min-width:20px; margin:10px;display:inline;float:right;" src="/img/arrow.svg">
-   </div>
+      <font style="font-size:16px;color:white">2﹑我生活愉快﹐事業成功﹐家庭和諧﹐沒有任何問題﹐為甚麼要參加DP？</font>
+    </div>
+    <div class="column is-1 arrow-container">
+      <img style="min-width:20px; margin:10px;display:inline;float:right;" src="/img/arrow.svg">
+    </div>
    </div>
   </li>
 
@@ -47,7 +47,7 @@ draft: true
     <div class="column is-11">
    <font style="font-size:16px;color:white"> 3﹑DP參加者的平均年齡和性別比例是多少？</font>
    </div>
-<div class="column is-1">
+<div class="column is-1 arrow-container">
     <img style="min-width:20px; margin:10px;display:inline;float:right;" src="/img/arrow.svg">
 </div>
    </div>
@@ -61,7 +61,7 @@ draft: true
     <div class="column is-11">
    <font style="font-size:16px;color:white"> 4﹑我參加過一些課程﹐導師和組長都給我很大壓力﹐請問DP是否有壓迫感？</font>
    </div>
-<div class="column is-1">
+<div class="column is-1 arrow-container">
     <img style="min-width:20px; margin:10px;display:inline;float:right;" src="/img/arrow.svg">
 </div>
    </div>
@@ -73,7 +73,7 @@ draft: true
     <div class="column is-11">
    <font style="font-size:16px;color:white"> 5﹑「領袖潛能」第一天課程連續上課12小時﹐體質較弱的人﹐會否不適應？</font>
    </div>
-<div class="column is-1">
+<div class="column is-1 arrow-container">
     <img style="min-width:20px; margin:10px;display:inline;float:right;" src="/img/arrow.svg">
 </div>
    </div>
@@ -85,7 +85,7 @@ draft: true
     <div class="column is-11">
    <font style="font-size:16px;color:white"> 6﹑我不想在陌生人面前披露私人感受﹐是否適合參加DP？</font>
    </div>
-<div class="column is-1">
+<div class="column is-1 arrow-container">
     <img style="min-width:20px; margin:10px;display:inline;float:right;" src="/img/arrow.svg">
 </div>
    </div>
@@ -97,7 +97,7 @@ draft: true
     <div class="column is-11">
    <font style="font-size:16px;color:white"> 7﹑自在社有沒有宗教取向？</font>
    </div>
-<div class="column is-1">
+<div class="column is-1 arrow-container">
     <img style="min-width:20px; margin:10px;display:inline;float:right;" src="/img/arrow.svg">
 </div>
    </div>
@@ -109,7 +109,7 @@ draft: true
     <div class="column is-11">
    <font style="font-size:16px;color:white">8﹑DP 其實是什麼？</font>
    </div>
-<div class="column is-1">
+<div class="column is-1 arrow-container">
     <img style="min-width:20px; margin:10px;display:inline;float:right;" src="/img/arrow.svg">
 </div>
    </div>
