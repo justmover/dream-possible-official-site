@@ -10,9 +10,6 @@ remarks: "免費入場、名額有限、必須報名、先到先得。"
 registerlink: ''
 isEnded: false
 isDeadline: true
-menu:
-  workshop:
-    weight: 1
 draft: true
 
 ---
