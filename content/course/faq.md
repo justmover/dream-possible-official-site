@@ -1,9 +1,12 @@
 ---
 title: "常見問題"
-date: 2017-12-26T14:42:43+08:00
-menu: "course"
+date: 2017-12-26 14:42:43 +0800
 weight: 0
+menu:
+  course:
+    weight: 3
 draft: true
+
 ---
 <div class="course-content">
 <br>

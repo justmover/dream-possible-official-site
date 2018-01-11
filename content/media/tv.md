@@ -1,6 +1,9 @@
 ---
 title: "電視"
-menu: "media"
 weight: -99
+menu:
+  media:
+    weight: 1
 draft: true
+
 ---

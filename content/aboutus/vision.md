@@ -1,9 +1,12 @@
 ---
 title: "信念、願景及使命"
-date: 2017-12-26T14:03:18+08:00
-menu: "aboutus"
-draft: true
+date: 2017-12-26 14:03:18 +0800
 weight: 3
+menu:
+  aboutus:
+    weight: 3
+draft: true
+
 ---
 <div style="height:120px;">
     <h2 class="bold content-title"> / 信 念 宣 言 、願 景 及 使 命 /</h2>

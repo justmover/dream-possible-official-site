@@ -1,8 +1,11 @@
 ---
-title: "Coach to serve"
-menu: "coachtoserve"
+title: Coach to serve
 weight: -100
+menu:
+  coachtoserve:
+    weight: 1
 draft: true
+
 ---
 <div style="font-size:14px">
 <p>

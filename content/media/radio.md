@@ -1,6 +1,9 @@
 ---
 title: "電台"
-menu: "media"
 weight: -98
+menu:
+  media:
+    weight: 2
 draft: true
+
 ---
