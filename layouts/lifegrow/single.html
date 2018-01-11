@@ -8,8 +8,6 @@
     {{$section := .Section}} {{ $menus := .Site.Menus }} {{ range $menuTitle, $menuContent := $menus }} {{if eq $menuTitle $section}} {{range $menuContent}}
     <button onclick="location.href='{{.URL}}'">{{ .Name }}</button>
     {{end}}
-    <!-- TODO remove hard code -->
-    <button onclick="window.open('https://www.facebook.com/pg/339.hk/photos/?tab=albums')">工作坊及活動花絮</button>
     {{end}}{{end}}
 </div>
 
