@@ -4,6 +4,9 @@
         {{ .Render "summary" }} 
     {{ end }}
     {{ partial "pagination" . }} -->
+<div class="top-banner-bg-course">
+    {{ partial "topbannertitle" . }}
+</div>
 <div class="tab" style="background-color:#00A5A4; border:0px;padding:0px">
     {{$section := .Section}} {{ $menus := .Site.Menus }} {{ range $menuTitle, $menuContent := $menus }} {{if eq $menuTitle $section}}
     {{range $menuContent}}

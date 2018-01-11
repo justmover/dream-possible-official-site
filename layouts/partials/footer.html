@@ -8,9 +8,9 @@
 				{{ $mainTitle := .Identifier }}
 				{{ range $menuTitle, $menuContent := $menus }}
 					{{ if eq $mainTitle $menuTitle}}
-			<div class="column is-narrow" style="padding:0; vertical-align: top; border-right: 1px solid white">
+			<div class="column" style="padding:0; vertical-align: top; border-right: 1px solid white">
 				<div class="columns" style="margin: 0; width: 100%;">
-					<div class="column is-narrow">
+					<div class="column">
 						<span style="color: white" class="bold">{{ $menuName }}</span>
 					</div>
 				</div>

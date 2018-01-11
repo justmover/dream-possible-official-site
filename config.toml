@@ -12,18 +12,18 @@ url = "https://www.facebook.com/pg/339.hk/photos/?tab=albums"
 weight = -90
 [[menu.main]]
 identifier = "lifegrow"
-name = "生 命 成 長"
+name = "生 命 成 長 免 費 工 作 坊"
 pre = "<i class='fa fa-road'></i>"
 url = "/lifegrow/"
 weight = 3
 [[menu.main]]
 identifier = "payloveforward"
-name = "Pay love forward"
+name = "Pay Love Forward 義工團隊"
 url = "/payloveforward/"
 weight = 4
 [[menu.main]]
 identifier = "coachtoserve"
-name = "Coach to serve"
+name = "Coach To Serve 服務社會"
 url = "/coachtoserve/"
 weight = 5
 [[menu.main]]
@@ -38,7 +38,7 @@ url = "/aboutus/"
 weight = 1
 [[menu.main]]
 identifier = "course"
-name = "課 程"
+name = "生 命 工 作 者 課 程"
 url = "/course/"
 weight = 2
 [[menu.main]]
