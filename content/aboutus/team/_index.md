@@ -22,14 +22,18 @@ menu:
 <div>
 <div>
         <figure style="display: inline-block;">
-        <img src="/img/ppls-01.png">
-            <figcaption style="font-size:16px">董事</figcaption>
-            <figcaption style="font-size:24px">Maurice Cheng</figcaption>
+            <a href="./maurice_cheng" style="color:black">
+                <img src="/img/ppls-01.png">
+                <figcaption style="font-size:16px;font-style:normal">董事</figcaption>
+                <figcaption style="font-size:24px;font-style:normal">Maurice Cheng</figcaption>
+            </a>
         </figure>
         <figure style="display: inline-block;">
-        <img src="/img/ppls-02.png">
-            <figcaption style="font-size:16px">董事局主席</figcaption>
-            <figcaption style="font-size:24px">Cherry Tsang</figcaption>
+            <a href="./cherry_tsang" style="color:black">
+                <img src="/img/ppls-02.png">
+                <figcaption style="font-size:16px;font-style:normal">董事局主席</figcaption>
+                <figcaption style="font-size:24px;font-style:normal">Cherry Tsang</figcaption>
+            </a>
         </figure>
 </div>
 
@@ -37,19 +41,25 @@ menu:
 
 <div>
     <figure style="display: inline-block;">
-        <img src="/img/ppls-03.png">
-            <figcaption style="font-size:16px">董事</figcaption>
-            <figcaption style="font-size:24px">Annesa Leung</figcaption>
+        <a href="./annesa_leung" style="color:black">
+            <img src="/img/ppls-03.png">
+            <figcaption style="font-size:16px;font-style:normal">董事</figcaption>
+            <figcaption style="font-size:24px;font-style:normal">Annesa Leung</figcaption>
+        </a>
         </figure>
         <figure style="display: inline-block;">
-        <img src="/img/ppls-04.png">
-            <figcaption style="font-size:16px">DP創會顧問</figcaption>
-            <figcaption style="font-size:24px">King Law</figcaption>
+            <a href="./king_law" style="color:black">
+                <img src="/img/ppls-04.png">
+                <figcaption style="font-size:16px;font-style:normal">DP創會顧問</figcaption>
+                <figcaption style="font-size:24px;font-style:normal">King Law</figcaption>
+            </a>
         </figure>
         <figure style="display: inline-block;">
-        <img src="/img/ppls-05.png">
-            <figcaption style="font-size:16px">董事</figcaption>
-            <figcaption style="font-size:24px">Richard Tsang</figcaption>
+            <a href="./richard_tsang" style="color:black">
+                <img src="/img/ppls-05.png">
+                <figcaption style="font-size:16px;font-style:normal">董事</figcaption>
+                <figcaption style="font-size:24px;font-style:normal">Richard Tsang</figcaption>
+            </a>
         </figure>        
 </div>
 </div>
@@ -61,27 +71,42 @@ menu:
 <div>
 <div>
         <figure style="display: inline-block;">
-        <img src="/img/ppls-06.png">
-            <figcaption style="font-size:16px">總幹事</figcaption>
-            <figcaption style="font-size:24px">Dr. Red Chan</figcaption>
+            <a href="./athena_au" style="color:black">
+                <img src="/img/athena_au.png">
+                <figcaption style="font-size:16px;font-style:normal">副總幹事</figcaption>
+                <figcaption style="font-size:24px;font-style:normal">Athena Au</figcaption>
+            </a>
         </figure>
         <figure style="display: inline-block;">
-        <img src="/img/ppls-07.png">
-            <figcaption style="font-size:16px">副總幹事</figcaption>
-            <figcaption style="font-size:24px">Wing Chan</figcaption>
+            <a href="./dr_red_chan" style="color:black">
+                <img src="/img/ppls-06.png">
+                <figcaption style="font-size:16px;font-style:normal">總幹事</figcaption>
+                <figcaption style="font-size:24px;font-style:normal">Dr. Red Chan</figcaption>
+            </a>
+        </figure>
+        <figure style="display: inline-block;">
+            <a href="./wing_chan" style="color:black">
+                <img src="/img/ppls-07.png">
+                <figcaption style="font-size:16px;font-style:normal">副總幹事</figcaption>
+                <figcaption style="font-size:24px;font-style:normal">Wing Chan</figcaption>
+            </a>
         </figure>
 </div>
 
 <div>
         <figure style="display: inline-block;">
-        <img src="/img/ppls-08.png">
-            <figcaption style="font-size:16px">常務秘書</figcaption>
-            <figcaption style="font-size:24px">Sharon Lau</figcaption>
+            <a href="./sharon_lau" style="color:black">
+                <img src="/img/ppls-08.png">
+                <figcaption style="font-size:16px;font-style:normal">常務秘書</figcaption>
+                <figcaption style="font-size:24px;font-style:normal">Sharon Lau</figcaption>
+            </a>
         </figure>
         <figure style="display: inline-block;">
-        <img src="/img/ppls-09.png">
-            <figcaption style="font-size:16px">會計及財務顧問</figcaption>
-            <figcaption style="font-size:24px">Kenny Lo</figcaption>
+            <a href="./kenny_lo" style="color:black">
+                <img src="/img/ppls-09.png">
+                <figcaption style="font-size:16px;font-style:normal">會計及財務顧問</figcaption>
+                <figcaption style="font-size:24px;font-style:normal">Kenny Lo</figcaption>
+            </a>
         </figure>
 </div>
 </div>
