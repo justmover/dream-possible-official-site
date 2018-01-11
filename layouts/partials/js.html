@@ -112,8 +112,8 @@
                 .siblings('li.a').slideUp();
 
             // Grab img from clicked question
-            var img = $(this).children('img');
-
+            var img = $(this).children('div.columns').children('div.arrow-container').children('img')
+console.log(img)
             // remove Rotate class from all images except the active
             $('img').not(img).removeClass('rotate');
 
@@ -129,16 +129,21 @@
     var active = '';
     $(document).ready(function () {
 
+        active = $('.start-up-active')[0].id;
+        $('#' + active).addClass('a')
+        $('#' + active + '_content').toggleClass('h');
+        active = active ;
         $('button.s').on('click', function (e) {
-            // $('#' + e.target.id + '_content').addClass('h');
             if (active != "") {
-                $('#' + active).toggleClass('h');
-
+            // $('#' + e.target.id + '_content').addClass('h');
+                $('#' + active+ '_content').toggleClass('h');
+                $('#' + active).removeClass('a')
             }
             console.log("event: " + e.target.id);
             $('#' + e.target.id + '_content').toggleClass('h');
+            $('#' + e.target.id).addClass('a')
             console.log("now id:" + active)
-            active = e.target.id + '_content';
+            active = e.target.id;
 
         })
     });
