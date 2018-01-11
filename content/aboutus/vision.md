@@ -5,7 +5,6 @@ weight: 3
 menu:
   aboutus:
     weight: 3
-draft: true
 
 ---
 <div style="height:120px;">
