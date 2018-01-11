@@ -4,12 +4,14 @@
     {{ partial "topbannertitle" . }}
 </div>
 <!-- <div style="height:"></div> -->
-<div class="tab" id="sub-menu-sticker">
+<div class="tab" id="sub-menu-sticker" style="background-color:#00A5A4; border:0px">
     {{$section := .Section}} {{ $menus := .Site.Menus }} {{ range $menuTitle, $menuContent := $menus }} {{if eq $menuTitle $section}}
     {{range $menuContent}}
     <button onclick="location.href='{{.URL}}'">{{ .Name }}</button> {{end}} {{end}}{{end}}
+    <a href="http://yrc.dreamspossible.hk/"><button class="courseTitle-button"><img src="/img/JCicon.png"> 賽馬會青年更生教練課程</button></a>
 </div>
 
+<div class="course-flower ">
     <header>
         <br>
         <br>
@@ -21,14 +23,14 @@
         </div>
     </header>
 
-    <section style="margin-bottom:0px" class="post-content">
-        <div style="position: relative">
+    <section style="margin-bottom:0px" class="post-content ">
+        <!-- <div style="position: relative">
             <img style="    position: absolute;
             top: -188px;
             z-index: 1;
             right: -284px;
             height: 320px;" src="/img/flower.png">
-        </div>
+        </div> -->
         {{ .Content }}
     </section>
 
@@ -40,11 +42,11 @@
         </div>
     </section>
 
+</div>
     {{ template "_internal/disqus.html" . }} {{ partial "share" . }}
 
     <footer class="post-footer">
         {{ partial "author" . }}
     </footer>
     {{ end }}
-
 {{ end }}
