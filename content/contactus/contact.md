@@ -4,7 +4,6 @@ weight: -110
 menu:
   contactus:
     weight: 2
-draft: true
 
 ---
 <h2 class="bold content-title">/ 聯 絡 我 們 / </h2>
