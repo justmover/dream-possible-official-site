@@ -2,27 +2,35 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 theme = "hugo-steam"
 title = "Dream Possible"
-[[menu.main]]
-identifier = "media"
-name = "傳 媒 報 導"
-url = "/media/"
-weight = 6
-[[menu.main]]
-identifier = "coachtoserve"
-name = "Coach to serve"
-url = "/coachtoserve/"
-weight = 5
-[[menu.main]]
-identifier = "payloveforward"
-name = "Pay love forward"
-url = "/payloveforward/"
-weight = 4
+[[menu.contactus]]
+name = "行事曆"
+url = "http://calendar.dreamspossible.hk/"
+weight = -90
+[[menu.lifegrow]]
+name = "工作坊及活動花絮"
+url = "https://www.facebook.com/pg/339.hk/photos/?tab=albums"
+weight = -90
 [[menu.main]]
 identifier = "lifegrow"
 name = "生 命 成 長"
 pre = "<i class='fa fa-road'></i>"
 url = "/lifegrow/"
 weight = 3
+[[menu.main]]
+identifier = "payloveforward"
+name = "Pay love forward"
+url = "/payloveforward/"
+weight = 4
+[[menu.main]]
+identifier = "coachtoserve"
+name = "Coach to serve"
+url = "/coachtoserve/"
+weight = 5
+[[menu.main]]
+identifier = "media"
+name = "傳 媒 報 導"
+url = "/media/"
+weight = 6
 [[menu.main]]
 identifier = "aboutus"
 name = "關 於 我 們"
@@ -39,26 +47,10 @@ name = "聯 絡 我 們"
 pre = "<i class='fa fa-road'></i>"
 url = "/contactus/"
 weight = 7
-[[menu.lifegrow]]
-	name = "工作坊及活動花絮"
-	weight = -90
-	url = "https://www.facebook.com/pg/339.hk/photos/?tab=albums"
-
 [[menu.media]]
-	name = "YouTube頻道"
-	weight = -90
-	url = "https://www.youtube.com/user/Dreamspossible?feature=mhum"
-
-[[menu.contactus]]
-	name = "行事曆"
-	weight = -90
-	url = "http://calendar.dreamspossible.hk/"
-
-# [[menu.course]]
-# 	name = "<img style='filter: brightness(0) invert(1);' src='/img/course_icon.png'>賽馬會青年更生教練課程"
-# 	weight = -70
-# 	url = ""
-
+name = "YouTube頻道"
+url = "https://www.youtube.com/user/Dreamspossible?feature=mhum"
+weight = -90
 [params]
 dpicon = "/img/logo.svg"
 favicon = "favicon.ico"
