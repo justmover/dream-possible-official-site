@@ -5,7 +5,7 @@ weight: -100
 abc: abc
 menu:
   workshop:
-    weight: 8
+    weight: 3
 draft: true
 
 ---

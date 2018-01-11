@@ -6,6 +6,6 @@ topvideotitle: "電視節目"
 topvideodescription: "電視"
 menu:
   media:
-    weight: -110
+    weight: 1
 
 ---

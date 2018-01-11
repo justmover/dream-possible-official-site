@@ -7,7 +7,7 @@ time: "下午3至5時"
 place: Justmove
 menu:
   workshop:
-    weight: 6
+    weight: 2
 draft: true
 
 ---

@@ -5,27 +5,27 @@ title = "Dream Possible"
 [[menu.contactus]]
 name = "行事曆"
 url = "http://calendar.dreamspossible.hk/"
-weight = -90
+weight = 2
 [[menu.lifegrow]]
 name = "工作坊及活動花絮"
 url = "https://www.facebook.com/pg/339.hk/photos/?tab=albums"
-weight = -90
+weight = 2
 [[menu.main]]
-identifier = "lifegrow"
-name = "生 命 成 長"
-pre = "<i class='fa fa-road'></i>"
-url = "/lifegrow/"
-weight = 3
+identifier = "coachtoserve"
+name = "Coach to serve"
+url = "/coachtoserve/"
+weight = 5
 [[menu.main]]
 identifier = "payloveforward"
 name = "Pay love forward"
 url = "/payloveforward/"
 weight = 4
 [[menu.main]]
-identifier = "coachtoserve"
-name = "Coach to serve"
-url = "/coachtoserve/"
-weight = 5
+identifier = "lifegrow"
+name = "生 命 成 長"
+pre = "<i class='fa fa-road'></i>"
+url = "/lifegrow/"
+weight = 3
 [[menu.main]]
 identifier = "media"
 name = "傳 媒 報 導"
@@ -50,7 +50,7 @@ weight = 7
 [[menu.media]]
 name = "YouTube頻道"
 url = "https://www.youtube.com/user/Dreamspossible?feature=mhum"
-weight = -90
+weight = 2
 [params]
 dpicon = "/img/logo.svg"
 favicon = "favicon.ico"
