@@ -44,6 +44,11 @@ weight = 7
 	weight = -90
 	url = "https://www.facebook.com/pg/339.hk/photos/?tab=albums"
 
+[[menu.media]]
+	name = "YouTube頻道"
+	weight = -90
+	url = "https://www.youtube.com/user/Dreamspossible?feature=mhum"
+
 # [[menu.course]]
 # 	name = "<img style='filter: brightness(0) invert(1);' src='/img/course_icon.png'>賽馬會青年更生教練課程"
 # 	weight = -70
