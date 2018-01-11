@@ -1,5 +1,5 @@
 {{ define "main" }}
-<div class="top-banner-bg-contact">
+<div class="top-banner-bg-aboutus">
     {{ partial "topbannertitle" . }}
 </div>
 
@@ -10,4 +10,10 @@
     {{end}} {{end}}{{end}}
 </div>
 
+<div style="text-align:center; background-image: url('/img/contact/green_flower.png');background-repeat: no-repeat;background-position: 90% -100px;">
+    <br>
+    <br>
+    <br> {{ .Content }}
+</div>
+</article>
 {{ end }}

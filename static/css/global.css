@@ -105,6 +105,7 @@
 }
 
 .text-overlay {
+    font-size: 1.5rem;
     position: absolute;
     top: 50%;
     /* position the top  edge of the element at the middle of the parent */
@@ -254,6 +255,8 @@
     .desktop-footer{
         display: none;
     }
+    #sub-menu-sticker-sticky-wrapper{display: none;}
+    .tab{display: none;}
   }
 
 
@@ -454,4 +457,27 @@
 }
 .timetable div.s{
     display: inline;
+}
+
+/* contact css */
+.contact-text{
+    font-size: 14px;
+}
+.contact-placeholder:placeholder-shown{
+    padding: 2.5%
+}
+.contact-column{
+    font-size: 18px;
+    padding: 0.5% !important;
+}
+.contact-submit{
+    border: none;
+    background: #174931; 
+    color: white; 
+    width: 40%;
+}
+
+#contact-map {
+    height: 395px;
+    width: 100%;
 }

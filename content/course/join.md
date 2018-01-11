@@ -29,8 +29,10 @@ draft: true
 </div>
 <br>
 </div>
-<div class="center" style="background-color: #5AC1A7;">
+
+<!-- <div class="center" style="background-color: #5AC1A7;">
 <br>
+
 <div style="margin:0% 42% 0%; line-height: 40px;" class="center">
 
 <p style="font-size:28px; color:white;" >報名表格</p>
@@ -66,5 +68,5 @@ draft: true
     <br>
     <p style="color:white; width:80%；font-size:12px">*填寫表格後我們將有專人聯絡你。</p>
 </div>
-</div>
+</div> -->
 
