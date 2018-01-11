@@ -25,6 +25,7 @@ draft: true
 <div class="columns" style="margin:0">
     <div class="column is-narrow is-offset-4" style="padding:0.25% 0" >
         <div class="level is-mobile">
+        <div class="level-left">
             <div class="level-item">
                 <img src="/img/contact/tel.svg">
             </div>
@@ -32,11 +33,13 @@ draft: true
                 6898 2854
             </div>
         </div>
+        </div>
     </div>
 </div>
 <div class="columns" style="margin:0">
     <div class="column is-narrow is-offset-4" style="padding:0.25% 0" >
         <div class="level is-mobile">
+        <div class="level-left">
             <div class="level-item">
                 <img src="/img/contact/email.svg">
             </div>
@@ -44,17 +47,20 @@ draft: true
                 info@dreamspossible.hk
             </div>
         </div>
+        </div>
     </div>
 </div>
 <div class="columns" style="margin:0">
     <div class="column is-narrow is-offset-4" style="padding:0.25% 0" >
         <div class="level is-mobile">
+        <div class="level-left">
             <div class="level-item">
                 <img src="/img/contact/address.svg">
             </div>
             <div class="level-item" style="color: black; font-size: 26px; font-weight: bold;">
                 www.dreamspossible.hk
             </div>
+        </div>
         </div>
     </div>
 </div>
