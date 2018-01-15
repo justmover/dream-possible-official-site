@@ -4,7 +4,7 @@ date: 2017-12-26 14:03:09 +0800
 weight: 2
 menu:
   aboutus:
-    weight: 4
+    weight: 2
 
 ---
 <h2 class="bold content-title"> / 董 事 局 與 總 幹 事 團 隊 /</h2>

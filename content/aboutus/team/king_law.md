@@ -2,8 +2,9 @@
 title: "King Law"
 position: "DP創會顧問"
 intro: "深信我們擁有的一切，其實源自於前人的付出，所以我渴望回饋家人和社會，積極管理自己，同時用心服務身邊的人。然而，一己之力實在有限，DP正好匯聚一群有心人，眾志成城，持續實踐，這不僅是個人生命的延續，是互相關懷的延續，更是愛在整個社會的延續。看到DP讓許多人的生命受惠，也看到自己的生命更加豐盛，我非常欣喜，會讓更多人參與DP，栽培更多人才，持續走向人群，服務有需要的人，這是我的夢想。"
-img: "/img/ppls-04.png"
-menu: "team"
-type: "aboutus"
-layout: "team_detail"
+layout: team_detail
+menu:
+  team:
+    weight: 1
+
 ---

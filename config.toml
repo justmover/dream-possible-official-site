@@ -5,11 +5,11 @@ title = "Dream Possible"
 [[menu.contactus]]
 name = "行事曆"
 url = "http://calendar.dreamspossible.hk/"
-weight = -90
+weight = 2
 [[menu.lifegrow]]
 name = "工作坊及活動花絮"
 url = "https://www.facebook.com/pg/339.hk/photos/?tab=albums"
-weight = -90
+weight = 2
 [[menu.main]]
 identifier = "lifegrow"
 name = "生 命 成 長 免 費 工 作 坊"
@@ -50,10 +50,10 @@ weight = 7
 [[menu.media]]
 name = "YouTube頻道"
 url = "https://www.youtube.com/user/Dreamspossible?feature=mhum"
-weight = -90
+weight = 2
 [params]
 dpicon = "/img/logo.svg"
-favicon = "favicon.ico"
+favicon = "/uploads/2018/01/11/logo.svg"
 fbicon = "/img/fb_icon.svg"
 fblink = "https://www.facebook.com/339.hk/"
 themecolor = "green"
@@ -62,9 +62,3 @@ youtubeicon = "/img/youtube_icon.svg"
 youtubelink = "https://www.youtube.com/user/Dreamspossible?feature=mhum"
 [[params.homeimg]]
 path = "img/loopbanner1.jpg"
-[[params.homeimg]]
-path = "https://pbs.twimg.com/media/DKV68fvUIAAQEXJ.jpg"
-[[params.homeimg]]
-path = "https://images7.alphacoders.com/691/691161.png"
-[[params.homeimg]]
-path = "https://images.alphacoders.com/725/725119.png"

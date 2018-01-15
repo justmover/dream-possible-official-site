@@ -4,7 +4,7 @@ date: 2017-12-26 14:03:32 +0800
 weight: 4
 menu:
   aboutus:
-    weight: 2
+    weight: 4
 
 ---
 <div style="height:120px;">

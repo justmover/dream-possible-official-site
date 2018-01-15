@@ -4,7 +4,7 @@ date: 2017-12-26 14:41:53 +0800
 weight: 1
 menu:
   course:
-    weight: 2
+    weight: 1
 draft: true
 
 ---
