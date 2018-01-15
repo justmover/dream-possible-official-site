@@ -6,48 +6,44 @@
     {{$section := .Section}} {{ $menus := .Site.Menus }} {{ range $menuTitle, $menuContent := $menus }} {{if eq $menuTitle $section}}
     {{range $menuContent}}
     <button onclick="location.href='{{.URL}}'">{{ .Name }}</button>
-    {{end}}
-    {{end}}{{end}}
+    {{end}} {{end}}{{end}}
 </div>
 
 <header style="text-align:center; background-image: url('/img/blueball.png');background-repeat: no-repeat;background-position: 90% -60px;padding:30px">
-        <br>
-        <br>
-        <h1 class="center" style="font-weight: bold;color:#006738;">/ {{ .Title }} /</h1>
-        <div class="post-meta">
-            <!-- <time datetime="{{ .Date.Format " 02 January 2006 " }}">
+    <br>
+    <br>
+    <h1 class="center" style="font-weight: bold;color:#006738;">/ {{ .Title }} /</h1>
+    <div class="post-meta">
+        <!-- <time datetime="{{ .Date.Format " 02 January 2006 " }}">
                 {{ .Date.Format "02 January 2006" }}
             </time> -->
-        </div>
-    </header>
+    </div>
+</header>
 
 <div class="container" style="padding: 50px">
     <div class="columns is-multiline">
         {{if eq .Dir "lifegrow/workshop/"}} {{range .Pages}}
         <div class="column is-12-mobile is-12-tablet is-half-desktop is-one-third-widescreen is-one-quarter-fullhd lifegrow-vertically-aligned">
             <div style="position:relative">
-                <img width="100%" src="{{.Params.img}}">
-                {{ if or (eq .Params.img "") (not (.Params.img)) }}
-                <div>
-                    No Photo
-                </div>
-                {{ end }}
-                {{ if .Params.isEnded }}
-                <div class="workshop-img-overlay" style="background-color:#231F20">已完結</div>
-                {{ end }}
-                {{ if .Params.isDeadline }}
-                <div class="workshop-img-overlay" style="background-color:#006738">已截止</div>
-                {{ end }}
+                <a href="{{.URL}}">
+                    <img width="100%" src="{{.Params.img}}"> {{ if or (eq .Params.img "") (not (.Params.img)) }}
+                    <div>
+                        No Photo
+                    </div>
+                    {{ end }} {{ if .Params.isEnded }}
+                    <div class="workshop-img-overlay" style="background-color:#231F20">已完結</div>
+                    {{ end }} {{ if .Params.isDeadline }}
+                    <div class="workshop-img-overlay" style="background-color:#006738">已截止</div>
+                    {{ end }}
+                </a>
             </div>
             <div class="dp-font-green" style="font-size:16pt">
                 {{.Title}}
             </div>
             <div style="font-size:14pt">
                 日期： {{.Params.workshopDate}}
-                <br>
-                時間： {{.Params.time}}
-                <br>
-                地點： {{.Params.place}}
+                <br> 時間： {{.Params.time}}
+                <br> 地點： {{.Params.place}}
             </div>
             <a class="button workshop-detail-button" href="{{.URL}}">詳情</a>
         </div>

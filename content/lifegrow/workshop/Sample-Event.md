@@ -1,7 +1,7 @@
 ---
-title: This is sample event
+title: 互累症工作坊
 weight: -999
-img: https://images7.alphacoders.com/691/691161.png
+img: http://www.dreamspossible.hk/wp-content/uploads/2013/04/598424_556036501089751_720232053_n.jpg
 workshopDate: 2018年1月21日(星期日)
 time: "下午3至5時"
 place: Unit 10, 19/F, Asia Trade Centre, 79 Lei Muk Road, Kwai Chung, N.T.
@@ -12,5 +12,31 @@ isEnded: false
 isDeadline: true
 
 ---
-<p>This sample event showed the format of the md file.</p>
-<p>This sample event showed the format of the md file. This sample event showed the format of the md file. This sample event showed the format of the md file. This sample event showed the format of the md file. This sample event showed the format of the md file. This sample event showed the format of the md file. This sample event showed the format of the md file. This sample event showed the format of the md file. This sample event showed the format of the md file. This sample event showed the format of the md file. This sample event showed the format of the md file. </p>
+互累症(Codependency)是受害者與加害者的病態共依存,常見徵狀包括:恐懼被拒
+絕、難以說不、覺得不值得被愛、沉溺於滿足別人的需要、幻想犧牲自己去愛、非
+常需要被需要、你我界線糾纏不清、情緒勒索。
+雙方同樣有責:情緒勒索者,利用自憐、責怪、要脅和自殺,令對方內疚及恐懼。
+被勒索者,不懂拒絕,慣性順從,太顧別人,忽略自己,讓勒索者食髓知味,最終
+兩敗俱傷。
+許多人「幫人幫上癮」,愛做拯救者,變成互相拖累的強迫性「依附關係」,「你
+愈墮落,我愈快樂」,在別人身上製造需要。曾有一位單親媽媽,含辛茹苦,兒子
+賭博,欠下巨款,媽媽幫他還債,不惜賣樓借錢,變相支持他繼續賭博。最後母親
+死諫,希望兒子戒賭,結果失足掉樓死亡。兒子繼續賭博,嚇唬姐姐「你不借錢,
+我就像媽媽跳樓」。
+我們都曾捲進「受害者-加害者-拯救者」三角悲劇,不斷換角,互相吸引,樂此
+不疲。譬如,當我以受害者自居,批評伴侶冷漠,却又遷就他,期望改變他,我便
+成為拯救者。但伴侶依然故我,我便萬分委屈,決定向他父母告狀,我便成為加害
+者。伴侶被父母痛責後,非常沮喪。我深感內疚,便再次為他犧牲,渴望他改變。
+我又成為不能自拔的拯救者!
+三角看似互相對立:
+拯救者,居高臨下越俎代庖,說:「如果我不幫他,他會死。」
+受害者,自傷自憐指責對方,說:「我的問題,都是他的錯。」
+迫害者,皇者自居享受操控,說:「她們是無可救藥的死蠢。」
+其實,三角最終都淪為受害者,因為三者骨子裡都是:
+1、恐懼孤獨、用愛操控。
+2、表面自義、實際自卑。
+3、情緒勒索、索取認同。
+但凡捲進三角悲劇,便要懸崖勒馬,訂立「情緒界限」,否則便會揹負別人的情緒
+責任。
+唯獨我為生命成果完全負責任,不要對方負我的責任,也不負對方的責任,三角鬧
+劇便馬上中止。互累症工作坊,讓我們掌握箇中竅門和方法。

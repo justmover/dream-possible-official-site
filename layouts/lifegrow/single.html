@@ -20,10 +20,10 @@
 </header>
 
 <div class="columns center" style="width:100%;background-color:#C5E6DC;padding:30px">
-    <div class="column is-one-third">
+    <div class="column is-3 is-offset-3">
         <img width="100%" src="{{.Params.img}}">
     </div>
-    <div class="column" style="font-weight:bold;font-size:24pt;text-align:left">
+    <div class="column is-3" style="font-weight:bold;font-size:18pt;text-align:left">
         日期： {{.Params.workshopDate}}
         <br>
         時間： {{.Params.time}}
@@ -34,11 +34,13 @@
         <br><br>
         {{.Params.remarks}}
         <br><br>
+        {{ if and (not .Params.isDeadline) (not .Params.isEnded) }}
         <a class="button" style="color:white;background-color:#006738;padding:0% 12%" href="{{.Params.registerlink}}">報名</a>
+        {{ end }}
     </div>
 </div>
 
-<div class="center" style="font-size:14pt;padding:75px 25%">
+<div class="center" style="font-size:14pt;padding:75px 25%;white-space:pre-line">
     {{ .Content }}
 </div>
 
