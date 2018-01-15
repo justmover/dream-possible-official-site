@@ -55,9 +55,11 @@ weight = -90
 dpicon = "/img/logo.svg"
 favicon = "favicon.ico"
 fbicon = "/img/fb_icon.svg"
+fblink = "https://www.facebook.com/339.hk/"
 themecolor = "green"
 title = "自在社"
 youtubeicon = "/img/youtube_icon.svg"
+youtubelink = "https://www.youtube.com/user/Dreamspossible?feature=mhum"
 [[params.homeimg]]
 path = "img/loopbanner1.jpg"
 [[params.homeimg]]
