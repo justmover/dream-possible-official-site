@@ -5,7 +5,7 @@ weight: 1
 menu:
   course:
     weight: 1
-draft: true
+
 
 ---
 <div class="course-content">

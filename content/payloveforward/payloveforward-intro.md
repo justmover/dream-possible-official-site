@@ -37,6 +37,6 @@ boxes:
 menu:
   payloveforward:
     weight: 1
-draft: true
+
 
 ---

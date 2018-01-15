@@ -5,7 +5,7 @@ weight: -110
 menu:
   course:
     weight: 2
-draft: true
+
 
 ---
 This is the list of timetable page.

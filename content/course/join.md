@@ -5,7 +5,7 @@ weight: 0
 menu:
   course:
     weight: 3
-draft: true
+
 
 ---
 <div style="line-height: 24px;"class="course-content is-mobile">
