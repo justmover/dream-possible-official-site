@@ -11,38 +11,27 @@
     {{$section := .Section}} {{ $menus := .Site.Menus }} {{ range $menuTitle, $menuContent := $menus }} {{if eq $menuTitle $section}}
     {{range $menuContent}}
     <button onclick="location.href='{{.URL}}'">{{ .Name }}</button> {{end}} {{end}}{{end}}
-    <a href="http://yrc.dreamspossible.hk/"><button class="courseTitle-button"><img src="/img/JCicon.png"> 賽馬會青年更生教練課程</button></a>
+    <a href="http://yrc.dreamspossible.hk/">
+        <button class="courseTitle-button">
+            <img src="/img/JCicon.png"> 賽馬會青年更生教練課程
+        </button>
+    </a>
 </div>
-<!-- {{$batch := "40"}} -->
 <div class="course-flower">
-    <div class="course-content">
-        <h1 class="center" style="font-weight: bold;color:#006738;position:relative; top: 10px;">/課程時間表/</h1>
-
-
-        <br>
-        <div class="columns timetable">
-            <div class="column ls-2">
-                {{ range $index, $p := .Data.Pages }}
-                <button id="{{.Title}}" style="margin:5px 100px" class="font-bold course-button s overflow {{if eq $index 0}} start-up-active {{end}}">
-                    {{$p.Title}}
-            </button> {{end}}
-                <br>
-                <br>
-            </div>
-            <div class="column ls-9">
-           
-                {{ range .Data.Pages }}
-                <div id="{{.Title}}_content" class="h">
-                    {{.Content}}
-                </div>
-
-                {{end}}
-                <br>
-            </div>
-
+    <h1 class="sub-title center">/課程時間表/</h1>
+    <div class="columns timetable">
+        <div class="column is-3 is-offset-3 center">
+            {{ range $index, $p := .Data.Pages }}
+            <button id="{{.Title}}" style="margin:5px 100px" class="font-bold course-button s overflow {{if eq $index 0}} start-up-active {{end}}">
+                {{$p.Title}}
+            </button>
+            {{end}}
         </div>
-
-
+        {{ range .Data.Pages }}
+        <div id="{{.Title}}_content" class="column is-3 h course-detail">
+            {{.Content}}
+        </div>
+        {{end}}
     </div>
 </div>
 {{ end }}
