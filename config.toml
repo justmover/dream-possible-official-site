@@ -11,36 +11,36 @@ name = "工作坊及活動花絮"
 url = "https://www.facebook.com/pg/339.hk/photos/?tab=albums"
 weight = 2
 [[menu.main]]
-identifier = "lifegrow"
-name = "生 命 成 長 免 費 工 作 坊"
-pre = "<i class='fa fa-road'></i>"
-url = "/lifegrow/"
-weight = 3
-[[menu.main]]
-identifier = "payloveforward"
-name = "Pay Love Forward 義工團隊"
-url = "/payloveforward/"
-weight = 4
-[[menu.main]]
-identifier = "coachtoserve"
-name = "Coach To Serve 服務社會"
-url = "/coachtoserve/"
-weight = 5
-[[menu.main]]
-identifier = "media"
-name = "傳 媒 報 導"
-url = "/media/"
-weight = 6
+identifier = "course"
+name = "生 命 工 作 者 課 程"
+url = "/course/"
+weight = 2
 [[menu.main]]
 identifier = "aboutus"
 name = "關 於 我 們"
 url = "/aboutus/"
 weight = 1
 [[menu.main]]
-identifier = "course"
-name = "生 命 工 作 者 課 程"
-url = "/course/"
-weight = 2
+identifier = "coachtoserve"
+name = "Coach To Serve 服務社會"
+url = "/coachtoserve/"
+weight = 5
+[[menu.main]]
+identifier = "payloveforward"
+name = "Pay Love Forward 義工團隊"
+url = "/payloveforward/"
+weight = 4
+[[menu.main]]
+identifier = "lifegrow"
+name = "生 命 成 長 免 費 工 作 坊"
+pre = "<i class='fa fa-road'></i>"
+url = "/lifegrow/"
+weight = 3
+[[menu.main]]
+identifier = "media"
+name = "傳 媒 報 導"
+url = "/media/"
+weight = 6
 [[menu.main]]
 identifier = "contactus"
 name = "聯 絡 我 們"
