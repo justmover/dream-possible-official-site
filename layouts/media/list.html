@@ -1,6 +1,6 @@
 {{ define "main" }}
 <div class="top-banner-bg-media">
-    {{ partial "topbannertitle" . }}
+    {{ partial "topbannertitle-eng" . }}
 </div>
 
 <div class="tab" id="sub-menu-sticker" style="background-color:#7BAB40;border:0px">
@@ -16,14 +16,14 @@
     </div>
 </div>
 <div class="center" style="color:white;background-color:black;width:100%;padding:30px calc(50% - 350px)">
-    <p style="font-size:24px;text-align:left;padding:5px">{{.Params.topvideotitle}}</p>
+    <p style="font-size:24pt;text-align:left;padding:5px">{{.Params.topvideotitle}}</p>
     <hr>
-    <p style="font-size:14px;text-align:left;padding:5px">{{.Params.topvideodescription}}</p>
+    <p style="font-size:14pt;text-align:left;padding:5px">{{.Params.topvideodescription}}</p>
 </div>
 {{range .Pages}}
 <div class="columns is-multiline" style="width:100%;padding:50px 25%">
-    <div class="column is-12" style="font-size:16px;font-weight:bold">{{.Title}}</div>
-    <div class="column is-12" style="font-size:14px">{{.Params.description}}</div>
+    <div class="column is-12" style="font-size:16pt;font-weight:bold">{{.Title}}</div>
+    <div class="column is-12" style="font-size:14pt">{{.Params.description}}</div>
     {{range $video := .Params.videos}}
     <div class="column is-one-third center">
         <div class="videoWrapper">

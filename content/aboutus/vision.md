@@ -13,7 +13,7 @@ menu:
 <br>
 <div style="position: relative">
     <img style="position: absolute;top: 15%;z-index: 10;left:20%;" src="/img/title.png">
-    <div style="position: absolute;top: 15%;z-index: 10;left:40%;font-size:30px;text-align:justify;color:white;">
+    <div style="position: absolute;top: 15%;z-index: 10;left:40%;font-size:30pt;text-align:justify;color:white;">
         <b style="line-height:250%">自在社群，福澤眾人:</b><br>
         <b style="line-height:250%">我們謙卑地攜手成長，</b><br>
         <b style="line-height:250%">學習成為生命工作者，</b><br>
@@ -24,9 +24,9 @@ menu:
 </div>
 <br>
 <br>
-<h3 style="font-size:26px;text-align:center"> Coach to Serve </h2>
+<h3 style="font-size:26pt;text-align:center"> Coach to Serve </h2>
     <br>
-    <div style="width:50%;text-align:center;margin:0 25%;font-size:14px">
+    <div style="width:50%;text-align:center;margin:0 25%;font-size:14pt">
         <p>我們用心凝聚生命工作者,在貢獻社會的過程中,找回生命的力量和價值。</p>
         <p>「生命工作者」是生命的同行者,用自己的生命,燃亮其他生命。因此,生命工作者必先自我療癒</p>
         <p>,放下批判和投射,方能欣賞生命、感動生命、療癒生命。生命工作者善用生命教練學的專業系統</p>
@@ -37,7 +37,7 @@ menu:
     <br>
     <br>
     <div>
-        <b style="font-size:20px;">這正是DP核心課程三階段(DP-DAG-TTT) 循序漸進的結構 ,</b>
+        <b style="font-size:20pt;">這正是DP核心課程三階段(DP-DAG-TTT) 循序漸進的結構 ,</b>
         <p>也呼應著生命成長的傳統智慧:修身、齊家、治國、平天下。</p>
         <p>自我淨化、助人自助,是一輩子的修煉。</p>
         <br>
@@ -51,7 +51,7 @@ menu:
             <i style="color:#0CA64E">the service of others.</i>
         </h2>
         <br>
-        <b style="font-size:20px;">Coach to Serve,就是讓自己成為生命教練,學習專業技術和心法,貢獻你我她。</b>
+        <b style="font-size:20pt;">Coach to Serve,就是讓自己成為生命教練,學習專業技術和心法,貢獻你我她。</b>
         <p>「生命工作者證書課程」是最佳起點,凝聚有心人,先自我淨化,再貢獻身邊人,charity starts</p>
         <p>at home。然後,透過多元化的社會服務,細水長流,在貢獻別人的過程中,持續內省,讓清淨貢獻</p>
         <p>、團隊協作,變成自我修煉的快道。這種coaching others與self-coaching同時同步發生的社會服</p>

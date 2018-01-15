@@ -17,8 +17,8 @@ menu:
         <img style="" src="/img/pic.jpg">
     </div>
     <div class ="column is-narrow" style="color:white">
-        <p style="font-size:28px;text-align: left;">周華山博士</p>
-        <p style="font-size:16px;text-align: left;">
+        <p style="font-size:28pt;text-align: left;">周華山博士</p>
+        <p style="font-size:16pt;text-align: left;">
         英國約克大學社會學博士,曾在理工大學 (1988-1991年)和
         <br>香港大學 (1994-1998年)教授社會學與心理分析,著書30本
         <br>。1999年,到雲南山區「女兒國」生活了四年,進行學術

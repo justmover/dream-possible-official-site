@@ -75,7 +75,7 @@ src="https://www.google.com/maps/embed/v1/place?q=%E7%81%A3%E4%BB%94%E7%9A%87%E5
 
 <!-- <div style="background: #5AC1A7">
     <div class="columns is-centered">
-        <div class="column col-4" style="font-size:28px; color:white;">
+        <div class="column col-4" style="font-size:28pt; color:white;">
             查 詢
         </div>
     </div>

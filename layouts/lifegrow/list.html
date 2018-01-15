@@ -1,6 +1,6 @@
 {{ define "main" }}
 <div class="top-banner-bg-lifegrow">
-    {{ partial "topbannertitle" . }}
+    {{ partial "topbannertitle-eng" . }}
 </div>
 <div class="tab" id="sub-menu-sticker" style="background-color:#1A91BA;border:0px">
     {{$section := .Section}} {{ $menus := .Site.Menus }} {{ range $menuTitle, $menuContent := $menus }} {{if eq $menuTitle $section}}
@@ -39,10 +39,10 @@
                 <div class="workshop-img-overlay" style="background-color:#006738">已截止</div>
                 {{ end }}
             </div>
-            <div class="dp-font-green" style="font-size:16px">
+            <div class="dp-font-green" style="font-size:16pt">
                 {{.Title}}
             </div>
-            <div style="font-size:14px">
+            <div style="font-size:14pt">
                 日期： {{.Params.workshopDate}}
                 <br>
                 時間： {{.Params.time}}

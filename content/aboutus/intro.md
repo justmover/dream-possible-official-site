@@ -18,14 +18,14 @@ menu:
 <div class="columns" style="width:45%; margin:0 27.5% 0 27.5%;">
 
   <div class="column" style="background:#B5DFD6; padding: 10px 10px 10px 10px; border-style:solid;  border-width: 0 20px 0 0; border-color:white">
-    <p style="font-size:14px">
-      <b style="font-size:16px; color:#006738">「生命工作者證書課程」是DP的核心課程</b>，由創辦人兼全職義務導師周華山博士悉心研究，結合他多年大學教授的紮實理論，豐富的培訓經驗，及個人的真摯實踐。整個課程分三階段進行，為期五個月，讓學員有系統、持續地進修和轉化。</p>
+    <p style="font-size:14pt">
+      <b style="font-size:16pt; color:#006738">「生命工作者證書課程」是DP的核心課程</b>，由創辦人兼全職義務導師周華山博士悉心研究，結合他多年大學教授的紮實理論，豐富的培訓經驗，及個人的真摯實踐。整個課程分三階段進行，為期五個月，讓學員有系統、持續地進修和轉化。</p>
   </div>
 
   <div class="column" style="background:#B5DFD6; padding: 10px 10px 10px 10px; border-style:solid;  border-width: 0 20px 0 0; border-color:white">
-    <p style="font-size:14px">
+    <p style="font-size:14pt">
       DP是義工為本的社群，在生命工作中實踐清淨貢獻和 大愛精神。
-      <b style="font-size:16px; color:#006738"> 我們視自己為「生命工作者」</b>，用自己的生命啟發和支持其他生命。我們走在一起，為了持續學習療癒和淨化「自己」，放下批判和投射，接納生命、感動生命、療癒生命。</p>
+      <b style="font-size:16pt; color:#006738"> 我們視自己為「生命工作者」</b>，用自己的生命啟發和支持其他生命。我們走在一起，為了持續學習療癒和淨化「自己」，放下批判和投射，接納生命、感動生命、療癒生命。</p>
   </div>
 
 </div>

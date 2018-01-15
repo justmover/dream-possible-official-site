@@ -1,7 +1,7 @@
 {{ define "main" }}
 
 <div class="top-banner-bg-lifegrow">
-    {{ partial "topbannertitle" . }}
+    {{ partial "topbannertitle-eng" . }}
 </div>
 
 <div class="tab" id="sub-menu-sticker" style="background-color:#1A91BA;border:0px" id="sub-menu-sticker">
@@ -23,7 +23,7 @@
     <div class="column is-one-third">
         <img width="100%" src="{{.Params.img}}">
     </div>
-    <div class="column" style="font-weight:bold;font-size:24px;text-align:left">
+    <div class="column" style="font-weight:bold;font-size:24pt;text-align:left">
         日期： {{.Params.workshopDate}}
         <br>
         時間： {{.Params.time}}
@@ -38,7 +38,7 @@
     </div>
 </div>
 
-<div class="center" style="font-size:14px;padding:75px 25%">
+<div class="center" style="font-size:14pt;padding:75px 25%">
     {{ .Content }}
 </div>
 

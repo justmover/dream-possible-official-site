@@ -24,11 +24,11 @@
                 <img src="{{$box.logo}}" alt="{{.Title}}">
             </div>
             <div style="background-color:{{$box.color}};padding:15px 25px;color:white">
-                <div style="padding:20px;font-size:14px">
+                <div style="padding:20px;font-size:14pt">
                     {{ $box.description }}
                 </div>
                 {{ if or (not (eq $box.readmore "")) ($box.readmore) }}
-                <a class="button outline" style="background-color:{{$box.color}};color:white;font-size:24px;padding:0% 15%" href="{{$box.readmore}}">查看更多</a>
+                <a class="button outline" style="background-color:{{$box.color}};color:white;font-size:24pt;padding:0% 15%" href="{{$box.readmore}}">查看更多</a>
                 {{ end }}
             </div>
         </div>
