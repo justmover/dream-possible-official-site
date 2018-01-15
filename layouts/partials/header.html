@@ -67,7 +67,7 @@
 					{{ if eq $mainTitle $menuTitle}}
 					{{$len := len $menuContent}}
 					<!-- To toggle the submenu -->
-				<div id="{{$mainTitle}}" class="mobile-columns-toggle level is-mobile mobile-columns-title" style="box-shadow: 4px 1px 20px 0px white">
+				<div id="{{$mainTitle}}" class="mobile-columns-toggle level is-mobile mobile-columns-title" style="border-bottom: white 0.5px solid;">
 					<!-- when only have 1 item, add the href directly to the title -->
 					{{if eq $len 1}}
 					{{ range first 1 $menuContent }}
@@ -122,10 +122,10 @@
 			<div class="mobile-menu-title"> <img style="filter: brightness(0) invert(1);" src="/img/course_icon.png"> 賽 馬 會 青 年 更 新 <br> 教 練 計 劃</div>
 		</div>
 		<div class="columns is-mobile is-centered is-variable is-3" style="margin:0">
-			<div class="column is-4" >
+			<div class="column is-3" >
 				<img style="width:100%" src="{{ .Site.Params.fbicon }}">
 			</div>
-			<div class="column is-4" >
+			<div class="column is-3" >
 				<img style="width:100%" src="{{ .Site.Params.youtubeicon }}">
 			</div>
 		</div>
