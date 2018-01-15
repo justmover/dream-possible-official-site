@@ -1,8 +1,4 @@
 ---
-pages:
-- lifegrow/workshop/test123.md
-- lifegrow/workshop/test.md
-- lifegrow/workshop/focus.md
 hide_body: false
 fields:
 - type: number
