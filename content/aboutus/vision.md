@@ -11,7 +11,7 @@ menu:
     <h2 class="bold content-title"> / 信 念 宣 言 、願 景 及 使 命 /</h2>
 </div>
 <br>
-<div style="position: relative">
+<!-- <div style="position: relative">
     <img style="position: absolute;top: 15%;z-index: 10;left:20%;" src="/img/title.png">
     <div style="position: absolute;top: 15%;z-index: 10;left:40%;font-size:30pt;text-align:justify;color:white;">
         <b style="line-height:250%">自在社群，福澤眾人:</b><br>
@@ -21,9 +21,20 @@ menu:
         <b style="line-height:250%">創造細水長流的社群。</b>
     </div>
     <img src="/img/bird_bg.jpg">
+</div> -->
+<div class="vision-container">
+    <div class="background">
+        <img class="logo" src="/img/title.png">
+        <div class="slogan">
+            <b style="line-height:200%;">自在社群，福澤眾人：</b><br>
+            <b style="line-height:200%;">我們謙卑地攜手成長，</b><br>
+            <b style="line-height:200%;">學習成為生命工作者，</b><br>
+            <b style="line-height:200%;">活現表裡合一感染力，</b><br>
+            <b style="line-height:200%;">創造細水長流的社群。</b>
+        </div>
+        <img class="is-hidden-mobile" src="/img/bird_bg.jpg">
+    </div>
 </div>
-<br>
-<br>
 <h3 style="font-size:26pt;text-align:center"> Coach to Serve </h2>
     <br>
     <div style="width:50%;text-align:center;margin:0 25%;font-size:14pt">

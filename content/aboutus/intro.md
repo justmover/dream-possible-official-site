@@ -15,7 +15,7 @@ menu:
   <img style="width:70%" src="/img/DP_map.png">
 </div>
 
-<div class="columns" style="width:45%; margin:0 27.5% 0 27.5%;">
+<div class="columns" style="width:65%; margin:0 17.5% 0 17.5%;">
 
   <div class="column" style="background:#B5DFD6; padding: 10px 10px 10px 10px; border-style:solid;  border-width: 0 20px 0 0; border-color:white">
     <p style="font-size:14pt">

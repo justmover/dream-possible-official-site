@@ -339,7 +339,7 @@
 
 .top-banner-words-eng {
     position: absolute;
-    left: 50vw;
+    left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
 }
@@ -349,6 +349,7 @@
     font-size: 28px;
     color: white;
     text-shadow: 1.5px 1.5px black;
+    white-space: pre;
 }
 
 .course-content {
@@ -508,4 +509,44 @@
 	left: 0;
 	width: 100%;
 	height: 100%;
+}
+
+.vision-container {
+    position: relative;
+}
+.vision-container .logo {
+    position: absolute;
+    top: 15%;
+    z-index: 10;
+    left:20%;
+}
+
+.vision-container .slogan {
+    position: absolute;
+    top: 15%;
+    z-index: 10;
+    left:40%;
+    font-size: 25pt;
+    text-align:justify;
+    color:white;
+}
+
+.vision-container .background {
+    background-color: #174931;
+}
+
+@media screen and (max-width: 768px) {
+
+    .vision-container .logo {
+        position: static;
+        margin: 10px 0;
+ 
+    }
+
+    .vision-container .slogan {
+        position: static;
+        text-align: center;
+        font-size: 18pt;
+    }
+
 }
