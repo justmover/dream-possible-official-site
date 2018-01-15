@@ -53,7 +53,7 @@ url = "https://www.youtube.com/user/Dreamspossible?feature=mhum"
 weight = 2
 [params]
 dpicon = "/img/logo.svg"
-favicon = "/uploads/2018/01/11/logo.svg"
+favicon = "favicon.ico"
 fbicon = "/img/fb_icon.svg"
 fblink = "https://www.facebook.com/339.hk/"
 themecolor = "green"
