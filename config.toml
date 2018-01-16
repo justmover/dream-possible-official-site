@@ -11,53 +11,42 @@ name = "工作坊及活動花絮"
 url = "https://www.facebook.com/pg/339.hk/photos/?tab=albums"
 weight = 2
 [[menu.main]]
-identifier = "course"
-name = "生命工作者\n課程"
-url = "/course/"
-weight = 2
-[[menu.main]]
-identifier = "coachtoserve"
-name = "Coach To Serve\n服務社會"
-url = "/coachtoserve/"
-weight = 5
-[[menu.main]]
-identifier = "payloveforward"
-name = "Pay Love Forward\n義工團隊"
-url = "/payloveforward/"
-weight = 4
-[[menu.main]]
-identifier = "lifegrow"
-name = "生命成長\n免費工作坊"
+identifier = "contactus"
+name = "聯絡我們"
 pre = "<i class='fa fa-road'></i>"
-url = "/lifegrow/"
-weight = 3
-[[menu.main]]
-identifier = "aboutus"
-name = "關於我們"
-url = "/aboutus/"
-weight = 1
-[[menu.main]]
-identifier = "payloveforward"
-name = "Pay Love Forward\n義工團隊"
-url = "/payloveforward/"
-weight = 4
-[[menu.main]]
-identifier = "lifegrow"
-name = "生命成長\n免費工作坊"
-pre = "<i class='fa fa-road'></i>"
-url = "/lifegrow/"
-weight = 3
+url = "/contactus/"
+weight = 7
 [[menu.main]]
 identifier = "media"
 name = "傳媒報導"
 url = "/media/"
 weight = 6
 [[menu.main]]
-identifier = "contactus"
-name = "聯絡我們"
+identifier = "aboutus"
+name = "關於我們"
+url = "/aboutus/"
+weight = 1
+[[menu.main]]
+identifier = "lifegrow"
+name = "生命成長\n免費工作坊"
 pre = "<i class='fa fa-road'></i>"
-url = "/contactus/"
-weight = 7
+url = "/lifegrow/"
+weight = 3
+[[menu.main]]
+identifier = "payloveforward"
+name = "Pay Love Forward\n義工團隊"
+url = "/payloveforward/"
+weight = 4
+[[menu.main]]
+identifier = "coachtoserve"
+name = "Coach To Serve\n服務社會"
+url = "/coachtoserve/"
+weight = 5
+[[menu.main]]
+identifier = "course"
+name = "生命工作者\n課程"
+url = "/course/"
+weight = 2
 [[menu.media]]
 name = "YouTube頻道"
 url = "https://www.youtube.com/user/Dreamspossible?feature=mhum"

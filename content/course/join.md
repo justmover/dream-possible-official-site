@@ -6,7 +6,6 @@ menu:
   course:
     weight: 3
 
-
 ---
 <div style="line-height: 24px;"class="course-content is-mobile">
 <img src="/img/coursefee.png" style="width:100%">

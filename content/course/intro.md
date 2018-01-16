@@ -6,7 +6,6 @@ menu:
   course:
     weight: 1
 
-
 ---
 <div class="course-content">
 
