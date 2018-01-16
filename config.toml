@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://justmover.github.io/public-dp-official-site/"
 languageCode = "en-us"
 theme = "hugo-steam"
 title = "Dream Possible"
