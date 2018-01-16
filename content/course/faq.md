@@ -10,7 +10,7 @@ draft: true
 ---
 <div class="course-content">
 <br>
-<ul style="list-style:none" class="faq" >
+<ul style="list-style:none; margin-left: 0px;" class="faq" >
 
  
 

@@ -11,7 +11,7 @@ menu:
     <h2 class="bold content-title"> / 創 辦 人 周 華 山 /</h2>
 </div>
 <br>
-<div style="position: relative; background-image:url(/img/bird_bg.jpg); background-repeat: no-repeat; background-size: cover;">
+<div class="founder-intro-container">
     <div class ="columns is-centered" style="padding: 2% 0">
     <div class ="column is-narrow">
         <img style="" src="/img/pic.jpg">
@@ -38,7 +38,6 @@ menu:
             <div class="column" style="background-color: #00A74F; position:relative">
                 <div class="founder-column">
                     <div class="founder-column-title">華山隨筆</div>
-                    <br>
                     <div class="founder-read">查看</div>
                 </div>
             </div>
@@ -54,7 +53,6 @@ menu:
             <div class="column" style="background-color: #77CABC; position: relative">
                 <div class="founder-column">
                     <div class="founder-column-title">書刊</div>
-                    <br>
                     <div class="founder-read">查看</div>
                 </div>
             </div>

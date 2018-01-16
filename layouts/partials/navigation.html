@@ -1,13 +1,13 @@
 {{ $menus := .Site.Menus }} {{ if $menus }}
-<div class="menu green-background" style="height: 100%" role="nav">
-    <div class="columns" style="margin: 0 10%">
+<div class="menu green-background" style="height: 100%;" role="nav">
+    <div class="columns is-gapless" style="margin: 0 10%;">
         {{ range .Site.Menus.main }} {{ $menuName := .Name }} {{ $mainTitle := .Identifier }} 
         {{ range $menuTitle, $menuContent := $menus }} {{ if eq $mainTitle $menuTitle}} {{ range first 1 $menuContent }}
-        <div class="nav column" style="padding: 0">
+        <div class="nav column navigation-padding-column">
             <a href="{{ .URL}}" style="width: 100%">
-                <div style="position: relative">
+                <div class="navigation-container">
                     <b class="text-overlay">{{ $menuName }}</b>
-                    <div class="menu-image" >                        
+                    <div class="menu-image is-hidden-mobile">                        
                         <img width="100%" src="{{$.Site.BaseURL}}/img/{{$menuTitle}}_btn.jpg">
                     </div>
                 </div>
@@ -15,6 +15,18 @@
         </div>
 
         {{ end }} {{end}} {{end}} {{end}}
+        <div class="is-flex-mobile is-hidden-tablet text-center">
+            <div class="column">
+                <a href="{{ .Site.Params.youtubelink }}" target="_brank">    
+                    <img style="width:50%" src="{{ .Site.Params.youtubeicon }}">
+                </a>
+            </div>
+            <div class="column">
+                <a href="{{ .Site.Params.fblink }}" target="_brank">
+                    <img style="width:50%" src="{{ .Site.Params.fbicon }}">
+                </a>
+            </div>
+        </div>
     </div>
 
 </div>

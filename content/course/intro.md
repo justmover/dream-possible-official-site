@@ -32,9 +32,9 @@ draft: true
 <img src="/img/course_level.png">
 
 
-<p class="center">
+<p class="text-left margin-top-bottom-15">
 完成上述三階段後，學員還可以免費參加為期七週的生命教練培訓班，在導師與資深教練的指導下持續
-磨練，掌握生命工作者的專業技巧，包括<br>
+磨練，掌握生命工作者的專業技巧，包括
 <font class="dp-font-lightGreen font-bold">情感連線的藝術、欣賞正向出發點的竅門、高效溝通的發問心
 法與方法、情緒轉化的秘訣，以及生命教練自我修煉的終極方法及具體技術</font>，創造圓滿人生。</p>
 
