@@ -136,14 +136,14 @@
 @media screen and (max-width: 768px) {
 
     .menu .columns div.navigation-padding-column {
-        padding: 5px 0px!important;
+        padding: 8px 0px!important;
     }
 
     .navigation-container {
         position: relative;
         width: 100%;
         text-align: center;
-        border-bottom: 0.5px white solid;
+        border-bottom: 0.5px rgb(109, 165, 138) solid;
     }
     .navigation-container .text-overlay {
         font-size: 1.2rem;
@@ -218,6 +218,7 @@
 }
 
 .course-flower h1.sub-title {
+    padding-top: 50px;
     font-weight: bold;
     color:#006738;
 }
