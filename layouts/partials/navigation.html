@@ -15,15 +15,15 @@
         </div>
 
         {{ end }} {{end}} {{end}} {{end}}
-        <div class="is-flex-mobile is-hidden-tablet text-center">
-            <div class="column">
-                <a href="{{ .Site.Params.youtubelink }}" target="_blank">    
-                    <img style="width:50%" src="/img/youtube_icon.svg">
+        <div class="columns is-hidden-tablet is-mobile is-centered is-variable is-3" style="margin:0 auto;">
+            <div class="column is-3 text-center">
+                <a href="{{ .Site.Params.youtubelink}}" target="_blank">
+                    <img style="width:80%" src="/img/youtube_icon.svg">
                 </a>
             </div>
-            <div class="column">
-                <a href="{{ .Site.Params.fblink }}" target="_blank">
-                    <img style="width:50%" src="/img/fb_icon.svg">
+            <div class="column is-3 text-center">
+                <a href="{{ .Site.Params.fblink}}" target="_blank">
+                    <img style="width:80%" src="/img/fb_icon.svg">
                 </a>
             </div>
         </div>
