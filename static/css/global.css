@@ -596,43 +596,32 @@
 }
 
 /* Vision style */
-
-.vision-container {
-    position: relative;
-}
-.vision-container .logo {
-    position: absolute;
-    top: 15%;
-    z-index: 10;
-    left:20%;
+.vision-container .background {
+    background-image: url('/img/bird_bg.jpg');
+    background-position-x: 50%;
+    padding: 30px;
 }
 
-.vision-container .slogan {
-    position: absolute;
-    top: 15%;
-    z-index: 10;
-    left:40%;
-    font-size: 25pt;
+.vision-container .slogan b{
+    line-height: 200%;
+    font-size: 20pt;
     text-align:justify;
     color:white;
+    
 }
-
-.vision-container .background {
-    background-color: #174931;
-}
-
 @media screen and (max-width: 768px) {
-
+    
+    .vision-container .background {
+        background-color: #174931;
+        background-image: none;
+    }
     .vision-container .logo {
         position: static;
         margin: 10px 0;
- 
     }
-
     .vision-container .slogan {
         position: static;
         text-align: center;
         font-size: 18pt;
     }
-
 }
