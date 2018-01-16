@@ -14,15 +14,15 @@ menu:
 <div class="founder-intro-container">
     <div class ="columns is-centered" style="padding: 2% 0">
     <div class ="column is-narrow">
-        <img style="" src="/img/pic.jpg">
+        <img style="" src="/img/wahshan.jpg">
     </div>
     <div class ="column is-narrow" style="color:white">
         <p style="font-size:28pt;text-align: left;">周華山博士</p>
         <p style="font-size:16pt;text-align: left;">
         英國約克大學社會學博士,曾在理工大學 (1988-1991年)和
         <br>香港大學 (1994-1998年)教授社會學與心理分析,著書30本
-        <br>。1999年,到雲南山區「女兒國」生活了四年,進行學術
-        <br>研究,返港後在一間情緒病友協會做總幹事。周華山擁有心
+        <br>。1999年,到雲南山區「女兒國」生活了五年,進行學術
+        <br>研究,返港後在一間情緒病友協會擔任總幹事。周華山擁有心
         <br>理劇治療、情緒治理、家庭治療、催眠治療等專業訓練證書
         <br>;2006年創辦自在社,2013年成為自在社全職義務導師,
         <br>2014年與數位身心靈前輩發起身心靈平台。

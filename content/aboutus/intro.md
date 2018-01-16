@@ -12,7 +12,7 @@ menu:
 <br>
 
 <div style="width:100%">
-  <img style="width:70%" src="/img/DP_map.png">
+  <img style="width:70%" src="/img/org_chart.png">
 </div>
 
 <div class="columns" style="width:65%; margin:0 17.5% 0 17.5%;">
@@ -25,7 +25,7 @@ menu:
   <div class="column" style="background:#B5DFD6; padding: 10px 10px 10px 10px; border-style:solid;  border-width: 0 20px 0 0; border-color:white">
     <p style="font-size:14pt">
       DP是義工為本的社群，在生命工作中實踐清淨貢獻和 大愛精神。
-      <b style="font-size:16pt; color:#006738"> 我們視自己為「生命工作者」</b>，用自己的生命啟發和支持其他生命。我們走在一起，為了持續學習療癒和淨化「自己」，放下批判和投射，接納生命、感動生命、療癒生命。</p>
+      <b style="font-size:16pt; color:#006738"> 我們都是「生命工作者」</b>，用自己的生命啟發和支持其他生命。我們走在一起，為了持續學習療癒和淨化「自己」，放下批判和投射，接納生命、感動生命、療癒生命。</p>
   </div>
 
 </div>
