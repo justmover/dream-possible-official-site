@@ -36,17 +36,7 @@
         $(".mobile-sub-menu").hide();
 
         $(".mobile-columns-toggle").click(function (e) {
-            console.log("test");
-            console.log(e.target.id);
-            var id = e.target.id;
-            if (id == "") {
-                id = e.target.parentElement.id;
-                console.log(id.substring(0,6));
-                if (id == "" || id.substring(0,6) == "mobile") {
-                    id = e.target.parentElement.parentElement.id;
-                }
-
-            }
+            var id = e.currentTarget.id 
 
             $("#mobile-" + id + "-sub-menu").slideToggle("fast");
             $("#mobile-" + id + "-down").toggle();
@@ -55,7 +45,7 @@
         )
 
     });
-    function toggleSubMenu(id) {
+    /* function toggleSubMenu(id) {
         console.log(id);
         var subMenu = document.getElementById("mobile-" + id + "-sub-menu");
         var down = document.getElementById("mobile-" + id + "-down");
@@ -78,7 +68,7 @@
         } else {
             down.style.display = "none";
         }
-    }
+    } */
 </script>
 
 <script>
