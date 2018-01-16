@@ -72,23 +72,27 @@
 					{{if eq $len 1}}
 					{{ range first 1 $menuContent }}
 					
-					<a href="{{ .URL}}" style="width:100%">
+					<a href="{{ .URL}}">
 					{{ end }}
 					{{end}}
+					<div class="level-left">
 						<div class="level-item" style="padding: 0">						
 							<div class="mobile-menu-title">{{ $menuName }}</div>		
 						</div>
+					</div>
 					{{if eq $len 1}}
 					</a>
 					{{end}}
 					<!-- when more 1 item, show the arrow -->
 					{{if gt $len 1}}
 					<!-- arrow of up and down -->
-					<div id="mobile-{{$mainTitle}}-down" class="level-item is-narrow">
-						<i class="fa fa-angle-down mobile-menu-arrow" aria-hidden="true"></i>
-					</div>
-					<div id="mobile-{{$mainTitle}}-up" class="level-item is-narrow" style="display:none">
-						<i class="fa fa-angle-up mobile-menu-arrow" aria-hidden="true"></i>
+					<div class="level-right">
+						<div id="mobile-{{$mainTitle}}-down" class="level-item is-narrow">
+							<i class="fa fa-angle-down mobile-menu-arrow" aria-hidden="true"></i>
+						</div>
+						<div id="mobile-{{$mainTitle}}-up" class="level-item is-narrow" style="display:none">
+							<i class="fa fa-angle-up mobile-menu-arrow" aria-hidden="true"></i>
+						</div>
 					</div>
 					{{ end }}
 					

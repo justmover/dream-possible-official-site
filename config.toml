@@ -1,4 +1,4 @@
-baseURL = "https://justmover.github.io/public-dp-official-site/"
+baseURL = "http://example.org/"
 languageCode = "en-us"
 theme = "hugo-steam"
 title = "Dream Possible"
@@ -12,49 +12,49 @@ url = "https://www.facebook.com/pg/339.hk/photos/?tab=albums"
 weight = 2
 [[menu.main]]
 identifier = "course"
-name = "生 命 工 作 者 \n 課 程"
+name = "生命工作者\n課程"
 url = "/course/"
 weight = 2
 [[menu.main]]
 identifier = "coachtoserve"
-name = "Coach To Serve \n 服 務 社 會"
+name = "Coach To Serve\n服務社會"
 url = "/coachtoserve/"
 weight = 5
 [[menu.main]]
 identifier = "payloveforward"
-name = "Pay Love Forward \n 義 工 團 隊"
+name = "Pay Love Forward\n義工團隊"
 url = "/payloveforward/"
 weight = 4
 [[menu.main]]
 identifier = "lifegrow"
-name = "生 命 成 長 \n 免 費 工 作 坊"
+name = "生命成長\n免費工作坊"
 pre = "<i class='fa fa-road'></i>"
 url = "/lifegrow/"
 weight = 3
 [[menu.main]]
 identifier = "aboutus"
-name = "關 於 我 們"
+name = "關於我們"
 url = "/aboutus/"
 weight = 1
 [[menu.main]]
 identifier = "payloveforward"
-name = "Pay Love Forward 義工團隊"
+name = "Pay Love Forward\n義工團隊"
 url = "/payloveforward/"
 weight = 4
 [[menu.main]]
 identifier = "lifegrow"
-name = "生 命 成 長 免 費 工 作 坊"
+name = "生命成長\n免費工作坊"
 pre = "<i class='fa fa-road'></i>"
 url = "/lifegrow/"
 weight = 3
 [[menu.main]]
 identifier = "media"
-name = "傳 媒 報 導"
+name = "傳媒報導"
 url = "/media/"
 weight = 6
 [[menu.main]]
 identifier = "contactus"
-name = "聯 絡 我 們"
+name = "聯絡我們"
 pre = "<i class='fa fa-road'></i>"
 url = "/contactus/"
 weight = 7
