@@ -477,9 +477,13 @@
     text-align: center !important;
 }
 
-.founder-letter p {
+.founder-letter {
     font-size: 14px;
     text-align: left;
+    width:100%;
+    padding: 0 25% !important;
+    white-space:pre-line !important; 
+    line-height: 20pt;
 }
 
 .faq li {
