@@ -1,4 +1,6 @@
 ---
+pages:
+- course/timetable/dp11.md
 hide_body: false
 fields:
 - name: title
