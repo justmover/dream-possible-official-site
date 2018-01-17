@@ -69,5 +69,6 @@ fblink = "https://www.facebook.com/339.hk/"
 themecolor = "green"
 title = "自在社"
 youtubelink = "https://www.youtube.com/user/Dreamspossible?feature=mhum"
+jc_yrc_link = "http://yrc.dreamspossible.hk/"
 [[params.headerbanner]]
 path = "img/loopbanner1.jpg"
