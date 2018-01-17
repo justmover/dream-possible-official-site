@@ -7,6 +7,7 @@ img: "/img/ppls-02.png"
 layout: team_detail
 place: d2
 menu:
-  team: {}
+  team:
+    weight: 7
 
 ---

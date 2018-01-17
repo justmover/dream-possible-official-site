@@ -7,6 +7,7 @@ img: "/img/athena_au.png"
 layout: team_detail
 place: t1
 menu:
-  team: {}
+  team:
+    weight: 8
 
 ---

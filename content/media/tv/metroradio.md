@@ -15,6 +15,6 @@ videos:
   link: https://www.youtube.com/embed/j0lQXJAVeX0
 menu:
   radio:
-    weight: 3
+    weight: 2
 
 ---

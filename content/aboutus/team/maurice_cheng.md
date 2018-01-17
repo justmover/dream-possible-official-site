@@ -7,6 +7,7 @@ img: "/img/ppls-01.png"
 layout: team_detail
 place: d1
 menu:
-  team: {}
+  team:
+    weight: 4
 
 ---

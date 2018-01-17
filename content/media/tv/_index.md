@@ -6,7 +6,7 @@ topvideotitle: "電視節目"
 topvideodescription: "電視"
 menu:
   media:
-    weight: 1
+    weight: 2
 
 ---
 This page needed to keep in order to display the menu.

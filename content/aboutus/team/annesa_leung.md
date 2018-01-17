@@ -9,6 +9,7 @@ img: "/img/ppls-03.png"
 layout: team_detail
 place: d3
 menu:
-  team: {}
+  team:
+    weight: 9
 
 ---

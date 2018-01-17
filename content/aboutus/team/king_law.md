@@ -7,6 +7,6 @@ img: "/img/ppls-04.png"
 place: d4
 menu:
   team:
-    weight: 1
+    weight: 10
 
 ---
