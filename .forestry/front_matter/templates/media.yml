@@ -1,0 +1,33 @@
+---
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+  config:
+    required: true
+- type: number
+  name: weight
+  label: Weight
+  config:
+    required: true
+  hidden: false
+- type: textarea
+  name: description
+  label: Description
+  config:
+    wysiwyg: false
+- type: field_group
+  label: videos
+  name: videos
+  fields:
+  - type: text
+    name: name
+    label: name
+    config:
+      required: true
+  - type: text
+    name: link
+    label: link
+    config:
+      required: true
