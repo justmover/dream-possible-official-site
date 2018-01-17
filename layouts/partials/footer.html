@@ -1,6 +1,6 @@
 	<div class="desktop-footer menu green-background" role="nav" style="border: none; padding: 5% 15%; height:100%">
 		<div class="columns is-centered" style="text-align:left; table-layout: fixed; margin: 0;width: 100%">
-			
+			{{ $yrc := .Site.Params.jc_yrc_link}}
 			{{ $currentPage := . }}
 			{{ $menus := .Site.Menus }}
 			{{ range .Site.Menus.main }}
@@ -26,7 +26,7 @@
 				{{if eq $mainTitle "course"}}
 				<div class="columns" style="margin: 0; width: 100%;">
 					<div class="column">
-						<a style="color: white" href="{{.Site.Params.jc_yrc_link}}"> 賽馬會青年更生<br>教練課程 </a>
+						<a style="color: white" href="{{$yrc}}"> 賽馬會青年更生<br>教練課程 </a>
 					</div>							
 				</div>
 				{{end}}
