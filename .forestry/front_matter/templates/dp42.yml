@@ -1,0 +1,23 @@
+---
+hide_body: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: weight
+  label: Weight
+  type: text
+  hidden: false
+  default: ''
+- name: type
+  label: Type
+  type: text
+  hidden: false
+  default: ''
+- name: batch
+  label: Batch
+  type: text
+  hidden: false
+  default: ''
