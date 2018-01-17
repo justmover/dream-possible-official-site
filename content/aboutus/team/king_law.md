@@ -7,5 +7,5 @@ img: "/img/ppls-04.png"
 menu:
   team:
     weight: 1
-
+place: d4
 ---

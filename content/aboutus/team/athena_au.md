@@ -7,5 +7,5 @@ img: "/img/athena_au.png"
 layout: team_detail
 menu:
   team: {}
-
+place: t1
 ---

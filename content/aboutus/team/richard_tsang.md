@@ -8,5 +8,5 @@ img: "/img/ppls-05.png"
 layout: team_detail
 menu:
   team: {}
-
+place: d5
 ---
