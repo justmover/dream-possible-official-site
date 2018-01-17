@@ -7,5 +7,5 @@ img: "/img/ppls-01.png"
 layout: team_detail
 menu:
   team: {}
-
+place: d1
 ---
