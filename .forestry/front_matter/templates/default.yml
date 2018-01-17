@@ -1,8 +1,4 @@
 ---
-pages:
-- course/timetable/dp43.md
-- course/timetable/dp10.md
-- course/timetable/dp11.md
 hide_body: false
 fields:
 - name: title
