@@ -1,6 +1,4 @@
 ---
-pages:
-- lifegrow/workshop/test-workshop.md
 hide_body: false
 fields:
 - type: number
