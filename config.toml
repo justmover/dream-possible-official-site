@@ -55,9 +55,9 @@ weight = 2
 dpicon = "/img/logo.svg"
 favicon = "favicon.ico"
 fblink = "https://www.facebook.com/339.hk/"
+jc_yrc_link = "http://yrc.dreamspossible.hk/"
 themecolor = "green"
 title = "自在社"
 youtubelink = "https://www.youtube.com/user/Dreamspossible?feature=mhum"
-jc_yrc_link = "http://yrc.dreamspossible.hk/"
 [[params.headerbanner]]
 path = "img/loopbanner1.jpg"

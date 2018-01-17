@@ -5,7 +5,8 @@ intro: Athena 是資深護士，具二十多年醫療行政經驗，並曾任護
   亦會定期帶領不同的體驗式轉化工作坊，支持參加者探索及突破過去扭曲的信念，療癒創傷；重新啓動生命力。
 img: "/img/athena_au.png"
 layout: team_detail
+place: t1
 menu:
   team: {}
-place: t1
+
 ---

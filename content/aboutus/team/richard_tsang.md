@@ -6,7 +6,8 @@ intro: DP讓大家的人生多一個選擇與社群同行已是第9年了，本�
   也可以是Possible，同時也讓自己實踐一下團隊的感染力，於是我為自己人生，作出了一個特別的選擇。
 img: "/img/ppls-05.png"
 layout: team_detail
+place: d5
 menu:
   team: {}
-place: d5
+
 ---

@@ -7,7 +7,8 @@ intro: "十年前，我開始探索何謂人生？何謂生命？我去不同嘅
   於是，我帶著改善自己和貢獻他人的意願、持之以恆的行動力、和一顆慈悲善良感恩的心，加入DP董事局，以義工服務修心、修行、修煉。"
 img: "/img/ppls-03.png"
 layout: team_detail
+place: d3
 menu:
   team: {}
-place: d3
+
 ---
