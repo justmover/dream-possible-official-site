@@ -16,8 +16,3 @@ fields:
   type: text
   hidden: false
   default: ''
-- name: batch
-  label: Batch
-  type: text
-  hidden: false
-  default: ''
