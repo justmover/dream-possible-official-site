@@ -1,7 +1,7 @@
 +++
 date = "2018-01-21T02:17:13+00:00"
 img = "/uploads/2018/01/20/1.home_loopbanner.jpg"
-isDeadline = false
+isDeadline = true
 place = ""
 registerlink = ""
 remarks = ""
