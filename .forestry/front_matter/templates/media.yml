@@ -28,3 +28,9 @@ fields:
       required: true
   config:
     labelField: name
+- type: datetime
+  name: date
+  label: date
+  hidden: true
+  config:
+    time_format: h:mm A
