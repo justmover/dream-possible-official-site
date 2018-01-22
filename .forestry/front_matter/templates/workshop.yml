@@ -1,5 +1,6 @@
 ---
 pages:
+- lifegrow/workshop/test-without-date.md
 - lifegrow/workshop/test-add-workshop.md
 hide_body: false
 fields:
