@@ -9,7 +9,7 @@ tutor: "周華山博士（自在社慈善團體的導師）"
 remarks: "免費入場、名額有限、必須報名、先到先得。"
 registerlink: https://docs.google.com/forms/d/e/1FAIpQLSeLRnRDMiJ_PNtP0gCVBnpRPAgZ63atLyhzvoyDDWgcmBk4dw/viewform
 isEnded: false
-isDeadline: true
+isDeadline: false
 
 ---
 寬恕，不是原諒敵人，而是放過自己，因為那個「敵人」，只是自我投射的幻覺。幻覺，並非不真實；相反，幻覺往往是我們唯一的實相。
