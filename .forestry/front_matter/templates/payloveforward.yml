@@ -1,0 +1,16 @@
+---
+hide_body: false
+fields:
+- type: number
+  name: weight
+  label: weight
+  config:
+    required: false
+- type: file
+  name: img
+  label: img
+- type: text
+  name: link
+  label: link
+  config:
+    required: true

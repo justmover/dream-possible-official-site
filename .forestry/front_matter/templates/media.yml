@@ -1,5 +1,5 @@
 ---
-hide_body: false
+hide_body: true
 fields:
 - type: number
   name: weight
@@ -12,9 +12,9 @@ fields:
   label: Description
   config:
     wysiwyg: false
-- type: field_group
-  label: videos
+- type: field_group_list
   name: videos
+  label: videos
   fields:
   - type: text
     name: name
@@ -26,3 +26,5 @@ fields:
     label: link
     config:
       required: true
+  config:
+    labelField: name
