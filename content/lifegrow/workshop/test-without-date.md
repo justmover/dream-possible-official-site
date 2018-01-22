@@ -10,6 +10,6 @@ time = "noon"
 title = "test without date"
 tutor = ""
 weight = 4
-workshopDate = "2月4日的工作"
+workshopDate = "2月4日"
 
 +++
