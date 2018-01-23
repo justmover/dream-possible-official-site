@@ -42,4 +42,4 @@ fields:
   hidden: true
   default: 2018-01-20 16:00:00 +0000
   config:
-    time_format: h:mm A
+    time_format: h:mm A Z
