@@ -7,6 +7,8 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+  payloveforward:
+    default_front_matter_template: payloveforward
   media:
     default_front_matter_template: media
   course:
