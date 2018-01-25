@@ -14,8 +14,10 @@
                 {{ range $i,$conten := .Site.Params.headerbanner}}
                 <div class="carousel-item {{if eq $i 0}} active {{end}}">
                     <div style="width:100%">
-                        <img style="width:100%" class="d-block img-fluid" src="{{.path}}" alt="{{.alt}}">
-                    </div>
+                        <a href="{{ .targetUrl}}">
+                            <img style="width:100%" class="d-block img-fluid" src="{{.path}}" alt="{{.alt}}">
+                        </a>
+                        </div>
                 </div>
                 {{ end }}
             </div>

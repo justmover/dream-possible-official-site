@@ -36,7 +36,7 @@
         $(".mobile-sub-menu").hide();
 
         $(".mobile-columns-toggle").click(function (e) {
-            var id = e.currentTarget.id 
+            var id = e.currentTarget.id
 
             $("#mobile-" + id + "-sub-menu").slideToggle("fast");
             $("#mobile-" + id + "-down").toggle();
@@ -69,6 +69,7 @@
             down.style.display = "none";
         }
     } */
+
 </script>
 
 <script>
@@ -103,7 +104,7 @@
 
             // Grab img from clicked question
             var img = $(this).children('div.columns').children('div.arrow-container').children('img')
-console.log(img)
+            console.log(img)
             // remove Rotate class from all images except the active
             $('img').not(img).removeClass('rotate');
 
@@ -122,11 +123,11 @@ console.log(img)
         active = $('.start-up-active')[0].id;
         $('#' + active).addClass('a')
         $('#' + active + '_content').toggleClass('h');
-        active = active ;
+        active = active;
         $('button.s').on('click', function (e) {
             if (active != "") {
-            // $('#' + e.target.id + '_content').addClass('h');
-                $('#' + active+ '_content').toggleClass('h');
+                // $('#' + e.target.id + '_content').addClass('h');
+                $('#' + active + '_content').toggleClass('h');
                 $('#' + active).removeClass('a')
             }
             console.log("event: " + e.target.id);
