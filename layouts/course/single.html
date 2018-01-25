@@ -8,7 +8,7 @@
     {{$section := .Section}} {{ $menus := .Site.Menus }} {{ range $menuTitle, $menuContent := $menus }} {{if eq $menuTitle $section}}
     {{range $menuContent}}
     <button onclick="location.href='{{.URL}}'">{{ .Name }}</button> {{end}} {{end}}{{end}}
-    <a href="http://yrc.dreamspossible.hk/">
+    <a href="http://jockeyclubyrs.dreamspossible.hk/">
         <button class="courseTitle-button">
             <img src="/img/JCicon.png"> 賽馬會青年更生教練課程</button>
     </a>
