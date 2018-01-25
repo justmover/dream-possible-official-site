@@ -14,3 +14,9 @@ fields:
   label: link
   config:
     required: true
+- type: datetime
+  name: date
+  label: date
+  hidden: true
+  config:
+    time_format: h:mm A

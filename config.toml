@@ -1,4 +1,4 @@
-baseURL = "https://uat-dp.justmove.hk/"
+baseURL = "http://www.dreamspossible.hk/"
 languageCode = "en-us"
 theme = "hugo-steam"
 title = "Dream Possible"
@@ -54,14 +54,13 @@ weight = 3
 [params]
 dpicon = "/img/logo.svg"
 favicon = "favicon.ico"
-fblink = "https://www.facebook.com/339.hk/"
+fblink = "https://www.facebook.com/dreamspossible.hk/"
 jc_yrc_link = "http://yrc.dreamspossible.hk/"
 themecolor = "green"
 title = "自在社"
 youtubelink = "https://www.youtube.com/user/Dreamspossible?feature=mhum"
 [[params.headerbanner]]
 path = "/uploads/2018/01/20/loopbanner1.jpg"
-# targetUrl = ""
 [[params.headerbanner]]
 path = "/uploads/2018/01/20/1.home_loopbanner.jpg"
 targetUrl = "http://jockeyclubyrs.dreamspossible.hk"
