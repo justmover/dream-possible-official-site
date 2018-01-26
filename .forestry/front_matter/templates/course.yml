@@ -8,7 +8,7 @@ fields:
   default: ''
   description: "顯示於瀏覽器上的標題"
 - name: weight
-  label: "課程menu次序"
+  label: "次序"
   type: text
   hidden: false
   default: ''
