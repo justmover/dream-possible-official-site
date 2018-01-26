@@ -2,10 +2,11 @@
 hide_body: false
 fields:
 - name: title
-  label: Title
+  label: "網頁標題"
   type: text
   hidden: false
   default: ''
+  description: "顯示於瀏覽器上的標題"
 - name: weight
   label: Weight
   type: text
@@ -14,7 +15,7 @@ fields:
 - name: type
   label: Type
   type: text
-  hidden: false
+  hidden: true
   default: ''
 - type: datetime
   name: date
