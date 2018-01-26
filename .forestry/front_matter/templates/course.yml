@@ -8,10 +8,11 @@ fields:
   default: ''
   description: "顯示於瀏覽器上的標題"
 - name: weight
-  label: Weight
+  label: "課程menu次序"
   type: text
   hidden: false
   default: ''
+  description: "由0開始，數字愈小就愈前"
 - name: type
   label: Type
   type: text
