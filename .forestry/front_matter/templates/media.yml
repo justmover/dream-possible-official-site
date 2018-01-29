@@ -6,13 +6,14 @@ fields:
   label: weight
   config:
     required: true
-  hidden: false
+  hidden: true
   description: ''
 - type: textarea
   name: description
-  label: description
+  label: "節目內容"
   config:
     wysiwyg: false
+  description: "請輸入節目內容"
 - type: field_group_list
   name: videos
   label: videos
