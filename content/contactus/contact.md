@@ -1,7 +1,6 @@
 ---
 title: "聯絡我們"
 weight: 0
-type: default
 date: 2017-12-31 16:00:00 +0000
 undefined: 2017-12-31 16:00:00 +0000
 menu:

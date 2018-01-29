@@ -13,9 +13,7 @@ videos:
   link: https://www.youtube.com/embed/8EGr7CiaXUk
 - name: 2014-02-10 00:00:00 +0000
   link: https://www.youtube.com/embed/j0lQXJAVeX0
-type: default
 date: 2017-12-31 16:00:00 +0000
-undefined: Invalid date
 menu:
   radio:
     weight: 2
