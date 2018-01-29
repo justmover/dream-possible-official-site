@@ -3,7 +3,7 @@ hide_body: true
 fields:
 - type: number
   name: weight
-  label: media次序
+  label: "次序"
   config:
     required: true
   hidden: false
