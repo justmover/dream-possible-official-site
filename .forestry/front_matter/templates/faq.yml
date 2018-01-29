@@ -1,4 +1,6 @@
 ---
+pages:
+- course/faq.md
 hide_body: true
 fields:
 - type: textarea
