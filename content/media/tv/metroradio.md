@@ -17,6 +17,5 @@ date: 2017-12-31 16:00:00 +0000
 menu:
   radio:
     weight: 2
-undefined: Invalid date
 
 ---
