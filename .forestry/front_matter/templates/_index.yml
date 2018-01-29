@@ -13,7 +13,7 @@ fields:
   label: Date
   type: datetime
   hidden: true
-  default: ''
+  default: Invalid date
   config:
     time_format: h:mm A
 - name: weight
