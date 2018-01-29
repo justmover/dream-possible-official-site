@@ -27,6 +27,6 @@ fields:
 - type: datetime
   name: date
   label: date
-  hidden: true
+  hidden: false
   config:
     time_format: h:mm A
