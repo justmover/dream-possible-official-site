@@ -1,7 +1,7 @@
 ---
-title: "生命成長工作坊"
+title: "生命成長"
 date: 2017-12-26 14:45:52 +0800
-weight: -110
+weight: 0
 menu:
   lifegrow:
     weight: 1
