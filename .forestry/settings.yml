@@ -11,6 +11,8 @@ sections:
     default_front_matter_template: coach-to-serve
   payloveforward:
     default_front_matter_template: payloveforward
+  media:
+    default_front_matter_template: media
   course:
     default_front_matter_template: dp42
 version: 0.31.1
