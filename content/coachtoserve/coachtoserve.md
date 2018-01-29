@@ -1,6 +1,7 @@
 ---
 title: Coach to serve
-weight: -100
+weight: 0
+date: ''
 menu:
   coachtoserve:
     weight: 1
