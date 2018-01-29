@@ -4,11 +4,11 @@ pages:
 hide_body: false
 fields:
 - name: title
-  label: Menu標題
+  label: Sub menu的標題
   type: text
   hidden: false
   default: ''
-  description: Menu的標題
+  description: "請輸入sub menu 的標題"
 - name: date
   label: Date
   type: datetime
