@@ -22,8 +22,6 @@ fields:
   hidden: false
   default: true
 - type: datetime
-  default: Invalid date
-- type: datetime
   name: date
   label: date
   hidden: true
