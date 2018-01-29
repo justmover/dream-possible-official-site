@@ -8,33 +8,49 @@ fields:
   config:
     required: true
     step: '1'
+  label: "次序"
+  description: "由0開始，數字愈小就愈前"
 - type: text
   name: workshopDate
   config:
     required: true
+  label: "工作坊日期"
+  description: "請輸入工作坊日期"
 - type: text
   name: time
   config:
     required: true
+  label: "工作坊時間"
+  description: "請輸入工作坊時間"
 - type: text
   name: place
   config:
     required: true
+  label: "工作坊地點"
+  description: "請輸入工作坊地點"
 - type: file
   name: img
   default: "/uploads/2018/01/11/logo.svg"
+  label: "工作坊圖片"
+  description: "可以加入工作坊圖片"
 - type: textarea
   name: tutor
 - type: text
   name: remarks
 - type: text
   name: registerlink
+  label: "報名連結"
+  description: "例如輸入(https://docs.google.com/forms/xxxxxxxxxxxxx)"
 - type: boolean
   name: isEnded
+  label: "結束按鈕"
+  description: "讓用戶知道工作坊是已結束"
 - type: boolean
   name: isDeadline
   hidden: false
   default: false
+  label: "截止按鈕"
+  description: "讓用戶知道工作坊是已截止"
 - type: datetime
   name: date
   label: date
