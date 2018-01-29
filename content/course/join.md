@@ -1,7 +1,7 @@
 ---
 title: "報讀課程"
 date: 2017-12-26 14:42:35 +0800
-weight: 0
+weight: ''
 menu:
   course:
     weight: 3
