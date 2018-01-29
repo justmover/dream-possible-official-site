@@ -9,6 +9,7 @@ videos:
   link: https://www.youtube.com/embed/f-MTMg_EqoI
 - name: 2014-02-10 00:00:00 +0000
   link: https://www.youtube.com/embed/Dd3o49zo2Xs
+date: ''
 menu:
   radio:
     weight: 4
