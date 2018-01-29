@@ -3,13 +3,14 @@ hide_body: true
 fields:
 - type: number
   name: weight
-  label: Weight
+  label: media次序
   config:
     required: true
   hidden: false
+  description: "由0開始，數字愈小就愈前"
 - type: textarea
   name: description
-  label: Description
+  label: Media描述
   config:
     wysiwyg: false
 - type: field_group_list
