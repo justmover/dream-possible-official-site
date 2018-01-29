@@ -15,13 +15,6 @@ fields:
   hidden: false
   default: ''
   description: "請輸入sub menu 的標題"
-- name: date
-  label: Date
-  type: datetime
-  hidden: true
-  default: ''
-  config:
-    time_format: h:mm A
 - name: weight
   label: Sub menu次序
   type: text
