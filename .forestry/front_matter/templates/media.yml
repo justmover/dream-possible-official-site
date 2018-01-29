@@ -35,4 +35,4 @@ fields:
   label: date
   hidden: true
   config:
-    time_format: ''
+    time_format: h:mm A
