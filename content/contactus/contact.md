@@ -1,6 +1,6 @@
 ---
 title: "聯絡我們"
-weight: -110
+weight: 0
 menu:
   contactus:
     weight: 1
