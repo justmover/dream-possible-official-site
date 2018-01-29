@@ -3,7 +3,7 @@ hide_body: true
 fields:
 - type: textarea
   name: title
-  label: "title"
+  label: title
   config:
     wysiwyg: false
   description: "顯示於瀏覽器上的標題"
