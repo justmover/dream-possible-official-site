@@ -1,6 +1,5 @@
 ---
 pages:
-- media/tv/_index.md
 - media/tv/metroradio.md
 hide_body: false
 fields:
