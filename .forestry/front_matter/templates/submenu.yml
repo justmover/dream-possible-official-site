@@ -6,7 +6,6 @@ pages:
 - course/intro.md
 - course/faq.md
 - course/join.md
-- contactus/contact.md
 hide_body: false
 fields:
 - name: title

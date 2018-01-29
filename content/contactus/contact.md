@@ -1,10 +1,12 @@
 ---
 title: "聯絡我們"
 weight: 0
+type: default
 date: ''
 menu:
   contactus:
     weight: 1
+undefined: ''
 
 ---
 <h2 class="bold content-title">/ 聯 絡 我 們 / </h2>
