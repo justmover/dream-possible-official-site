@@ -7,6 +7,8 @@ auto_deploy: true
 admin_path: 
 webhook_url: 
 sections:
+  coachtoserve:
+    default_front_matter_template: coach-to-serve
   payloveforward:
     default_front_matter_template: payloveforward
   course:

@@ -6,10 +6,10 @@ topvideotitle: "電視節目"
 topvideodescription: "電視"
 type: default
 date: 2017-12-31 16:00:00 +0000
+undefined: Invalid date
 menu:
   media:
     weight: 2
-undefined: Invalid date
 
 ---
 This page needed to keep in order to display the menu.
