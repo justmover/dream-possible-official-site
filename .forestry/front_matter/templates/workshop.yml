@@ -35,8 +35,12 @@ fields:
   description: "可以加入工作坊圖片"
 - type: textarea
   name: tutor
+  label: "導師"
+  description: "請輸入負責工作坊的導師"
 - type: text
   name: remarks
+  label: "備註"
+  description: "可以輸入備註"
 - type: text
   name: registerlink
   label: "報名連結"
@@ -44,13 +48,13 @@ fields:
 - type: boolean
   name: isEnded
   label: "結束按鈕"
-  description: "讓用戶知道工作坊是已結束"
+  description: "讓用戶知道工作坊是否已結束"
 - type: boolean
   name: isDeadline
   hidden: false
   default: false
   label: "截止按鈕"
-  description: "讓用戶知道工作坊是已截止"
+  description: "讓用戶知道工作坊是否已截止"
 - type: datetime
   name: date
   label: date
