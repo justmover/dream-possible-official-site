@@ -2,6 +2,7 @@
 pages:
 - coachtoserve/coachtoserve.md
 - lifegrow/workshop/_index.md
+- course/faq.md
 - course/join.md
 - contactus/contact.md
 hide_body: false
