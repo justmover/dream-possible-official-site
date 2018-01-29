@@ -28,7 +28,7 @@ fields:
 - type: datetime
   name: date
   label: date
-  hidden: false
+  hidden: true
   config:
     time_format: h:mm A
   default: 2017-12-31 16:00:00 +0000
