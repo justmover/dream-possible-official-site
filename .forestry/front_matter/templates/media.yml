@@ -3,11 +3,11 @@ hide_body: true
 fields:
 - type: number
   name: weight
-  label: "節目標題次序(例如:新城電台xxxxxx)"
+  label: "節目排序"
   config:
     required: true
   hidden: false
-  description: "由0開始 數字愈少 標題就在最底"
+  description: "由0開始 數字愈小就顯示在最底"
 - type: textarea
   name: description
   label: description
