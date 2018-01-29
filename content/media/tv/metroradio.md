@@ -1,6 +1,6 @@
 ---
 title: "電視 - 新城電台-自在多開心 采訪周華山博士"
-weight: -100
+weight: 0
 description: "自在多開心"
 videos:
 - name: 2014-02-10 00:00:00 +0000
@@ -13,6 +13,7 @@ videos:
   link: https://www.youtube.com/embed/8EGr7CiaXUk
 - name: 2014-02-10 00:00:00 +0000
   link: https://www.youtube.com/embed/j0lQXJAVeX0
+date: ''
 menu:
   radio:
     weight: 2
