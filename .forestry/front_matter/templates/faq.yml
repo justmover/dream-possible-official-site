@@ -5,7 +5,7 @@ hide_body: true
 fields:
 - type: textarea
   name: title
-  label: title
+  label: "網頁標題"
   config:
     wysiwyg: false
   description: "顯示於瀏覽器上的標題"
