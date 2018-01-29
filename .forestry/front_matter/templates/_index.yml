@@ -3,6 +3,7 @@ pages:
 - coachtoserve/coachtoserve.md
 - lifegrow/workshop/_index.md
 - contactus/contact.md
+- aboutus/intro.md
 hide_body: false
 fields:
 - name: title
