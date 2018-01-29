@@ -1,6 +1,7 @@
 ---
 pages:
 - coachtoserve/coachtoserve.md
+- contactus/contact.md
 hide_body: false
 fields:
 - name: title
@@ -24,9 +25,11 @@ fields:
   hidden: false
   default: true
 - type: datetime
+  default: Invalid date
 - type: datetime
   name: date
   label: date
-  hidden: false
+  hidden: true
   config:
     time_format: h:mm A
+  default: Invalid date
