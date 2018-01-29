@@ -14,7 +14,7 @@ fields:
   label: Date
   type: datetime
   hidden: true
-  default: Invalid date
+  default: 2017-12-31 16:00:00 +0000
   config:
     time_format: h:mm A
 - name: weight
