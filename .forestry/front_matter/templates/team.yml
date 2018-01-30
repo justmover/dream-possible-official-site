@@ -31,9 +31,9 @@ fields:
 - name: position
   label: "職位"
   type: text
-  hidden: true
+  hidden: false
   default: ''
-  description: "請輸入成員的職位"
+  description: ''
 - name: intro
   label: "成員簡介"
   type: textarea
