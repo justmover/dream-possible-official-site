@@ -131,7 +131,7 @@
     width: 100%;
     text-align: center;
     opacity: 0.7;
-    white-space: pre;
+    word-break: keep-all;
 }
 
 @media screen and (max-width: 768px) {
@@ -277,7 +277,7 @@
 .mobile-menu-title{
     font-size: 21px;
     color: white;
-    padding: 0 30px;
+    padding: 0 0 0 30px;
     font-weight: bold;
     white-space: pre;
 }
