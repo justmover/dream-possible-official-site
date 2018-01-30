@@ -3,6 +3,7 @@ title: "感恩日"
 weight: -110
 facebook: "/img/thanksgiving_fb.jpg"
 facebooklink: https://www.facebook.com/dp339movie/
+date: 2018-01-29 09:07:40 +0000
 menu:
   payloveforward:
     weight: 2
