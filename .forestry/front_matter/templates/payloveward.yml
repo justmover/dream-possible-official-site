@@ -19,23 +19,28 @@ fields:
   fields:
   - type: text
     name: name
-    label: name
+    label: "標題"
     config:
       required: true
+    hidden: false
+    description: "請輸入標題"
   - type: text
     name: color
     label: color
     config:
       required: true
+    hidden: true
   - type: file
     name: logo
-    label: Img
+    label: Pay Love Forward Logo
+    hidden: false
   - type: text
     name: description
-    label: description
+    label: "簡介"
   - type: text
     name: readmore
-    label: readmore
+    label: "查看更多"
+    description: "請輸入連結(http://xxxxxxxxx)"
   config:
     labelField: name
 - type: datetime
