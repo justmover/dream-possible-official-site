@@ -42,6 +42,7 @@ blogs:
   logo: "/img/love.png"
   readmore: "./"
   description: ''
+date: 2018-01-29 09:07:40 +0000
 menu:
   payloveforward:
     weight: 1
