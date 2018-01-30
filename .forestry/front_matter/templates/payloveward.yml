@@ -12,7 +12,7 @@ fields:
   label: "次序"
   config:
     wysiwyg: false
-  description: "test"
+  description: test
 - type: field_group_list
   name: blogs
   label: blogs
