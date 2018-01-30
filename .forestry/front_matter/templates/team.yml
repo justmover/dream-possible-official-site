@@ -1,4 +1,6 @@
 ---
+pages:
+- aboutus/team/wing_chan.md
 hide_body: false
 fields:
 - name: title
