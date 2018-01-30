@@ -29,7 +29,7 @@ fields:
     name: color
     label: color
     config:
-      required: true
+      required: false
     hidden: true
   - type: file
     name: logo
