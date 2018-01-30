@@ -36,12 +36,13 @@ fields:
     label: Pay Love Forward Logo
     hidden: false
   - type: text
-    name: description
-    label: "簡介"
-  - type: text
     name: readmore
     label: "查看更多"
     description: "請輸入連結(http://xxxxxxxxx)"
+  - type: textarea
+    name: description
+    label: "簡介"
+    description: ''
   config:
     labelField: name
 - type: datetime
