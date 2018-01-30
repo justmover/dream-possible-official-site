@@ -36,6 +36,6 @@ fields:
   - type: text
     name: readmore
     label: readmore
-  - type: text
+  - type: textarea
     name: description
     label: description
