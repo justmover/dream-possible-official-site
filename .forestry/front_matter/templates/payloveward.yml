@@ -1,0 +1,46 @@
+---
+hide_body: true
+fields:
+- type: textarea
+  name: title
+  label: "網頁標題"
+  config:
+    wysiwyg: false
+  description: "顯示於瀏覽器上的標題"
+- type: textarea
+  name: weight
+  label: "次序"
+  config:
+    wysiwyg: false
+  description: "test"
+- type: field_group_list
+  name: blogs
+  label: blogs
+  fields:
+  - type: text
+    name: name
+    label: name
+    config:
+      required: true
+  - type: text
+    name: color
+    label: color
+    config:
+      required: true
+  - type: file
+    name: logo
+    label: Img
+  - type: text
+    name: description
+    label: description
+  - type: text
+    name: readmore
+    label: readmore
+  config:
+    labelField: name
+- type: datetime
+  name: date
+  label: date
+  hidden: true
+  config:
+    time_format: h:mm A
