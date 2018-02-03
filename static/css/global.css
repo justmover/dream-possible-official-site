@@ -97,10 +97,15 @@
     font-weight: bold !important;
 }
 
+.letter-space-wide {
+    letter-spacing: 0.5rem;
+}
+
 .content-title {
     font-size: 28px !important;
     text-align: center;
     color: #006738 !important;
+    letter-spacing: 0.5rem;
 }
 
 .table-padding {
