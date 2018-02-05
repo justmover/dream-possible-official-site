@@ -52,6 +52,7 @@ name = "YouTube頻道"
 url = "https://www.youtube.com/user/Dreamspossible?feature=mhum"
 weight = 3
 [params]
+calendarlink = "http://calendar.dreamspossible.hk/"
 dpicon = "/img/logo.svg"
 favicon = "favicon.ico"
 fblink = "https://www.facebook.com/dreamspossible.hk/"
@@ -59,7 +60,6 @@ jc_yrc_link = "http://jockeyclubyrs.dreamspossible.hk/"
 themecolor = "green"
 title = "自在社"
 youtubelink = "https://www.youtube.com/user/Dreamspossible?feature=mhum"
-calendarlink = "http://calendar.dreamspossible.hk/"
 [[params.headerbanner]]
 path = "/uploads/2018/01/20/loopbanner1.jpg"
 [[params.headerbanner]]
