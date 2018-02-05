@@ -16,6 +16,6 @@ menu:
 。
 
 2018年2月開始，我們全面展開為期三年的
-<a href="http://yrc.dreamspossible.hk/" style="font-size:16pt;color:#646C2E" target="blank"><img src="/img/course_icon.png"> 賽馬會青年更新教練計劃</a> 
+<a href="http://jockeyclubyrs.dreamspossible.hk/" style="font-size:16pt;color:#646C2E" target="blank"><img src="/img/course_icon.png"> 賽馬會青年更新教練計劃</a> 
 ，令接近200位更生人士，在安全、信任的環境中學習，重拾生命力量、自信和自尊，繼而建立新的社群生活。完成課程後，成績優秀者有機會成為生命教練，幫助更多人。教練團隊除了有DP人，也有來自不同戒毒機構的資深社工、輔導、過來人弟兄等，大家都本著放下批判、大愛同行的精神，支持更生人士重整生命。我們相信，DP生命教練
 (life coaching) 的工具，生命工作 empowerment 的力量，會為許多走過毒海的生命，從新站起來。
