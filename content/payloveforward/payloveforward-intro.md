@@ -43,6 +43,7 @@ blogs:
   readmore: "./"
   description: ''
 date: 2018-01-29 09:07:40 +0000
+type: payloveward
 menu:
   payloveforward:
     weight: 1
