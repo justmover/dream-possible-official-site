@@ -35,7 +35,7 @@ fields:
     hidden: true
   - type: file
     name: logo
-    label: Pay Love Forward Logo
+    label: LOGO
     description: "更改LOGO"
   - type: text
     name: readmore
