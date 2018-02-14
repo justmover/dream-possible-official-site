@@ -9,22 +9,6 @@ fields:
   config:
     wysiwyg: false
   description: "顯示於瀏覽器上的標題"
-- type: field_group_list
-  name: question
-  label: question
-  fields:
-  - type: text
-    name: title
-    label: title
-    config:
-      required: true
-  - type: text
-    name: ans
-    label: ans
-    config:
-      required: true
-  config:
-    labelField: 
 - type: datetime
   name: date
   label: date
