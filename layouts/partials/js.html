@@ -89,32 +89,6 @@
 
 </script>
 
-<!-- for faq -->
-<script>
-    var action = 'click';
-    var speed = "500";
-    $(document).ready(function () {
-
-        $('li.q').on(action, function () {
-
-            $(this).next().slideToggle(speed)
-
-
-                .siblings('li.a').slideUp();
-
-            // Grab img from clicked question
-            var img = $(this).children('div.columns').children('div.arrow-container').children('img')
-            console.log(img)
-            // remove Rotate class from all images except the active
-            $('img').not(img).removeClass('rotate');
-
-            // toggle rotate class
-            img.toggleClass('rotate');
-        });
-    });
-
-</script>
-
 <!-- for timetable -->
 <script>
     var active = '';
