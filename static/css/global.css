@@ -436,7 +436,7 @@
 
 /* #region The FAQ page style */
 
-.faq>ul>li {
+.faq>h2 {
     font-weight: bold;
     font-size: 120%;
     border-bottom: 1px #ddd solid;
@@ -446,16 +446,16 @@
     counter-increment: step-counter;
 }
 
-.faq>ul>li>strong>p::before {
+.faq>h2::before {
     content: counter(step-counter)"、";
 }
 
-.faq>ul>li>strong>p::after {
+.faq>h2::after {
     content: url("/img/arrow.svg");
     float: right;
 }
 
-.faq>ul>li>strong>p.rotate::after {
+.faq>h2.rotate-arrow::after {
     content: url("/img/arrow.svg");
     float: right;
     display: inline-block;
@@ -464,21 +464,24 @@
     transform: rotate(180deg);
 }
 
-.faq>ul>li>strong>p {
+.faq>h2 {
     padding: 20px;
     font-size: 16pt;
     color: white;
 }
 
-.faq>ul>li:nth-child(2n+1)>strong>p {
+.faq>h2:nth-child(4n+1) {
     background-color: #77CABC;
 }
 
-.faq>ul>li:nth-child(2n)>strong>p {
+.faq>h2:nth-child(4n+3) {
     background-color: #0CA64E;
 }
 
-.faq>ul>li>ul {
+.faq>p {
+    text-align: left;
+    font-size: 1.5rem;
+    padding: 2rem;
     display: none;
 }
 

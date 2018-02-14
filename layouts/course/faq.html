@@ -34,19 +34,16 @@
         var speed = "500";
         var currentActiveQuestion;
 
-        //Add an p tag for display perpose
-        $('.faq>ul>li>strong').wrapInner("<p></p>")
-
-        $('.faq>ul>li').on(action, function () {
+        $('.faq>h2').on(action, function () {
 
             if (currentActiveQuestion) {
-                currentActiveQuestion.children('ul').slideToggle(speed).slideUp();
-                currentActiveQuestion.children('strong').children('p').toggleClass('rotate');
+                currentActiveQuestion.next().slideToggle(speed).slideUp();
+                currentActiveQuestion.toggleClass('rotate-arrow');
             }
 
             currentActiveQuestion = $(this)
-            currentActiveQuestion.children('ul').slideToggle(speed).slideDown();
-            currentActiveQuestion.children('strong').children('p').toggleClass('rotate');
+            currentActiveQuestion.next().slideToggle(speed).slideDown();
+            currentActiveQuestion.toggleClass('rotate-arrow');
 
         });
     });
