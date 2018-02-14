@@ -446,16 +446,16 @@
     counter-increment: step-counter;
 }
 
-.faq>ul>li>p::before {
+.faq>ul>li>strong>p::before {
     content: counter(step-counter)"、";
 }
 
-.faq>ul>li>p::after {
+.faq>ul>li>strong>p::after {
     content: url("/img/arrow.svg");
     float: right;
 }
 
-.faq>ul>li>p.rotate::after {
+.faq>ul>li>strong>p.rotate::after {
     content: url("/img/arrow.svg");
     float: right;
     display: inline-block;
@@ -464,17 +464,17 @@
     transform: rotate(180deg);
 }
 
-.faq>ul>li>p {
+.faq>ul>li>strong>p {
     padding: 20px;
     font-size: 16pt;
     color: white;
 }
 
-.faq>ul>li:nth-child(2n+1)>p {
+.faq>ul>li:nth-child(2n+1)>strong>p {
     background-color: #77CABC;
 }
 
-.faq>ul>li:nth-child(2n)>p {
+.faq>ul>li:nth-child(2n)>strong>p {
     background-color: #0CA64E;
 }
 
