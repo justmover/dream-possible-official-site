@@ -15,5 +15,3 @@ fields:
   hidden: true
   config:
     time_format: h:mm A
-- type: field_group
-  name: question
