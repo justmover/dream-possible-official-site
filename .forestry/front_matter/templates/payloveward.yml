@@ -1,4 +1,6 @@
 ---
+pages:
+- payloveforward/payloveforward-intro.md
 hide_body: true
 fields:
 - type: textarea
