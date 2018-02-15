@@ -7,10 +7,6 @@ menu:
     weight: 1
 
 ---
-<h2 class="bold content-title">/ 自 在 社 / </h2>
-<br>
-<br>
-
 <div style="width:100%">
   <img style="width:70%" src="/img/org_chart.png">
 </div>

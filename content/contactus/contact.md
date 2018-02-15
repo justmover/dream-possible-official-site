@@ -8,9 +8,6 @@ menu:
     weight: 1
 
 ---
-<h2 class="bold content-title">/ 聯 絡 我 們 / </h2>
-<br>
-<br>
 <div class="columns" style="margin:0">
     <div class="column is-narrow is-offset-4 contact-text" style="text-align:left">
     <p class="contact-text">地址： 灣仔皇后大道東43號東美商業中心2107室<br>

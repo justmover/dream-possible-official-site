@@ -7,10 +7,6 @@ menu:
     weight: 3
 
 ---
-<div style="height:120px;">
-    <h2 class="bold content-title"> / 信 念 宣 言 、願 景 及 使 命 /</h2>
-</div>
-<br>
 <div class="vision-container">
     <div class="background columns">
         <div class="is-offset-4 column is-narrow">
@@ -25,7 +21,7 @@ menu:
         </div>
     </div>
 </div>
-<h3 style="font-size:26pt;text-align:center"> Coach to Serve </h2>
+<h3 style="font-size:26pt;text-align:center; margin-top: 20px;"> Coach to Serve </h2>
     <br>
     <div style="width:50%;text-align:center;margin:0 25%;font-size:14pt">
         <p>我們用心凝聚生命工作者,在貢獻社會的過程中,找回生命的力量和價值。</p>
