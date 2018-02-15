@@ -2,10 +2,6 @@
 title: Pay Love Forward
 weight: -120
 blogs:
-- name: test
-  logo: "/uploads/2018/01/11/logo.svg"
-  readmore: ''
-  description: hihihi
 - name: wings to serve
   color: "#0061AF"
   logo: "/img/wings.png"
