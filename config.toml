@@ -61,7 +61,8 @@ themecolor = "green"
 title = "自在社"
 youtubelink = "https://www.youtube.com/user/Dreamspossible?feature=mhum"
 [[params.headerbanner]]
-path = "/uploads/2018/01/20/loopbanner1.jpg"
+path = ""
+targetUrl = ""
 [[params.headerbanner]]
 path = "/uploads/2018/01/20/1.home_loopbanner.jpg"
 targetUrl = "http://jockeyclubyrs.dreamspossible.hk"
