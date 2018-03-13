@@ -61,6 +61,9 @@ themecolor = "green"
 title = "自在社"
 youtubelink = "https://www.youtube.com/user/Dreamspossible?feature=mhum"
 [[params.headerbanner]]
+path = "/uploads/2018/03/11/inner child.jpg"
+targetUrl = ""
+[[params.headerbanner]]
 path = "/uploads/2018/01/20/loopbanner1.jpg"
 [[params.headerbanner]]
 path = "/uploads/2018/01/20/1.home_loopbanner.jpg"
