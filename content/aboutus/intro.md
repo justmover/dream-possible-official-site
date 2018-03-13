@@ -5,6 +5,7 @@ weight: 1
 menu:
   aboutus:
     weight: 1
+draft: true
 
 ---
 <div style="width:100%">

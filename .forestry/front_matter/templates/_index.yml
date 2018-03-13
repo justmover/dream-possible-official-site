@@ -7,9 +7,9 @@ pages:
 - course/intro.md
 - course/join.md
 - contactus/contact.md
+- aboutus/intro.md
 - aboutus/vision.md
 - aboutus/team/_index.md
-- aboutus/intro.md
 hide_body: false
 fields:
 - name: title
