@@ -9,11 +9,6 @@ menu:
 ---
 <div class="course-content">
 
-<!-- <h2 class="center dp-font-green font-bold">/ 生 命 工 作 者 證 書 課 程 / </h2> -->
-<br>
-<br>
-
-
 <p class="center">「生命工作者證書課程」是DP的核心課程，由創辦人兼全職義務導師周華山博士悉心研究，結合他多年
 大學教授的紮實理論，豐富的培訓經驗，及個人的真摯實踐。整個課程分三階段進行，為期五個月，讓
 學員有系統、持續地進修和轉化。</p>

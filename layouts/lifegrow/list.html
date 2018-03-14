@@ -13,14 +13,9 @@
     <section class="section"> 
         <h2 class="bold content-title">/{{ .Title }}/</h2> 
     </section> 
-    <div class="post-meta">
-        <!-- <time datetime="{{ .Date.Format " 02 January 2006 " }}">
-                {{ .Date.Format "02 January 2006" }}
-            </time> -->
-    </div>
 </header>
 
-<div class="container" style="padding: 50px">
+<div class="container" style="padding: 0 50px 50px 50px;">
     <div class="columns is-multiline">
         {{if eq .Dir "lifegrow/workshop/"}} {{range .Pages}}
         <div class="column is-12-mobile is-12-tablet is-half-desktop is-one-third-widescreen is-one-quarter-fullhd lifegrow-vertically-aligned">

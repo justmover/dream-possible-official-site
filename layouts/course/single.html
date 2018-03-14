@@ -19,7 +19,7 @@
         <h2 class="bold content-title">/{{ .Title }}/</h2>
     </section>
 
-    <section style="margin-bottom:0px" class="post-content ">
+    <div style="margin-bottom:0px" class="post-content ">
         <!-- <div style="position: relative">
             <img style="    position: absolute;
             top: -188px;
@@ -28,7 +28,7 @@
             height: 320px;" src="/img/flower.png">
         </div> -->
         {{ .Content }}
-    </section>
+    </div>
 
     {{ if .Type | eq "post" }}
     <section class="post-tags" style="padding-bottom:60px;">

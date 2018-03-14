@@ -1,5 +1,5 @@
 {{ define "main" }}
-<div class="top-banner-bg-aboutus">
+<div class="top-banner-bg-course">
     {{ partial "topbannertitle-eng" . }}
 </div>
 
@@ -18,11 +18,9 @@
     <section class="section">
         <h2 class="bold content-title">/{{ .Title }}/</h2>
     </section>
-    <section class="section">
-        <div class="container faq is-fluid">
-            {{ .Content }}
-        </div>
-    </section>
+    <div class="container faq is-fluid" style="padding: 0 20% 5% 15%;">
+        {{ .Content }}
+    </div>
 </div>
 </article>
 

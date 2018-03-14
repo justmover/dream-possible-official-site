@@ -9,10 +9,6 @@ menu:
 ---
 <div style="line-height: 24px;"class="course-content is-mobile">
 <img src="/img/coursefee.png" style="width:100%">
-<br>
-<br>
-
-
 
 <p style="font-size:0.75rem" class="center">
 所有報名,兩年內有效。更改上課時間,需於上課前14天提出,否則,所付
