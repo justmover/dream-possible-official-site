@@ -14,37 +14,180 @@
         <h2 class="bold content-title">/{{ .Title }}/</h2> 
     </section> 
 </header>
-
-<div class="container" style="padding: 0 50px 50px 50px;">
-    <div class="columns is-multiline">
-        {{if eq .Dir "lifegrow/workshop/"}} {{range .Pages}}
-        <div class="column is-12-mobile is-12-tablet is-half-desktop is-one-third-widescreen is-one-quarter-fullhd lifegrow-vertically-aligned">
-            <div style="position:relative">
-                <a href="{{.URL}}">
-                    <img width="100%" src="{{.Params.img}}"> {{ if or (eq .Params.img "") (not (.Params.img)) }}
-                    <div>
-                        No Photo
-                    </div>
-                    {{ end }} {{ if .Params.isEnded }}
-                    <div class="workshop-img-overlay" style="background-color:#231F20">已完結</div>
-                    {{ end }} {{ if .Params.isDeadline }}
-                    <div class="workshop-img-overlay" style="background-color:#006738">已截止</div>
-                    {{ end }}
-                </a>
-            </div>
-            <div class="dp-font-green" style="font-size:16pt">
-                {{.Title}}
-            </div>
-            <div style="font-size:14pt">
-                日期： {{.Params.workshopDate}}
-                <br> 時間： {{.Params.time}}
-                <br> 地點： {{.Params.place}}
-            </div>
-            <a class="button workshop-detail-button" href="{{.URL}}">詳情</a>
+<div class="column is-hidden-tablet">
+        <div class="tabs is-small is-centered" style="display: unset; white-space: unset;">
+            <ul>
+                <li class="is-paddingless workshop-mobile-menu-status" id="upcoming"><a class="workshop-mobile-menu-upcoming-title">進行中</a></li>
+                <li class="is-paddingless workshop-mobile-menu-status" id="ended"><a class="workshop-mobile-menu-ended-title">已完結</a></li>
+                <li class="is-paddingless workshop-mobile-menu-status" id="deadline"><a class="workshop-mobile-menu-deadline-title">已截止</a></li>
+                <li class="is-paddingless workshop-mobile-menu-status" id="full"><a class="workshop-mobile-menu-full-title">已滿額</a></li>
+            </ul>
         </div>
-        {{end}} {{end}}
-
+    </div>
+<div class="container" style="padding: 0 50px 50px 50px;">
+    <div class="columns">
+        <div class="column is-narrow workshop-menu-container is-hidden-mobile">
+            <div class="border-grey" style="width: 200px; padding: 3%;">
+                {{if eq .Dir "lifegrow/workshop/"}}
+                <!-- upcoming workshop -->
+                <div class="workshop-menu-status" id="upcoming">
+                    <b class="workshop-menu-upcoming-title">
+                        <span class="workshop-menu-upcoming-plus" style="display: none;"><i class="fa fa-plus-square-o"></i></span>
+                        <span class="workshop-menu-upcoming-minus"><i class="fa fa-minus-square-o"></i></span>
+                        進行中
+                    </b>
+                    {{range .Pages}}
+                    {{ if and (not .Params.isDeadline) (not .Params.isEnded) (not .Params.isFull) }}
+                    <div class="workshop-menu-upcoming">
+                        <a class="no-underline dp-font-grey margin-left-10px" href="{{.URL}}">
+                            <i class="fa fa-angle-right"></i>{{.Title}}
+                        </a>
+                    </div>
+                    {{end}}{{end}}
+                </div>
+                 <!-- ended workshop -->
+                 <div class="workshop-menu-status" id="ended">
+                    <b class="workshop-menu-ended-title">
+                        <span class="workshop-menu-ended-plus"><i class="fa fa-plus-square-o"></i></span>
+                        <span class="workshop-menu-ended-minus" style="display: none;"><i class="fa fa-minus-square-o"></i></span>
+                        已完結
+                    </b>
+                    {{range .Pages}}
+                    {{if .Params.isEnded}}
+                    <div class="workshop-menu-ended" style="display: none;">
+                        <a class="no-underline dp-font-grey margin-left-10px" href="{{.URL}}">
+                            <i class="fa fa-angle-right"></i>{{.Title}}
+                        </a>
+                    </div>
+                    {{end}}{{end}}
+                </div>
+                <!-- deadline workshop -->
+                <div class="workshop-menu-status" id="deadline">
+                    <b class="workshop-menu-deadline-title">
+                        <span class="workshop-menu-deadline-plus"><i class="fa fa-plus-square-o"></i></span>
+                        <span class="workshop-menu-deadline-minus" style="display: none;"><i class="fa fa-minus-square-o"></i></span>
+                        已截止
+                    </b>
+                    {{range .Pages}}
+                    {{if and (not .Params.isEnded) (.Params.isDeadline)}}
+                    <div class="workshop-menu-deadline" style="display: none;">
+                        <a class="no-underline dp-font-grey margin-left-10px" href="{{.URL}}">
+                            <i class="fa fa-angle-right"></i>{{.Title}}
+                        </a>
+                    </div>
+                    {{end}}{{end}}
+                </div>
+                <!-- full workshop -->
+                <div class="workshop-menu-status" id="full">
+                    <b class="workshop-menu-full-title">
+                        <span class="workshop-menu-full-plus"><i class="fa fa-plus-square-o"></i></span>
+                        <span class="workshop-menu-full-minus" style="display: none;"><i class="fa fa-minus-square-o"></i></span>
+                        已滿額
+                    </b>
+                    {{range .Pages}}
+                    {{if and (not .Params.isEnded) (not .Params.isDeadline) (.Params.isFull)}}
+                    <div class="workshop-menu-full" style="display: none;">
+                        <a class="no-underline dp-font-grey margin-left-10px" href="{{.URL}}">
+                            <i class="fa fa-angle-right"></i>{{.Title}}
+                        </a>
+                    </div>
+                    {{end}}{{end}}
+                </div>
+                {{end}}
+            </div>
+        </div>
+        <!-- workshop-detail -->
+        <div class="columns is-multiline">
+            {{if eq .Dir "lifegrow/workshop/"}} {{range .Pages}}
+                <!-- use css class to filtering workshop status -->
+                {{ if .Params.isEnded }}
+                <div class="column is-12-mobile is-12-tablet is-half-desktop is-one-third-widescreen is-one-third-fullhd lifegrow-vertically-aligned workshop-ended">
+                {{ else if .Params.isDeadline }}
+                <div class="column is-12-mobile is-12-tablet is-half-desktop is-one-third-widescreen is-one-third-fullhd lifegrow-vertically-aligned workshop-deadline">
+                {{ else if .Params.isFull }}
+                <div class="column is-12-mobile is-12-tablet is-half-desktop is-one-third-widescreen is-one-third-fullhd lifegrow-vertically-aligned workshop-full">
+                {{else}}
+                <div class="column is-12-mobile is-12-tablet is-half-desktop is-one-third-widescreen is-one-third-fullhd lifegrow-vertically-aligned workshop-upcoming">
+                {{ end }}
+                    <div class="border-grey" style="padding:5%;">
+                        <div style="position:relative;">
+                            <a href="{{.URL}}">
+                                <img width="100%" src="{{.Params.img}}"> {{ if or (eq .Params.img "") (not (.Params.img)) }}
+                                <div>No Photo</div>{{ end }} 
+                                <!-- according the workshop status to display overlay -->
+                                {{ if .Params.isEnded }}
+                                <div class="workshop-img-overlay" style="background-color:#231F20">已完結</div>
+                                {{ else if .Params.isDeadline }}
+                                <div class="workshop-img-overlay" style="background-color:#006738">已截止</div>
+                                {{ else if .Params.isFull }}
+                                <div class="workshop-img-overlay" style="background-color:rgba(179, 52, 52, 0.849)">已滿額</div>
+                                {{ end }}
+                            </a>
+                        </div>
+                        <div class="dp-font-green" style="font-size:16pt">{{.Title}}</div>
+                        <div style="font-size:14pt">日期： {{.Params.workshopDate}}<br> 
+                            時間： {{.Params.time}}<br> 
+                            地點： {{.Params.place}}
+                        </div>
+                        <a class="button workshop-detail-button" style="width: 100%;" href="{{.URL}}">詳情</a>
+                    </div>
+                </div>
+                {{end}} {{end}}
+        </div>
     </div>
 </div>
 
+
+<script>
+    $(document).ready(function () {
+        var activeId = "upcoming";
+        var statusList = ["upcoming", "deadline", "ended", "full"];
+        var isCounted = false;
+        filterWorkShopByStatus(activeId);
+    
+        $(".workshop-menu-status").click(function(e){
+            if(activeId) {
+                toggleClass(activeId);
+                filterWorkShopByStatus(activeId);
+            }
+            activeId = e.currentTarget.id;
+            toggleClass(activeId);
+            filterWorkShopByStatus(activeId);
+        });
+        // for mobile filtering
+        $(".workshop-mobile-menu-status").click(function(e){
+            if(activeId) {
+                filterWorkShopByStatus(activeId);
+            }
+            activeId = e.currentTarget.id;
+            filterWorkShopByStatus(activeId);
+        });
+
+        function toggleClass(activeId) {
+            $(".workshop-menu-" + activeId).toggle();
+            $(".workshop-menu-" + activeId + "-plus").toggle();
+            $(".workshop-menu-" + activeId + "-minus").toggle();
+        }
+
+        function filterWorkShopByStatus(activeId) {
+            for(var i = 0; i <statusList.length;i++) {
+                if(statusList[i] == activeId) {
+                    $("div").filter(".workshop-" + statusList[i]).toggleClass("show-element");
+                } else {
+                    $("div").filter(".workshop-" + statusList[i]).toggleClass("hidden-element");
+                }
+                if(!isCounted) {
+                    var statusLength = $("div").filter(".workshop-" + statusList[i]).length;
+                    $(".workshop-menu-" + statusList[i] + "-title").append("(" + statusLength + ")" );
+                    $(".workshop-mobile-menu-"+ statusList[i] + "-title").append("(" + statusLength + ")" );
+                    if(statusLength == 0) {
+                        $(".workshop-menu-status#" + statusList[i]).hide();
+                        $(".workshop-mobile-menu-status#" + statusList[i]).hide();
+                    }
+                }
+            }
+            isCounted = true;
+        };
+    });
+</script> 
 {{ end }}

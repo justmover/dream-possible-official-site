@@ -35,9 +35,12 @@
         <br><br>
         {{.Params.remarks}}
         <br><br>
-        {{ if and (not .Params.isDeadline) (not .Params.isEnded) }}
+        {{ if and (not .Params.isDeadline) (not .Params.isEnded) (not .Params.isFull) }}
         <a class="button" style="color:white;background-color:#006738;padding:0% 12%" href="{{.Params.registerlink}}">報名</a>
         {{ end }}
+        {{ if and (.Params.isEnded) (.Params.youtubelink)}}
+        <a target="_blank" class="button" style="color:white;background-color:#1a91ba;padding:0% 12%" href="{{.Params.youtubelink}}">花絮</a>
+        {{end}}
     </div>
 </div>
 
