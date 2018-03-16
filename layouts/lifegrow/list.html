@@ -106,7 +106,7 @@
                 <div class="column is-12-mobile is-12-tablet is-half-desktop is-one-third-widescreen is-one-third-fullhd lifegrow-vertically-aligned workshop-deadline">
                 {{ else if .Params.isFull }}
                 <div class="column is-12-mobile is-12-tablet is-half-desktop is-one-third-widescreen is-one-third-fullhd lifegrow-vertically-aligned workshop-full">
-                {{else}}
+                {{else if and (not .Params.isDeadline) (not .Params.isEnded) (not .Params.isFull) }}
                 <div class="column is-12-mobile is-12-tablet is-half-desktop is-one-third-widescreen is-one-third-fullhd lifegrow-vertically-aligned workshop-upcoming">
                 {{ end }}
                     <div class="border-grey" style="padding:5%;">
