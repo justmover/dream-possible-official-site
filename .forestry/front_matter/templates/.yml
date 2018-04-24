@@ -1,28 +1,75 @@
 ---
 pages:
-- payloveforward/dpcny/1st.md
-- payloveforward/dpcny/3rd.md
-- payloveforward/dpcny/2nd.md
-- payloveforward/dpcny/4th.md
-- payloveforward/dp339movie/4th.md
-- payloveforward/dp339movie/2nd.md
-- payloveforward/dp339movie/3rd.md
-- payloveforward/dp339movie/1st.md
+- lifegrow/workshop/20180311.md
+- lifegrow/workshop/20180325.md
 hide_body: false
+is_partial: false
 fields:
-- type: text
-  name: title
-  label: "標題"
-  description: "請輸入標題"
-- type: file
-  label: "圖片"
-  name: img
-  description: "請加入圖片"
-- type: text
-  name: link
-  label: "連結"
-  description: "請加入連結(http://xxxxxxxxxxxxx)"
-- type: text
+- type: number
   name: weight
+  config:
+    required: true
+    step: '1'
   label: "次序"
-  description: ''
+  description: "由0開始，數字愈小就愈前"
+- type: text
+  name: workshopDate
+  config:
+    required: true
+  label: "工作坊日期"
+  description: "請輸入工作坊日期"
+- type: text
+  name: time
+  config:
+    required: true
+  label: "工作坊時間"
+  description: "請輸入工作坊時間"
+- type: text
+  name: place
+  config:
+    required: true
+  label: "工作坊地點"
+  description: "請輸入工作坊地點"
+- type: file
+  name: img
+  default: "/uploads/2018/01/11/logo.svg"
+  label: "工作坊圖片"
+  description: "可以加入工作坊圖片"
+- type: textarea
+  name: tutor
+  label: "導師"
+  description: "請輸入負責工作坊的導師"
+- type: text
+  name: remarks
+  label: "備註"
+  description: "可以輸入備註"
+- type: text
+  name: registerlink
+  label: "報名連結"
+  description: "例如輸入(https://docs.google.com/forms/xxxxxxxxxxxxx)"
+- type: boolean
+  name: isEnded
+  label: "結束按鈕"
+  description: "讓用戶知道工作坊是否已結束"
+- type: boolean
+  name: isDeadline
+  hidden: false
+  default: false
+  label: "截止按鈕"
+  description: "讓用戶知道工作坊是否已截止"
+- type: boolean
+  name: isFull
+  label: "滿額按鈕"
+  description: "讓用戶知道工作坊是否已滿額"
+- type: datetime
+  name: date
+  label: date
+  description: the date of generation
+  hidden: true
+  default: 2018-01-20 16:00:00 +0000
+  config:
+    time_format: h:mm A Z
+- type: text
+  label: Youtube影片連結
+  name: youtubelink
+  description: "活動花絮的youtube連結"

@@ -11,6 +11,7 @@ pages:
 - aboutus/team/sharon_lau.md
 - aboutus/team/wing_chan.md
 hide_body: false
+is_partial: false
 fields:
 - name: title
   label: "成員名稱"
