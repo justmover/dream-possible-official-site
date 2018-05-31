@@ -10,7 +10,7 @@ blogs:
 - name: hearts to serve
   color: "#EF4045"
   logo: "/img/hearts.png"
-  readmore: "./"
+  readmore: http://blog.dreamspossible.hk/category/dp-heart
   description: DP Heart是自在社最多會員的義工團隊，負責在大型公益工作坊中與嘉賓互動，讓更多人認識並參加DP課程。生命影響生命，當DP人將所學的活現、分享，就是最好的感染力。渴望我們身邊的世界，因為我們的出現而美好多一些。這個團隊很多培訓活動，會員一年到晚都樂在這忙碌同時十分有價值的生活中。
 - name: friends to serve
   color: "#FDB813"
