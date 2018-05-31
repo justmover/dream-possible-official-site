@@ -35,7 +35,7 @@ blogs:
 - name: life to serve
   color: "#C49830"
   logo: "/img/life.png"
-  readmore: "./"
+  readmore: http://blog.dreamspossible.hk/category/dp-life
   description: "「傳心行動、全城感動」。這個義工團隊是台灣資深生命導師劉仁州老師與周華山博士合作的成果，旨在培訓DP義工成為小導師，透過劉老師、華山博士設計的心靈工具，支持不同界別人士認識自己的原生家庭，藉此療癒成長的傷口，迸發生命的新動力。服務對象包括教師、社工、DP義工、公眾人士等。這個團隊曾被邀請到國內舉辦工作坊，口碑載道。"
 - name: love to serve
   color: "#E97EAD"
