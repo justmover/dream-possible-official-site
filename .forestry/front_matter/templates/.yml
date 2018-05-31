@@ -1,7 +1,4 @@
 ---
-pages:
-- lifegrow/workshop/20180311.md
-- lifegrow/workshop/20180325.md
 hide_body: false
 is_partial: false
 fields:
@@ -73,3 +70,6 @@ fields:
   label: Youtube影片連結
   name: youtubelink
   description: "活動花絮的youtube連結"
+pages:
+- lifegrow/workshop/20180311.md
+- lifegrow/workshop/20180325.md

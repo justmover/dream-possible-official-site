@@ -1,15 +1,4 @@
 ---
-pages:
-- coachtoserve/coachtoserve.md
-- payloveforward/dpcny/_index.md
-- payloveforward/dp339movie/_index.md
-- lifegrow/workshop/_index.md
-- course/intro.md
-- course/join.md
-- contactus/contact.md
-- aboutus/intro.md
-- aboutus/vision.md
-- aboutus/team/_index.md
 hide_body: false
 is_partial: false
 fields:
@@ -36,3 +25,14 @@ fields:
   type: text
   hidden: true
   default: ''
+pages:
+- coachtoserve/coachtoserve.md
+- payloveforward/dpcny/_index.md
+- payloveforward/dp339movie/_index.md
+- lifegrow/workshop/_index.md
+- course/intro.md
+- course/join.md
+- contactus/contact.md
+- aboutus/intro.md
+- aboutus/vision.md
+- aboutus/team/_index.md

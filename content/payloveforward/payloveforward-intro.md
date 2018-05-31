@@ -5,7 +5,7 @@ blogs:
 - name: wings to serve
   color: "#0061AF"
   logo: "/img/wings.png"
-  readmore: "./"
+  readmore: http://blog.dreamspossible.hk/category/dp-wings
   description: "「自在飛」(DP Wings) 是自在社專責社會服務的義工團隊，定期服務的對象，包括視障老人、精神病患康復者、臨終病人、低收入家庭等。我們的宗旨，是凝聚一群有心人，放下自我，發放愛的力量，關心社區，攜手創造共融，體驗生命的真、善、美。"
 - name: hearts to serve
   color: "#EF4045"
