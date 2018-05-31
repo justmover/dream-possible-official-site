@@ -20,7 +20,7 @@ blogs:
 - name: web to serve
   color: "#8A959A"
   logo: "/img/web.png"
-  readmore: "./"
+  readmore: http://blog.dreamspossible.hk/category/website-team
   description: 
 - name: gratitude to serve
   color: "#973F97"
