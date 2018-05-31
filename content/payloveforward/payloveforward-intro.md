@@ -40,7 +40,7 @@ blogs:
 - name: love to serve
   color: "#E97EAD"
   logo: "/img/love.png"
-  readmore: "./"
+  readmore: http://blog.dreamspossible.hk/category/dp-love
   description: ''
 date: 2018-01-29 09:07:40 +0000
 menu:
