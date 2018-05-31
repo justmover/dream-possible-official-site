@@ -15,7 +15,7 @@ blogs:
 - name: friends to serve
   color: "#FDB813"
   logo: "/img/friends.png"
-  readmore: "./"
+  readmore: http://blog.dreamspossible.hk/category/dp-friends
   description: 
 - name: web to serve
   color: "#8A959A"
