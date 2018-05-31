@@ -30,7 +30,7 @@ blogs:
 - name: lead to serve
   color: "#F37320"
   logo: "/img/lead.png"
-  readmore: "./"
+  readmore: http://www.dreamspossible.hk/aboutus/team/
   description: 
 - name: life to serve
   color: "#C49830"
