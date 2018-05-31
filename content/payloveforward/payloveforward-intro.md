@@ -25,7 +25,7 @@ blogs:
 - name: gratitude to serve
   color: "#973F97"
   logo: "/img/gratitude.png"
-  readmore: "./"
+  readmore: http://blog.dreamspossible.hk/category/dp-gratitude
   description: 
 - name: lead to serve
   color: "#F37320"
