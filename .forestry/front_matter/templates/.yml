@@ -71,5 +71,6 @@ fields:
   name: youtubelink
   description: "活動花絮的youtube連結"
 pages:
+- lifegrow/workshop/-----------.md
 - lifegrow/workshop/20180311.md
 - lifegrow/workshop/20180325.md
