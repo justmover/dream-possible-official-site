@@ -7,6 +7,10 @@ name = "行事曆"
 url = "http://calendar.dreamspossible.hk/"
 weight = 2
 [[menu.lifegrow]]
+name = "生命成長工作坊"
+url = "http://blog.dreamspossible.hk/category/all-activity"
+weight = 1
+[[menu.lifegrow]]
 name = "工作坊及活動花絮"
 url = "https://www.facebook.com/pg/dreamspossible.hk/photos/?tab=albums"
 weight = 2
