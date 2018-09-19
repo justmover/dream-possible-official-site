@@ -4,10 +4,41 @@ auto_deploy: true
 admin_path: 
 webhook_url: 
 sections:
-  media:
-    default_front_matter_template: media
-  course:
-    default_front_matter_template: dp42
+- type: directory
+  path: content/aboutus
+  label: Aboutus
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/contactus
+  label: Contactus
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/course
+  label: Course
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/lifegrow
+  label: Lifegrow
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/media
+  label: Media
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/payloveforward
+  label: Payloveforward
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/coachtoserve
+  label: Coachtoserve
+  create: all
+  match: "**/*"
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: "/uploads"

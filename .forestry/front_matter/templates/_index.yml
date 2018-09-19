@@ -1,13 +1,14 @@
 ---
+label: _index
 hide_body: false
 is_partial: false
 fields:
 - name: title
-  label: "網頁標題"
+  label: 網頁標題
   type: text
   hidden: false
   default: ''
-  description: "顯示於瀏覽器上的標題"
+  description: 顯示於瀏覽器上的標題
 - name: date
   label: Date
   type: datetime
@@ -26,12 +27,12 @@ fields:
   hidden: true
   default: ''
 pages:
-- coachtoserve/coachtoserve.md
-- payloveforward/dpcny/_index.md
-- payloveforward/dp339movie/_index.md
-- course/intro.md
-- course/join.md
-- contactus/contact.md
-- aboutus/intro.md
-- aboutus/vision.md
-- aboutus/team/_index.md
+- content/payloveforward/dpcny/_index.md
+- content/contactus/contact.md
+- content/coachtoserve/coachtoserve.md
+- content/aboutus/intro.md
+- content/course/join.md
+- content/aboutus/vision.md
+- content/course/intro.md
+- content/aboutus/team/_index.md
+- content/payloveforward/dp339movie/_index.md

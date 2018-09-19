@@ -1,16 +1,17 @@
 ---
+label: payloveward
 hide_body: true
 is_partial: false
 fields:
 - type: textarea
   name: title
-  label: "網頁標題"
+  label: 網頁標題
   config:
     wysiwyg: false
-  description: "顯示於瀏覽器上的標題"
+  description: 顯示於瀏覽器上的標題
 - type: textarea
   name: weight
-  label: "次序"
+  label: 次序
   config:
     wysiwyg: false
   description: ''
@@ -21,11 +22,11 @@ fields:
   fields:
   - type: text
     name: name
-    label: "標題"
+    label: 標題
     config:
       required: true
     hidden: false
-    description: "請輸入標題"
+    description: 請輸入標題
   - type: text
     name: color
     label: color
@@ -38,11 +39,11 @@ fields:
     description: ''
   - type: text
     name: readmore
-    label: "查看更多"
-    description: "請輸入連結(http://xxxxxxxxx)"
+    label: 查看更多
+    description: 請輸入連結(http://xxxxxxxxx)
   - type: textarea
     name: description
-    label: "簡介"
+    label: 簡介
     description: ''
   config:
     labelField: name
@@ -53,4 +54,4 @@ fields:
   config:
     time_format: h:mm A
 pages:
-- payloveforward/payloveforward-intro.md
+- content/payloveforward/payloveforward-intro.md

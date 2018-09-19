@@ -1,13 +1,14 @@
 ---
+label: faq
 hide_body: false
 is_partial: false
 fields:
 - type: textarea
   name: title
-  label: "網頁標題"
+  label: 網頁標題
   config:
     wysiwyg: false
-  description: "顯示於瀏覽器上的標題"
+  description: 顯示於瀏覽器上的標題
 - type: datetime
   name: date
   label: date
@@ -15,4 +16,4 @@ fields:
   config:
     time_format: h:mm A
 pages:
-- course/faq.md
+- content/course/faq.md

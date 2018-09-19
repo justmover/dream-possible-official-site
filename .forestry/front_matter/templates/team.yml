@@ -1,13 +1,14 @@
 ---
+label: team
 hide_body: false
 is_partial: false
 fields:
 - name: title
-  label: "成員名稱"
+  label: 成員名稱
   type: text
   hidden: false
   default: ''
-  description: "請輸入成員的名稱"
+  description: 請輸入成員的名稱
 - name: type
   label: Type
   type: text
@@ -19,13 +20,13 @@ fields:
   hidden: true
   default: ''
 - name: position
-  label: "職位"
+  label: 職位
   type: text
   hidden: false
   default: ''
   description: ''
 - name: intro
-  label: "成員簡介"
+  label: 成員簡介
   type: textarea
   hidden: false
   default: ''
@@ -40,13 +41,13 @@ fields:
   hidden: true
   default: ''
 pages:
-- aboutus/team/annesa_leung.md
-- aboutus/team/athena_au.md
-- aboutus/team/cherry_tsang.md
-- aboutus/team/dr_red_chan.md
-- aboutus/team/kenny_lo.md
-- aboutus/team/king_law.md
-- aboutus/team/maurice_cheng.md
-- aboutus/team/richard_tsang.md
-- aboutus/team/sharon_lau.md
-- aboutus/team/wing_chan.md
+- content/aboutus/team/athena_au.md
+- content/aboutus/team/kenny_lo.md
+- content/aboutus/team/wing_chan.md
+- content/aboutus/team/sharon_lau.md
+- content/aboutus/team/richard_tsang.md
+- content/aboutus/team/maurice_cheng.md
+- content/aboutus/team/cherry_tsang.md
+- content/aboutus/team/annesa_leung.md
+- content/aboutus/team/dr_red_chan.md
+- content/aboutus/team/king_law.md
