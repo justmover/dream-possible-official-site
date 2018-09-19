@@ -16,7 +16,12 @@ blogs:
   color: "#FDB813"
   logo: "/img/friends.png"
   readmore: http://blog.dreamspossible.hk/category/dp-friends
-  description: 
+  description: |-
+    同學會為上過DP課程的學員而設，宗旨是「互相支持睇自己」，
+
+    每個月最後一個星期三的晚上，我們都會聚在一起，互相分享，
+
+    讓不同班別的同學彼此認識，重溫DP工具，大家身心靈可以持續成長。
 - name: web to serve
   color: "#8A959A"
   logo: "/img/web.png"
