@@ -27,12 +27,12 @@ fields:
   hidden: true
   default: ''
 pages:
-- content/payloveforward/dpcny/_index.md
+- content/course/join.md
 - content/contactus/contact.md
 - content/coachtoserve/coachtoserve.md
 - content/aboutus/intro.md
-- content/course/join.md
 - content/aboutus/vision.md
+- content/payloveforward/dpcny/_index.md
 - content/course/intro.md
 - content/aboutus/team/_index.md
 - content/payloveforward/dp339movie/_index.md

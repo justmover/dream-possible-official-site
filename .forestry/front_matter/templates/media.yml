@@ -39,10 +39,10 @@ fields:
   config:
     time_format: h:mm A
 pages:
+- content/media/radio/881.md
 - content/media/tv/metroradio.md
 - content/media/radio
 - content/media/tv/881.md
-- content/media/radio/881.md
 - content/media/tv/_index.md
 - content/media/radio/metroradio.md
 - content/media/radio/_index.md
