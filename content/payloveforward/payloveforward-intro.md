@@ -26,7 +26,14 @@ blogs:
   color: "#973F97"
   logo: "/img/gratitude.png"
   readmore: http://blog.dreamspossible.hk/category/dp-gratitude
-  description: 
+  description: |-
+    感恩，是通向幸福的捷徑。
+
+    自在社自2013年開始舉辦大型公眾活動「香港感恩日」， 藉以傳揚感恩信息，
+
+    讓每個平凡的生命學懂欣賞、珍惜自己的一切，肯定自身價值。
+
+    我們渴望感恩成為香港人的文化，香港成為感恩城市。
 - name: lead to serve
   color: "#F37320"
   logo: "/img/lead.png"
