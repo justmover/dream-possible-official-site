@@ -41,7 +41,12 @@ blogs:
   color: "#E97EAD"
   logo: "/img/love.png"
   readmore: http://blog.dreamspossible.hk/category/dp-love
-  description: ''
+  description: |-
+    施比受更有福，我們每年在維園舉辦慈善義賣，將愛傳給千萬個家庭和個人！
+
+    我們義賣的物件，從弱勢社群/機構中購買，渴望創造多贏，發揮社群互助、將愛傳出去的文化。
+
+    感恩年宵凝聚DP學員，一起學習無私貢獻，主動參與社會，使DP社群細水長流。
 date: 2018-01-29 09:07:40 +0000
 menu:
   payloveforward:
