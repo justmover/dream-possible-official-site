@@ -26,7 +26,7 @@ blogs:
   color: "#8A959A"
   logo: "/img/web.png"
   readmore: http://blog.dreamspossible.hk/category/website-team
-  description: 
+  description: 負責維持、更新DP網頁、臉書 (Facebook) 和 YouTube 的內容，開拓互聯網世界的「心靈綠洲」，廣傳DP精神和資訊，讓更多人認識自在社，讓忙碌的都市人能在網上平台享受一個心靈加油站。網絡組也協助DP學員透過網絡社交媒介分享生活點滴，令社群中人可以全天候互相支持。
 - name: gratitude to serve
   color: "#973F97"
   logo: "/img/gratitude.png"
