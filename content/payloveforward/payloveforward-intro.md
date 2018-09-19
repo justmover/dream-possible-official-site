@@ -43,7 +43,8 @@ blogs:
   color: "#F37320"
   logo: "/img/lead.png"
   readmore: http://www.dreamspossible.hk/aboutus/team/
-  description: 
+  description: 董事局的責任是制定DP的長、中、短期目標和計劃，落實DP的願景和使命，為義工提供多元化的優質培訓，創造有愛有力的專業義工團隊並穩健發展。董事以身作則，弘揚清淨貢獻、Pay
+    It Forward精神，創造細水長流社群的典範。
 - name: life to serve
   color: "#C49830"
   logo: "/img/life.png"
