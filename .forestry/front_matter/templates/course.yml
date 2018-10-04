@@ -27,8 +27,8 @@ fields:
   config:
     time_format: h:mm A
 pages:
-- content/course/timetable/dp44.md
 - content/course/timetable/dp43.md
+- content/course/timetable/dp44.md
 - content/course/timetable/dp10.md
 - content/course/timetable/DP41.md
 - content/course/timetable/_index.md
