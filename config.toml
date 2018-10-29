@@ -70,3 +70,6 @@ targetUrl = "https://blog.dreamspossible.hk/"
 [[params.headerbanner]]
 path = "/uploads/2018/09/19/loopbanner2.jpg"
 targetUrl = "http://jockeyclubyrs.dreamspossible.hk"
+[[params.headerbanner]]
+path = "/img/loopbanner3.jpg"
+targetUrl = "http://blog.dreamspossible.hk/category/self-coaching-recording"
