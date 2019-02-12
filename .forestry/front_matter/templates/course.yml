@@ -27,12 +27,12 @@ fields:
   config:
     time_format: h:mm A
 pages:
-- content/course/timetable/dp44.md
 - content/course/timetable/dp43.md
 - content/course/timetable/dp10.md
 - content/course/timetable
 - content/course/timetable/DP40.md
-- content/course/timetable/DP42.md
 - content/course/timetable/_index.md
 - content/course/timetable/DP41.md
 - content/course/timetable/dp-45.md
+- content/course/timetable/DP42.md
+- content/course/timetable/dp44.md
