@@ -1,5 +1,13 @@
 /* Style the tab */
-
+body {
+    font-family: Microsoft JhengHei,Arial,Sans-serif !important;
+}
+button {
+    font-family: Microsoft JhengHei,Arial,Sans-serif !important;
+}
+p {
+    text-align: justify;
+}
 .dp-background-green {
     background-color: #00A74F;
 }
@@ -101,7 +109,7 @@
 .home-template {}
 
 .light-green-background {
-    background: #00A74F;
+    background: #174931;
 }
 
 .green-background {
@@ -246,7 +254,7 @@
 
 .course-flower h1.sub-title {
     padding-top: 50px;
-    font-weight: bold;
+    font-weight: bolder;
     color: #006738;
 }
 
@@ -314,15 +322,18 @@
 }
 
 .mobile-menu-title {
-    font-size: 21px;
+    font-size: 18px;
     color: white;
     padding: 0 0 0 30px;
-    font-weight: bold;
+    font-weight: normal;
     white-space: pre;
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 
 .mobile-menu-text {
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: normal;
     color: white;
 }
 

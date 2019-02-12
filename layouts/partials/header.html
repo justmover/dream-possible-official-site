@@ -59,7 +59,7 @@
 		</div>
 		
 	</div>
-		<div class="mobile-showMenu light-green-background" style="display: none;">
+		<div class="mobile-showMenu light-green-background" style="background:#174931;display: none;">
 			
 			<!-- loop of menu  -->
 			{{ $menus := .Site.Menus }} {{ if $menus }}
@@ -72,7 +72,7 @@
 					{{ if eq $mainTitle $menuTitle}}
 					{{$len := len $menuContent}}
 					<!-- To toggle the submenu -->
-				<div id="{{$mainTitle}}" class="mobile-columns-toggle level is-mobile mobile-columns-title" style="border-bottom: white 0.5px solid;">
+				<div id="{{$mainTitle}}" class="mobile-columns-toggle level is-mobile mobile-columns-title" style="border-bottom: #1E5B3D 0.5px solid;">
 					<!-- when only have 1 item, add the href directly to the title -->
 					{{if eq $len 1}}
 					{{ range first 1 $menuContent }}
@@ -89,15 +89,15 @@
 					</a>
 					{{end}}
 					<!-- when more 1 item, show the arrow -->
-					{{if gt $len 1}}
+					{{if gt $len 2}}
 					<!-- arrow of up and down -->
 					<div class="level-right">
-						<div id="mobile-{{$mainTitle}}-down" class="level-item is-narrow">
-							<i class="fa fa-angle-down mobile-menu-arrow" aria-hidden="true"></i>
-						</div>
-						<div id="mobile-{{$mainTitle}}-up" class="level-item is-narrow" style="display:none">
-							<i class="fa fa-angle-up mobile-menu-arrow" aria-hidden="true"></i>
-						</div>
+							<div id="mobile-{{$mainTitle}}-down" class="level-item is-narrow">
+								<i class="fa fa-caret-down mobile-menu-arrow" style="font-size: medium" aria-hidden="true"></i>
+							</div>
+							<div id="mobile-{{$mainTitle}}-up" class="level-item is-narrow" style="display:none">
+								<i class="fa fa-caret-up mobile-menu-arrow" style="font-size: medium" aria-hidden="true"></i>
+							</div>
 					</div>
 					{{ end }}
 					
@@ -107,7 +107,7 @@
 					
 					{{if gt $len 1}}
 					{{ range $menuContent }}
-					<div class="green-background" style="padding: 5% 0">
+					<div class="green-background" style="padding: 5% 0; background: #0D2718">
 						<div class="columns" style="width:100%">
 							<div class="column is-narrow" style="text-align: left; padding: 2% 0 0 30%;">
 								<a href="{{.URL}}">
@@ -127,9 +127,15 @@
 			</div>
 		</div>
 		{{ end }}
-		<div class="mobile-columns-title" style="text-align: center; background: #47BFB1">
-			<div class="mobile-menu-title" > <a href="{{.Site.Params.jc_yrc_link}}" style="color:white"><img style="filter: brightness(0) invert(1);" src="/img/course_icon.png"> 賽 馬 會 青 年 更 新 <br> 教 練 計 劃</div></a>
+		<div class="mobile-columns-title" style="text-align: left; background: #38BDAE">
+			<div class="mobile-menu-title" > <a href="{{.Site.Params.jc_yrc_link}}" style="color:white"><img style="filter: brightness(0) invert(1);" src="/img/course_icon.png"> 賽 馬 會 青 年 更 新 <br>   &nbsp; &nbsp; &nbsp;&nbsp;教 練 計 劃</a></div>
 		</div>
+		<a href="{{.Site.Params.db_blog_link}}">
+			<div class="mobile-columns-title p-4" style="background: #00A74F">
+					<img class="ml-2"style="filter: brightness(0) invert(1); width: 10%" src="/img/white_bird.png" alt="">
+					<span style="color: white; font-weight: bolder">&nbsp;&nbsp;DP BLOG</span>
+				</div>
+		</a>
 		<div class="columns is-mobile is-centered is-variable is-3" style="margin:0">
 			<div class="column is-3 text-center">
 				<a href="{{ .Site.Params.youtubelink}}" target="_blank">
@@ -139,6 +145,11 @@
 			<div class="column is-3 text-center">
 				<a href="{{ .Site.Params.fblink}}" target="_blank">
 					<img style="width:70%" src="/img/fb_icon.svg">
+				</a>
+			</div>
+						<div class="column is-3 text-center">
+				<a href="{{ .Site.Params.calendarlink}}" target="_blank">
+					<img style="width:70%" src="/img/calendar_icon.svg">
 				</a>
 			</div>
 		</div>

@@ -22,7 +22,7 @@ url = "/contactus/"
 weight = 7
 [[menu.main]]
 identifier = "media"
-name = "傳媒報導"
+name = "多媒體"
 url = "/media/"
 weight = 6
 [[menu.main]]
@@ -37,7 +37,7 @@ url = "/aboutus/"
 weight = 1
 [[menu.main]]
 identifier = "lifegrow"
-name = "生命成長\n免費工作坊"
+name = "工作坊及活動"
 pre = "<i class='fa fa-road'></i>"
 url = "/lifegrow/"
 weight = 3
@@ -48,7 +48,7 @@ url = "/payloveforward/"
 weight = 4
 [[menu.main]]
 identifier = "course"
-name = "生命工作者\n課程"
+name = "課程"
 url = "/course/"
 weight = 2
 [[menu.media]]
@@ -61,6 +61,7 @@ dpicon = "/img/logo.svg"
 favicon = "favicon.ico"
 fblink = "https://www.facebook.com/dreamspossible.hk/"
 jc_yrc_link = "http://jockeyclubyrs.dreamspossible.hk/"
+db_blog_link = "http://blog.dreamspossible.hk/"
 themecolor = "green"
 title = "自在社"
 youtubelink = "https://www.youtube.com/user/Dreamspossible?feature=mhum"
