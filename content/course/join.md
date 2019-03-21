@@ -18,7 +18,8 @@ menu:
 寄 香港皇后大道東43號東美中心2107室<br>
 或存入匯豐銀行 <font style="font-size:1.5rem;" class="font-bold">400-784922-838</font><br>
 入帳收據電郵到 <font style="font-size:1.5rem;overflow-wrap: break-word;" class="font-bold">admin@dreamspossible.hk</font><br>
-或傳真到<font style="font-size:1.5rem;" class="font-bold"> 3568 8249</font><br>
+或傳真到<font style="font-size:1.5rem;" class="font-bold"> 3568 8249</font>
+<br><br><strong>立即報名: <a href="https://docs.google.com/forms/d/e/1FAIpQLSchvcrjfX7V_cFU2IoqgCf4opsjqt-eR8AxWksqGfy6RgCHVg/viewform">請按此</a></strong><br><br>
 </p>
 
 <div style="font-size:1.5rem; line-height: 40px;overflow-wrap: break-word;" class="dp-font-lightGreen font-bold">
